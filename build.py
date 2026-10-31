@@ -63,6 +63,47 @@ for fp in sorted(glob.glob(os.path.join(DATA, "funds", "*.json"))):
 
 FUND_BY_TICKER = {f["ticker"]: f for f in FUNDS}
 
+# ---------------------------------------------------------------- data sanity
+# Mechanical guards that cannot be fooled by a bad source: if an automated
+# audit ever writes an implausible value or drops a required field, the build
+# fails here and nothing deploys. Tune ER_MAX if a legitimate fund exceeds it.
+ER_MIN, ER_MAX = 0.0, 3.0            # plausible expense-ratio band (%)
+MIN_MAX = 100_000_000               # plausible minimum-investment ceiling ($)
+VALID_TYPES = {"index", "active", "target-date"}
+REQUIRED_FIELDS = ("ticker", "name", "family", "category", "type",
+                   "strategy", "best_for", "editorial", "expense_ratio", "minimum")
+
+def validate_data():
+    problems = []
+    seen = {}
+    for f in FUNDS:
+        t = f.get("ticker", "<no ticker>")
+        for fld in REQUIRED_FIELDS:
+            if fld not in f or f[fld] in (None, "", []):
+                problems.append(f"{t}: missing/empty required field '{fld}'")
+        if t in seen:
+            problems.append(f"{t}: duplicate ticker")
+        seen[t] = True
+        er = f.get("expense_ratio")
+        if not isinstance(er, (int, float)) or not (ER_MIN <= er <= ER_MAX):
+            problems.append(f"{t}: expense_ratio {er!r} outside [{ER_MIN},{ER_MAX}] — refusing to publish")
+        m = f.get("minimum")
+        if not isinstance(m, int) or m < 0 or m > MIN_MAX:
+            problems.append(f"{t}: minimum {m!r} invalid (int 0..{MIN_MAX})")
+        if f.get("type") not in VALID_TYPES:
+            problems.append(f"{t}: type {f.get('type')!r} not in {sorted(VALID_TYPES)}")
+        ed = f.get("editorial")
+        if isinstance(ed, list) and not (1 <= len(ed) <= 4):
+            problems.append(f"{t}: editorial has {len(ed)} paragraphs (expected 1-4)")
+    # every comparison must reference funds that exist
+    for c in COMPARES:
+        for side in ("a", "b"):
+            if c.get(side) not in FUND_BY_TICKER:
+                problems.append(f"compare {c.get('a')}-vs-{c.get('b')}: '{c.get(side)}' is not a known ticker")
+    if problems:
+        raise SystemExit("DATA VALIDATION FAILED (nothing published):\n  " + "\n  ".join(problems))
+    print(f"Data validation OK: {len(FUNDS)} funds, {len(COMPARES)} comparisons, all fields sane")
+
 LAST_VERIFIED = SITE.get("last_verified", TODAY.isoformat())
 LV_HUMAN = datetime.date.fromisoformat(LAST_VERIFIED).strftime("%B %-d, %Y")
 
@@ -528,6 +569,7 @@ def build_guard():
     print(f"Build guard OK: {n} pages, no leftover tokens")
 
 def main():
+    validate_data()   # refuse to publish implausible or incomplete data
     if os.path.exists(DIST):
         shutil.rmtree(DIST)
     os.makedirs(DIST)
