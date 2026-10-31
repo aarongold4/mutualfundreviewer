@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Best Index Funds</nav></div>
+
+<div class="wrap narrow">
+  <section class="section-pad" style="padding-bottom:14px">
+    <span class="label">The money page</span>
+    <h1 style="margin-top:.2em">The Best Index Funds, Ranked by Cost</h1>
+    <p class="lead">For each category that matters in a long-term portfolio, here are the index funds worth owning &mdash; ranked the only way that reliably predicts results: by expense ratio, lowest first.</p>
+    <p>You will notice the picks within each category are nearly interchangeable. That is the point. The index-fund price war has been so thoroughly won by investors that choosing between the top funds in any category is mostly a question of which brokerage holds your account. We&rsquo;ve flagged the meaningful tie-breakers &mdash; minimums, portability, index quirks &mdash; but if you walked away owning any fund in the top two of each list below, you&rsquo;d have done the hard part right.</p>
+    <div class="callout note"><span class="label">How to read these tables</span><p><span class="er-good">Green</span> expense ratios are excellent (under 0.10%). All figures are last verified {{ last_verified_human }}; confirm against the prospectus before investing. Funds are editorial picks, not personalized advice.</p></div>
+  </section>
+
+  {% for group in groups %}
+  <section class="section-pad" style="padding-top:6px;padding-bottom:6px">
+    <div class="cat-head"><h2 style="margin:0">{{ group.title }}</h2></div>
+    <p>{{ group.blurb }}</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th class="num" style="width:42px">#</th><th>Fund</th><th class="num">Expense&nbsp;Ratio</th><th class="num">Minimum</th></tr></thead>
+        <tbody>
+          {% for f in group.funds %}
+          <tr>
+            <td class="num"><span class="rank">{{ loop.index }}</span></td>
+            <td><a href="/funds/{{ f.ticker|lower }}/"><b>{{ f.ticker }}</b></a> &mdash; {{ f.name|truncate(38,true,'&hellip;') }}<br><span class="tiny">{{ f.family }}</span></td>
+            <td class="num {{ f.er_class }}">{{ f.er_pct }}</td>
+            <td class="num">{{ f.min_human }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endfor %}
+
+  <section class="section-pad">
+    <h2>Building a portfolio from these</h2>
+    <p>You don&rsquo;t need one fund from every table. The classic, evidence-backed portfolios use two to four:</p>
+    <p><b>The one-fund portfolio:</b> a single target-date fund matched to your retirement year, or a total-world stock fund plus a bond fund. Done.</p>
+    <p><b>The three-fund portfolio:</b> a total US market fund, a total international fund, and a total bond fund &mdash; you set the percentages, rebalance once a year, and never touch a sector or style table above.</p>
+    <p>The style boxes &mdash; growth, value, small-cap, REITs &mdash; are refinements for people who want to tilt deliberately, not requirements. A beginner who owns nothing but a target-date fund from the last table is better diversified than most professionals.</p>
+    <div class="callout"><span class="label">Next step</span><p>See the cost difference for yourself in the <a href="/expense-ratio-calculator/">expense ratio calculator</a>, or read the evidence on <a href="/index-vs-active/">index versus active management</a>. Not a DIY type? Here&rsquo;s <a href="/robo-advisors/">where robo-advisors fit</a>.</p></div>
+    <hr class="rule">
+    <p class="tiny">All expense ratios and minimums drawn from fund provider documentation; last verified {{ last_verified_human }}. Editorial rankings reflect cost and suitability, not predicted returns. Not investment advice.</p>
+  </section>
+</div>
+{% endblock %}

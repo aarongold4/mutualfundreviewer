@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>{{ crumb }}</nav></div>
+<div class="wrap narrow">
+<section class="section-pad">
+  <h1>{{ h1 }}</h1>
+  {% if updated %}<p class="verified">Last updated {{ updated }}</p>{% endif %}
+  {{ body|safe }}
+</section>
+</div>
+{% endblock %}

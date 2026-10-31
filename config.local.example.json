@@ -1,0 +1,18 @@
+{
+  "_comment": "Copy this file to config.local.json and fill in real values. config.local.json is gitignored and overlays config.json at build time. Leave a value as \"\" to keep the default behavior (analytics tags omitted; affiliate links fall back to provider homepages).",
+  "analytics": {
+    "ga4": "G-XXXXXXXXXX",
+    "gsc": "your-google-search-console-verification-token",
+    "bing": "your-bing-webmaster-token"
+  },
+  "contact": {
+    "form_action": "https://formspree.io/f/xxxxxxxx"
+  },
+  "affiliate": {
+    "betterment": "https://www.betterment.com/?ref=nathanblake",
+    "wealthfront": "https://www.wealthfront.com/c/affiliates/invited/XXXX",
+    "m1": "https://m1.com/?aff=XXXX",
+    "ibkr": "https://www.interactivebrokers.com/referral/XXXX",
+    "sofi": "https://www.sofi.com/invest/?ref=XXXX"
+  }
+}

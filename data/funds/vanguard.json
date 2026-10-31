@@ -1,0 +1,685 @@
+[
+  {
+    "ticker": "VTSAX",
+    "name": "Vanguard Total Stock Market Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Total US Market",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Total Market Index — roughly 3,600 stocks covering essentially the entire investable US equity market.",
+    "expense_ratio": 0.04,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "The single-fund core of a long-term US stock allocation",
+    "editorial": [
+      "VTSAX is the default answer. If someone asks 'what fund should I buy and forget about,' this is the fund most Bogleheads will name before the question is finished. It owns essentially every publicly traded US company — Apple down to the micro-caps — weighted by size, for four hundredths of a percent a year. On a $100,000 balance, that's $40 annually. A single hour of a financial advisor's time costs more.",
+      "The case for it is structural, not clever. You will own every winner the US market produces over the next thirty years, automatically, without anyone needing to identify them in advance. You will also own every loser, but the math of capitalization weighting means the winners dominate: a stock can only lose 100%, while it can gain 10,000%. Total-market indexing is how you harvest that asymmetry without forecasting anything.",
+      "The honest caveats: the $3,000 minimum is a hurdle Fidelity's FZROX ($0 minimum, 0.00% fee) doesn't have, and VTSAX is about 80% overlapping with any S&P 500 fund, so don't hold both expecting diversification. If your 401(k) offers a total-market index fund under 0.10%, the brand on the label barely matters — VTSAX, FSKAX, and SWTSX are the same meal from different kitchens."
+    ],
+    "alternatives": [
+      "FZROX",
+      "SWTSX",
+      "FSKAX",
+      "VFIAX"
+    ]
+  },
+  {
+    "ticker": "VFIAX",
+    "name": "Vanguard 500 Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "S&P 500 / Large Blend",
+    "type": "index",
+    "strategy": "Tracks the S&P 500 — the 500 largest US companies, about 80% of total US market value.",
+    "expense_ratio": 0.04,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "Investors who want the classic large-cap US benchmark at Vanguard pricing",
+    "editorial": [
+      "This is the direct descendant of the first index fund ever sold to the public — Jack Bogle's 1976 'folly' that now anchors trillions of dollars in retirement money. VFIAX holds the S&P 500 in its market weights and charges 0.04% to do it. Over the decades, that simple recipe has beaten the large majority of professionally managed large-cap funds, which is either embarrassing for the profession or liberating for you, depending on where you sit.",
+      "Choosing between VFIAX and a total-market fund like VTSAX is a low-stakes decision dressed up as a big one. The S&P 500 is about four-fifths of the US market by value, and the two funds' long-run returns track each other closely. VTSAX adds small and mid caps; VFIAX is the purer blue-chip bet. Pick either, fund it relentlessly, and stop reading comparison articles — including, eventually, this one.",
+      "One practical note: inside many 401(k) plans, the S&P 500 index option is the cheapest fund on the menu and sometimes the only index option at all. If that's your situation, an S&P 500 fund at institutional pricing is an entirely sufficient core holding. The missing 20% of the market is a refinement, not a requirement."
+    ],
+    "alternatives": [
+      "FXAIX",
+      "SWPPX",
+      "VTSAX",
+      "FNILX"
+    ]
+  },
+  {
+    "ticker": "VTIAX",
+    "name": "Vanguard Total International Stock Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks the FTSE Global All Cap ex US Index — about 8,500 stocks across developed and emerging markets outside the United States.",
+    "expense_ratio": 0.09,
+    "minimum": 3000,
+    "inception": 2010,
+    "best_for": "One-fund international diversification alongside a US core",
+    "editorial": [
+      "Whether to own international stocks at all is one of the few arguments that still divides otherwise-agreeing index investors. Bogle himself was famously lukewarm on the idea; Vanguard's own target-date funds put roughly 40% of equities abroad. If you land on the 'yes' side, VTIAX is the cleanest single answer: every developed and emerging market outside the US, large caps through small, in one fund at 0.09%.",
+      "The argument for holding it isn't that international will beat the US — nobody knows — but that you don't have to choose. US and international stocks have traded decade-long winning streaks for a century, and a 2010s-style stretch of US dominance is exactly the environment that tempts investors to abandon foreign stocks right before the pattern flips. VTIAX is how you opt out of that timing game.",
+      "It pairs naturally with VTSAX in the classic two-fund equity portfolio, and Vanguard's ETF share class (VXUS) is the identical portfolio if you prefer ETFs. Fidelity's FTIHX and the zero-fee FZILX are the closest competitors; FZILX is cheaper but skips international small caps and can't be transferred out of Fidelity in kind."
+    ],
+    "alternatives": [
+      "FTIHX",
+      "FZILX",
+      "SWISX",
+      "VFWAX"
+    ]
+  },
+  {
+    "ticker": "VBTLX",
+    "name": "Vanguard Total Bond Market Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Bond",
+    "type": "index",
+    "strategy": "Tracks the Bloomberg US Aggregate Float Adjusted Index — investment-grade US government, corporate, and mortgage-backed bonds.",
+    "expense_ratio": 0.05,
+    "minimum": 3000,
+    "inception": 2001,
+    "best_for": "The default bond allocation in a three-fund portfolio",
+    "editorial": [
+      "Bonds in a long-term portfolio are shock absorbers, not engines, and VBTLX is the standard-issue shock absorber: roughly 11,000 investment-grade US bonds, about two-thirds government-backed, with intermediate duration. It will not make you rich. Its job is to be the thing you sell to buy stocks when stocks are on sale, and to keep a 2008 or a 2022 from becoming the day you panic.",
+      "2022 deserves a frank mention: rising rates handed VBTLX its worst year on record, down about 13%, and a lot of investors discovered that 'safe' and 'can't lose money in a given year' are different claims. The silver lining is mechanical — higher rates mean higher yields going forward, and a bond index fund's long-run return converges on its starting yield. The fund is a better deal after a bad year, not a worse one.",
+      "If you want simpler still, the target-date and LifeStrategy funds hold this same portfolio internally. If you're in a high tax bracket holding bonds in a taxable account, a municipal bond fund may fit better — that's a tax question, not a fund-quality question."
+    ],
+    "alternatives": [
+      "FXNAX",
+      "SWAGX",
+      "VTABX",
+      "PTTRX"
+    ]
+  },
+  {
+    "ticker": "VTWAX",
+    "name": "Vanguard Total World Stock Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "World Stock",
+    "type": "index",
+    "strategy": "Tracks the FTSE Global All Cap Index — the entire global stock market, US and international, in market weights.",
+    "expense_ratio": 0.1,
+    "minimum": 3000,
+    "inception": 2019,
+    "best_for": "Maximum simplicity: the whole world's stock market in one fund",
+    "editorial": [
+      "VTWAX is the logical endpoint of index investing: don't pick stocks, don't pick countries, don't even pick a US/international split. Own everything — roughly 9,800 companies across nearly 50 markets — at whatever weights the global market assigns, currently around 60% US. One fund, one decision, done. Pair it with a bond fund and you have a complete portfolio that never needs rebalancing between regions.",
+      "The cost of that elegance is small but real. Holding VTSAX and VTIAX separately runs about 0.05–0.06% blended versus 0.10% here, lets you tilt the US/international ratio, and is more tax-efficient in taxable accounts because the separate international fund qualifies for the foreign tax credit. Inside an IRA or 401(k), none of that matters much, and the behavioral value of never second-guessing your regional split is worth more than two basis points."
+    ],
+    "alternatives": [
+      "VTSAX",
+      "VTIAX",
+      "FZROX"
+    ]
+  },
+  {
+    "ticker": "VTMGX",
+    "name": "Vanguard Developed Markets Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks the FTSE Developed All Cap ex US Index — Europe, Japan, and other developed markets, excluding emerging markets.",
+    "expense_ratio": 0.08,
+    "minimum": 3000,
+    "inception": 1999,
+    "best_for": "International exposure without an emerging-markets sleeve",
+    "editorial": [
+      "VTMGX is total-international minus the emerging markets: Japan, the UK, Europe, Canada, Australia, and the rest of the developed world, about 4,000 stocks at 0.08%. Investors choose it over VTIAX either because they're skeptical of emerging markets' governance and volatility, or because they want to size the EM allocation separately with a dedicated fund.",
+      "Fidelity's FSPSX is the closest rival at a slightly lower fee, though it holds only large and mid caps where VTMGX includes small caps. In practice the difference is rounding error; what matters more is simply having developed-international exposure at all when a decade of US outperformance has convinced everyone it's unnecessary. That conviction is usually loudest right before it's wrong."
+    ],
+    "alternatives": [
+      "FSPSX",
+      "VTIAX",
+      "SWISX"
+    ]
+  },
+  {
+    "ticker": "VFWAX",
+    "name": "Vanguard FTSE All-World ex-US Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks the FTSE All-World ex US Index — large and mid-cap stocks in developed and emerging markets outside the US.",
+    "expense_ratio": 0.08,
+    "minimum": 3000,
+    "inception": 2011,
+    "best_for": "All-world ex-US exposure, large and mid caps only",
+    "editorial": [
+      "Vanguard sells two nearly identical total-international funds, and the difference fits in a sentence: VTIAX includes international small caps, VFWAX doesn't. Both span developed and emerging markets; both charge single-digit basis points; both will produce returns within shouting distance of each other over any horizon that matters.",
+      "VFWAX exists largely for investors who want to add a separate international small-cap fund and avoid overlap, or who simply prefer the slightly cheaper fee. If you don't have a strong view, VTIAX's broader coverage makes it the marginally better default — but agonizing over this pair is a sign you've run out of real decisions to make, which is its own kind of success."
+    ],
+    "alternatives": [
+      "VTIAX",
+      "FTIHX",
+      "VTMGX"
+    ]
+  },
+  {
+    "ticker": "VEMAX",
+    "name": "Vanguard Emerging Markets Stock Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Emerging Markets",
+    "type": "index",
+    "strategy": "Tracks the FTSE Emerging Markets All Cap China A Inclusion Index — China, India, Taiwan, Brazil, and other emerging economies.",
+    "expense_ratio": 0.14,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "A dedicated, controllable emerging-markets allocation",
+    "editorial": [
+      "Emerging markets are the asset class that looks best in a textbook and feels worst in a brokerage account: higher theoretical growth, brutal drawdowns, decade-long stretches of going nowhere, and political risk that can rewrite the rules overnight. VEMAX indexes the whole category — over 5,000 stocks, heavily weighted to China, India, and Taiwan — for 0.14%, which is dirt cheap for an asset class where active managers love to charge 1%+.",
+      "Most investors don't need this fund, because VTIAX and VTWAX already include emerging markets at market weight. VEMAX is for the investor who wants to deliberately overweight or underweight EM rather than accept the default. If that's you, keep the position small enough that a 40% drawdown — which this asset class delivers roughly once a decade — doesn't shake you out of it."
+    ],
+    "alternatives": [
+      "FPADX",
+      "VTIAX",
+      "VFWAX"
+    ]
+  },
+  {
+    "ticker": "VSMAX",
+    "name": "Vanguard Small-Cap Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Small Cap",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Small Cap Index — roughly 1,300 smaller US companies.",
+    "expense_ratio": 0.05,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "Tilting a portfolio toward small US companies cheaply",
+    "editorial": [
+      "The academic case for small caps — that they've historically outpaced large caps over very long periods — has had a rough couple of decades, with mega-cap tech doing most of the market's work. VSMAX is the cheap way to bet the pattern reasserts itself: 1,300-odd smaller companies at 0.05%, no manager trying to outsmart the category.",
+      "Two things to know before tilting. First, you already own these stocks if you hold VTSAX; a small-cap fund is a deliberate overweight, not new diversification. Second, CRSP's 'small' runs larger than the Russell 2000's, so VSMAX behaves a bit more like a mid-cap fund than purists prefer — which has mostly been a feature, since it sidesteps the junkiest micro-caps. Hold the tilt for decades or don't bother."
+    ],
+    "alternatives": [
+      "FSSNX",
+      "SWSSX",
+      "VSIAX",
+      "VEXAX"
+    ]
+  },
+  {
+    "ticker": "VSIAX",
+    "name": "Vanguard Small-Cap Value Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Small Cap",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Small Cap Value Index — cheaper, slower-growing small companies.",
+    "expense_ratio": 0.07,
+    "minimum": 3000,
+    "inception": 2011,
+    "best_for": "Factor investors making a deliberate small-value tilt",
+    "editorial": [
+      "Small-cap value is the most academically decorated corner of the stock market — the Fama-French research that won a Nobel Prize found its strongest historical premium right here. VSIAX is the retail-friendly way to act on that research: cheap small companies, indexed, at 0.07%, without the advisor gatekeeping of DFA funds.",
+      "The catch is patience measured in decades, not years. The small-value premium spent most of 2010–2020 missing in action, and plenty of factor investors capitulated at exactly the wrong moment before its 2021–2022 resurgence. A tilt you abandon after five bad years is worse than no tilt at all. If you buy this, write down why, and reread it during the inevitable stretch when the S&P 500 is lapping it."
+    ],
+    "alternatives": [
+      "VSMAX",
+      "VVIAX",
+      "FSSNX"
+    ]
+  },
+  {
+    "ticker": "VSGAX",
+    "name": "Vanguard Small-Cap Growth Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Small Cap",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Small Cap Growth Index — faster-growing, higher-priced small companies.",
+    "expense_ratio": 0.07,
+    "minimum": 3000,
+    "inception": 2011,
+    "best_for": "Indexed exposure to small growth companies, eyes open about the historical record",
+    "editorial": [
+      "Here's an awkward fact this fund's marketing won't volunteer: small-cap growth has historically been the worst-performing style box — the 'black hole' of the Fama-French grid, where lottery-ticket pricing goes to die. VSGAX at least implements the category honestly: indexed, diversified across hundreds of names, 0.07%, no manager fees stacked on top of an already-challenged segment.",
+      "Who should own it? Mostly investors pairing it with a small-value fund to reconstruct total small-cap exposure with controllable weights, or those who simply believe the next era belongs to small innovators. As a standalone conviction bet, the base rates argue against it — but if you're going to make the bet anyway, making it for seven basis points instead of an active manager's ninety is strictly better."
+    ],
+    "alternatives": [
+      "VSMAX",
+      "VSIAX",
+      "PRNHX"
+    ]
+  },
+  {
+    "ticker": "VIMAX",
+    "name": "Vanguard Mid-Cap Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Mid Cap",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Mid Cap Index — about 300 middle-sized US companies.",
+    "expense_ratio": 0.05,
+    "minimum": 3000,
+    "inception": 2001,
+    "best_for": "Filling the mid-cap slot in a sliced portfolio",
+    "editorial": [
+      "Mid caps are the market's quiet overachievers: big enough to have survived the startup gauntlet, small enough to still double. Over long stretches, the segment has matched or beaten both its larger and smaller siblings with less drama than small caps. VIMAX captures it with characteristic Vanguard plainness — a few hundred companies, 0.05%, nothing to monitor.",
+      "Most investors get their mid-cap exposure invisibly through a total-market fund and never need a dedicated slice. VIMAX earns a spot when your 401(k) pairs an S&P 500 fund with nothing else, leaving a mid/small hole — or when you want to deliberately overweight the middle. It does its one job at a price that makes active mid-cap funds, which routinely charge 15x more, hard to justify."
+    ],
+    "alternatives": [
+      "FSMDX",
+      "VEXAX",
+      "VTSAX"
+    ]
+  },
+  {
+    "ticker": "VEXAX",
+    "name": "Vanguard Extended Market Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Mid Cap",
+    "type": "index",
+    "strategy": "Tracks the S&P Completion Index — the entire US market except the S&P 500.",
+    "expense_ratio": 0.06,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "Completing an S&P 500 fund into total-market coverage",
+    "editorial": [
+      "VEXAX is a tool, not a thesis. It holds everything in the US market that isn't in the S&P 500 — thousands of mid and small caps — specifically so investors whose 401(k) only offers an S&P 500 fund can rebuild total-market exposure. The standard recipe is roughly 85% S&P 500 fund, 15% extended market, rebalanced occasionally; the result tracks VTSAX almost perfectly.",
+      "As a standalone holding it's a bet against mega caps, which is a legitimate view but a spicier one than most owners realize. Used as designed — the completion piece of a two-fund total market — it's one of the most quietly useful funds Vanguard runs, and at 0.06% the price of completeness is negligible."
+    ],
+    "alternatives": [
+      "FSMAX",
+      "VIMAX",
+      "VSMAX"
+    ]
+  },
+  {
+    "ticker": "VIGAX",
+    "name": "Vanguard Growth Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Large Growth",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Large Cap Growth Index — large companies with above-average growth characteristics.",
+    "expense_ratio": 0.05,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "Indexed large-growth exposure without active-management fees",
+    "editorial": [
+      "VIGAX is what you buy when you want the Magnificent-Seven-and-friends exposure of a growth fund without paying a manager 0.70% to deliver what an index does for 0.05%. It's concentrated where growth indexes are always concentrated — the top ten holdings are a huge share of assets, dominated by the mega-cap tech names — so understand that you're buying a focused bet on the market's most expensive companies continuing to earn their multiples.",
+      "Its long-run record against active growth funds is the quiet punchline: most of the famous names — Contrafund, Blue Chip Growth, the celebrated stock-pickers — have struggled to beat this brainless index after fees over extended periods. Growth investing turns out to be a category where paying for genius has been particularly hard to justify. If you want growth, buy it cheap; if you want the whole market, VTSAX already includes every stock in here."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "TRBCX",
+      "FBGRX",
+      "VVIAX"
+    ]
+  },
+  {
+    "ticker": "VVIAX",
+    "name": "Vanguard Value Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Large Value",
+    "type": "index",
+    "strategy": "Tracks the CRSP US Large Cap Value Index — large companies trading at below-average valuations.",
+    "expense_ratio": 0.05,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "A cheap, diversified large-value tilt",
+    "editorial": [
+      "Value investing's pitch is ancient and simple — pay less than things are worth — and VVIAX industrializes it: a few hundred large companies screened for low prices relative to fundamentals, no storytelling, 0.05%. Banks, healthcare, energy, industrials; the unglamorous economy that pays dividends while tech gets the headlines.",
+      "It's a credible, lower-octane alternative to active value shops like Dodge & Cox, whose DODGX charges ten times as much and holds a far more concentrated book. The active funds occasionally earn their fee in value's good years; the index never has a bad manager, never has key-person risk, and never drifts. For investors who simply want their portfolio to lean cheap rather than expensive, this is the lowest-friction way to lean."
+    ],
+    "alternatives": [
+      "DODGX",
+      "VHYAX",
+      "VIGAX",
+      "PRFDX"
+    ]
+  },
+  {
+    "ticker": "VHYAX",
+    "name": "Vanguard High Dividend Yield Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Large Value",
+    "type": "index",
+    "strategy": "Tracks the FTSE High Dividend Yield Index — US stocks with above-average dividend yields, excluding REITs.",
+    "expense_ratio": 0.08,
+    "minimum": 3000,
+    "inception": 2018,
+    "best_for": "Income-oriented investors who still want broad diversification",
+    "editorial": [
+      "A confession the dividend-investing internet won't make: dividends aren't free money. A company paying you cash is a company not reinvesting it, and total return — price change plus dividends — is the only number that compounds. That said, if dividend income keeps you calm and invested, the behavioral benefit is real, and VHYAX is the sane way to get it: 500-plus higher-yielding large caps, indexed, at 0.08%.",
+      "It functions as a value fund in dividend clothing — heavy in financials, healthcare, and consumer staples, light in tech — so expect it to lag in growth-led markets and hold up better in downturns. In a taxable account, remember that every dividend is a taxable event you didn't choose; this fund is happiest inside an IRA, or in the hands of a retiree actually spending the income."
+    ],
+    "alternatives": [
+      "VDADX",
+      "VVIAX",
+      "PRFDX"
+    ]
+  },
+  {
+    "ticker": "VDADX",
+    "name": "Vanguard Dividend Appreciation Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Large Value",
+    "type": "index",
+    "strategy": "Tracks the S&P US Dividend Growers Index — companies with 10+ consecutive years of dividend increases.",
+    "expense_ratio": 0.08,
+    "minimum": 3000,
+    "inception": 2013,
+    "best_for": "Quality-tilted equity exposure via dividend growers",
+    "editorial": [
+      "Where VHYAX chases yield, VDADX chases the habit of raising dividends — a decade-plus of consecutive increases, which quietly screens for durable cash flows and disciplined management. The yield is unremarkable; the portfolio quality is the point. Think of it less as an income fund and more as a quality factor fund wearing a dividend costume.",
+      "Its personality shows in bad markets, where dividend growers have historically fallen less than the broad market, at the price of trailing in speculative rallies. For a conservative equity investor who wants stocks but flinches at full-market volatility, that trade can be worth eight basis points. For everyone else, it's a respectable tilt, not a necessity — VTSAX already owns every company in here."
+    ],
+    "alternatives": [
+      "VHYAX",
+      "VVIAX",
+      "JENSX"
+    ]
+  },
+  {
+    "ticker": "VGSLX",
+    "name": "Vanguard Real Estate Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Sector",
+    "type": "index",
+    "strategy": "Tracks the MSCI US Investable Market Real Estate 25/50 Index — REITs and real estate companies.",
+    "expense_ratio": 0.13,
+    "minimum": 3000,
+    "inception": 2001,
+    "best_for": "A dedicated REIT sleeve, ideally inside a tax-advantaged account",
+    "editorial": [
+      "Real estate is the one sector tilt with a defensible diversification story: REITs are legally required to distribute most of their income, behave somewhat differently from the broad market, and represent an asset class — commercial property — that cap-weighted stock indexes arguably underweight relative to its economic footprint. VGSLX indexes the whole US REIT universe for 0.13%.",
+      "Location matters more for this fund than most: REIT dividends are taxed as ordinary income, making VGSLX one of the worst funds you can hold in a taxable account and a fine one inside an IRA. And keep the slice modest — the investors who learned in 2008 and again in 2020-2022 that property can crater alongside everything else generally wish their 'diversifier' had been 5% of the portfolio, not 20%."
+    ],
+    "alternatives": [
+      "VTSAX",
+      "VVIAX"
+    ]
+  },
+  {
+    "ticker": "VTABX",
+    "name": "Vanguard Total International Bond Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Bond",
+    "type": "index",
+    "strategy": "Tracks the Bloomberg Global Aggregate ex-USD Float Adjusted RIC Capped Index, hedged to US dollars.",
+    "expense_ratio": 0.11,
+    "minimum": 3000,
+    "inception": 2013,
+    "best_for": "Completing the four-fund portfolio with hedged international bonds",
+    "editorial": [
+      "International bonds are the asparagus of the index portfolio: Vanguard insists they're good for you — every target-date fund they run includes a slug of VTABX — while plenty of respected Bogleheads skip them entirely and feel fine. The fund holds thousands of investment-grade foreign government and corporate bonds with currency risk hedged away, leaving a return stream that looks a lot like US bonds with mild diversification benefits.",
+      "The case against is simplicity: hedged international bonds historically behave so much like the US Aggregate that the extra fund may not pay rent. The case for is Vanguard's own research on smoother portfolio outcomes. Honest answer: this is a third-decimal-place decision. If a three-fund portfolio feels complete to you, it is."
+    ],
+    "alternatives": [
+      "VBTLX",
+      "FXNAX"
+    ]
+  },
+  {
+    "ticker": "VBIAX",
+    "name": "Vanguard Balanced Index Fund Admiral Shares",
+    "family": "Vanguard",
+    "category": "Balanced / Allocation",
+    "type": "index",
+    "strategy": "Indexes a fixed 60% US total stock market / 40% US total bond market allocation.",
+    "expense_ratio": 0.07,
+    "minimum": 3000,
+    "inception": 2000,
+    "best_for": "The classic 60/40 in a single self-rebalancing fund",
+    "editorial": [
+      "The 60/40 portfolio gets pronounced dead every few years — most loudly in 2022, when both sides fell together — and then goes back to quietly doing its job. VBIAX is the purest implementation available: 60% total US stock index, 40% total US bond index, automatically rebalanced, 0.07%, no glide path, no manager opinions, no international wrinkle.",
+      "It's an underrated answer for money that needs to be sensible rather than optimized — an inheritance you don't want to actively manage, a conservative IRA, the equity-lite years before retirement. The main critique is the absence of international stocks, which makes it a deliberate home-country bet. Compare it with Wellington (VWELX) if you're curious what an active manager adds to roughly this allocation for an extra 19 basis points; the answer over most periods has been 'not much, reliably.'"
+    ],
+    "alternatives": [
+      "VWELX",
+      "FBALX",
+      "VBTLX"
+    ]
+  },
+  {
+    "ticker": "VWELX",
+    "name": "Vanguard Wellington Fund Investor Shares",
+    "family": "Vanguard",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Actively managed ~65% stocks / 35% bonds; large-cap dividend-paying equities plus investment-grade bonds. Managed by Wellington Management since 1929.",
+    "expense_ratio": 0.24,
+    "minimum": 3000,
+    "inception": 1929,
+    "best_for": "Investors who want one conservatively managed balanced fund with a 95-year record",
+    "editorial": [
+      "Wellington launched four months before the 1929 crash and survived it, which remains the best opening line in mutual fund history. Nearly a century later it's still doing the same unfashionable thing: roughly two-thirds blue-chip dividend stocks, one-third high-grade bonds, picked by Wellington Management's value-leaning teams for 0.26% — expensive by index standards, absurdly cheap by active-management standards.",
+      "This is one of a handful of active funds this site can recommend without wincing, for reasons that generalize: the fee is low enough that the managers don't start each year in a deep hole, the strategy is boring enough to be repeatable, and the institutional culture has survived a dozen manager transitions. It has beaten the average balanced fund over most long windows, though a plain VBIAX has matched it closely enough that the index remains the rational default.",
+      "Practical notes: it's periodically closed to new investors outside Vanguard accounts, distributions make it tax-clumsy in taxable accounts, and the equity sleeve's value tilt means it lags badly when growth stocks lead. Buy it for the discipline, not the alpha."
+    ],
+    "alternatives": [
+      "VBIAX",
+      "VWINX",
+      "PRWCX",
+      "ABALX"
+    ]
+  },
+  {
+    "ticker": "VWINX",
+    "name": "Vanguard Wellesley Income Fund Investor Shares",
+    "family": "Vanguard",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Actively managed ~35% dividend stocks / 65% investment-grade bonds, run by Wellington Management for income with moderate growth.",
+    "expense_ratio": 0.22,
+    "minimum": 3000,
+    "inception": 1970,
+    "best_for": "Conservative retirees who want income and shallow drawdowns",
+    "editorial": [
+      "Wellesley is Wellington's quieter sibling — the allocation flipped to roughly one-third stocks, two-thirds bonds — and it has spent five decades being exactly what nervous money needs: a fund whose worst years are merely disappointing rather than terrifying. In 2008, when the S&P 500 fell 37%, Wellesley lost about 10%. That's the entire sales pitch, and for a 75-year-old drawing income, it's a good one.",
+      "The 2022 rate shock was its hardest test in decades, since bond-heavy meant no place to hide, and it reminded owners that 'conservative' is relative. Still, for retirees who would sell stocks in a panic, a fund engineered to never give them a panic-worthy statement has genuine behavioral value — arguably worth more than the 0.23% fee. Index purists can approximate it with VBIAX-plus-extra-bonds; Wellesley's owners mostly don't care."
+    ],
+    "alternatives": [
+      "VWELX",
+      "VTINX",
+      "VBIAX"
+    ]
+  },
+  {
+    "ticker": "VGSTX",
+    "name": "Vanguard STAR Fund",
+    "family": "Vanguard",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Fund-of-funds holding 11 actively managed Vanguard funds at roughly 60% stocks / 40% bonds.",
+    "expense_ratio": 0.29,
+    "minimum": 1000,
+    "inception": 1985,
+    "best_for": "Beginners with less than Vanguard's standard $3,000 minimum",
+    "editorial": [
+      "STAR's claim to fame is its $1,000 minimum — historically the cheapest ticket into Vanguard — and its structure is a sampler platter: eleven active Vanguard funds bundled into a 60/40 allocation. It's a reasonable first fund and has compounded respectably for four decades, but be clear about what you're buying: a fund-of-active-funds at 0.31%, when VBIAX delivers the same allocation passively at 0.07%.",
+      "These days, the better beginner move is usually a Target Retirement fund (also $1,000 minimum, with an age-appropriate glide path) or simply starting at Fidelity or Schwab where minimums are zero. STAR isn't a mistake; it's a legacy answer to a problem — high minimums — that the industry has mostly solved."
+    ],
+    "alternatives": [
+      "VBIAX",
+      "VTIVX",
+      "FZROX"
+    ]
+  },
+  {
+    "ticker": "VTINX",
+    "name": "Vanguard Target Retirement Income Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Static landing allocation for retirees: ~30% global stocks, ~70% bonds including short-term TIPS, built from four Vanguard index funds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2003,
+    "best_for": "Retirees who want a permanent, professionally maintained conservative allocation",
+    "editorial": [
+      "Every Vanguard target-date fund eventually becomes this one: the landing pad. VTINX holds a fixed ~30/70 mix of global stocks and bonds — including a deliberate slice of short-term inflation-protected bonds for retirees' grocery-bill risk — and rebalances itself forever at 0.08%. It is the answer to 'I'm retired, I have one IRA, I want to stop managing it.'",
+      "Its 30% equity floor is the most debated design choice; some retirees want more growth for a 30-year retirement, and some want less volatility than even 30% stocks delivers. But as a default it's defensible from both directions, and the all-index construction means you're not paying anyone to guess. Wellesley (VWINX) is the active alternative with a similar temperament and a higher fee."
+    ],
+    "alternatives": [
+      "VWINX",
+      "VTHRX",
+      "VBIAX"
+    ]
+  },
+  {
+    "ticker": "VTHRX",
+    "name": "Vanguard Target Retirement 2030 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 60% stocks / 40% bonds and de-risking toward retirement.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2006,
+    "best_for": "Investors retiring around 2030 who want automatic de-risking",
+    "editorial": [
+      "With retirement only a few years out, the 2030 fund is deep into its de-risking glide — roughly 60% global stocks and falling. This is the stage where target-date funds earn their keep: the years just before and after retirement are when a badly timed bear market does the most damage, and the fund trims equity risk on a schedule no headline can panic.",
+      "Owners sometimes look at the bond-heavy mix and feel they're 'missing out' versus the S&P 500. That feeling is the product working. If you genuinely have other income and want more risk, pick a later-dated fund — the dates are suggestions, not laws — but do it deliberately, not because last year's stock returns were good."
+    ],
+    "alternatives": [
+      "VTTHX",
+      "VTINX",
+      "FXIFX"
+    ]
+  },
+  {
+    "ticker": "VTTHX",
+    "name": "Vanguard Target Retirement 2035 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 70% stocks / 30% bonds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2003,
+    "best_for": "Mid-career savers retiring in the mid-2030s",
+    "editorial": [
+      "The 2035 fund sits at the inflection point of Vanguard's glide path — still growth-dominant at roughly 70% stocks, but with the bond ballast becoming noticeable. For a saver in their early-to-mid fifties, that's about where decades of research on sequence-of-returns risk says you should be, whether or not it's where your risk appetite says you should be.",
+      "The construction is the same four-index-fund chassis as the whole series: total US stock, total international stock, total US bond, total international bond, rebalanced automatically for 0.08% all-in. The entire value proposition is never having to think about it again — which, judging by investor-behavior studies showing target-date owners trade less and earn closer to fund returns, is worth more than most clever portfolios."
+    ],
+    "alternatives": [
+      "VTHRX",
+      "VFORX",
+      "FXIFX"
+    ]
+  },
+  {
+    "ticker": "VFORX",
+    "name": "Vanguard Target Retirement 2040 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 80% stocks / 20% bonds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2006,
+    "best_for": "Gen X savers who want one all-index fund through retirement",
+    "editorial": [
+      "If you're retiring around 2040, this fund holds roughly 80% global stocks today and will walk that down a percentage point or two a year for the next decade and a half — the standard glide path, built entirely from Vanguard's total-market index funds. Nobody is picking stocks; the only 'active' decision is the de-risking schedule itself, and it's published in advance.",
+      "Fidelity's Freedom Index 2040 (FBIFX) is the nearly identical competitor, and the honest comparison comes down to where your accounts already live and a few basis points. The mistake to avoid isn't choosing the wrong brand — it's holding a target-date fund alongside a pile of overlapping index funds, which defeats the one-fund design and quietly cranks your equity allocation above what you chose."
+    ],
+    "alternatives": [
+      "FBIFX",
+      "SWYGX",
+      "VTIVX"
+    ]
+  },
+  {
+    "ticker": "VTIVX",
+    "name": "Vanguard Target Retirement 2045 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 85–90% stocks.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2003,
+    "best_for": "Savers in their late 30s and 40s targeting a mid-2040s retirement",
+    "editorial": [
+      "Twenty years from retirement, Vanguard's glide path still has you nearly all-in on stocks — about 90% global equities — because the math says volatility two decades out is a feature you're paid for, not a risk to flee. VTIVX implements that with the series' usual four-fund index chassis and an 0.08% sticker.",
+      "A note on the 40% international equity weighting, the most common complaint about these funds: it's higher than many DIY investors choose, and over the US-dominant 2010s it cost performance. It's also exactly what global market weights and Vanguard's capital-markets research support. If you hold this fund, let it be wrong-looking sometimes; that's what owning a disagreement-proof portfolio means."
+    ],
+    "alternatives": [
+      "VFORX",
+      "VFIFX",
+      "FIPFX"
+    ]
+  },
+  {
+    "ticker": "VFIFX",
+    "name": "Vanguard Target Retirement 2050 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 90% stocks / 10% bonds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2006,
+    "best_for": "Millennial savers who want the default done right",
+    "editorial": [
+      "VFIFX is what 'set it and forget it' actually looks like: 90% global stock indexes, 10% bonds, rebalanced automatically, de-risking on autopilot starting in the 2030s, for less than a streaming subscription per $10,000 invested. It's the default fund in countless 401(k) plans, and unusually for defaults, it's close to what a fee-only advisor would build anyway.",
+      "The strongest argument for it over a DIY three-fund portfolio isn't the construction — you can replicate that — it's the firewall against yourself. Every rebalancing decision you never make is a market-timing mistake you never make. The strongest argument against is taxes: in a taxable account, the all-in-one structure forfeits foreign tax credits and asset-location tricks. In a 401(k) or IRA, it's about as close to optimal-by-default as the industry gets."
+    ],
+    "alternatives": [
+      "SWYMX",
+      "FIPFX",
+      "VFFVX"
+    ]
+  },
+  {
+    "ticker": "VFFVX",
+    "name": "Vanguard Target Retirement 2055 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 90% stocks / 10% bonds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2010,
+    "best_for": "Savers in their early 30s with three decades of runway",
+    "editorial": [
+      "At thirty-plus years from its date, the 2055 fund is functionally identical to the 2050 and 2060 funds — about 90% global stocks — and will stay that way for another decade before the glide path starts bending. You're not really choosing an allocation when you pick among the far-dated funds; you're choosing when the de-risking begins.",
+      "That makes the common advice simple: pick the date closest to when you'll actually retire, ignore small differences, and resist the urge to 'improve' it with side bets. A target-date fund plus a couple of sector funds plus some individual stocks isn't a plan; it's a target-date fund with leaks. The whole point of VFFVX is that it's finished."
+    ],
+    "alternatives": [
+      "VFIFX",
+      "VTTSX",
+      "FDKLX"
+    ]
+  },
+  {
+    "ticker": "VTTSX",
+    "name": "Vanguard Target Retirement 2060 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 90% stocks / 10% bonds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2012,
+    "best_for": "Twentysomethings starting their first IRA or 401(k)",
+    "editorial": [
+      "For a 25-year-old opening a Roth IRA, it's hard to write a better prescription than VTTSX: the entire global stock market, a token bond cushion, automatic everything, $1,000 to start, 0.08% a year. The most valuable feature isn't in the fact sheet — it's that the fund gives a beginner nothing to fiddle with during their first bear market, which is where most young investors' real damage happens.",
+      "The classic counterargument — 'a 25-year-old should be 100% stocks, why pay for a glide path that's decades away?' — is technically fair and practically irrelevant. The 10% bond allocation costs almost nothing in expected return, and the structure quietly teaches the only lesson that matters: contribute, ignore, repeat. Optimization can wait until the balance has a comma in it."
+    ],
+    "alternatives": [
+      "VLXVX",
+      "FDKLX",
+      "SWYNX"
+    ]
+  },
+  {
+    "ticker": "VLXVX",
+    "name": "Vanguard Target Retirement 2065 Fund",
+    "family": "Vanguard",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Glide-path fund of four Vanguard index funds, currently around 90% stocks / 10% bonds.",
+    "expense_ratio": 0.08,
+    "minimum": 1000,
+    "inception": 2017,
+    "best_for": "The youngest savers — first job, first 401(k), longest runway",
+    "editorial": [
+      "The 2065 fund exists because compounding rewards the people with the least money and the most time, and somebody graduating today will retire around when this fund lands. The portfolio is the standard far-dated recipe — roughly 90% global stock indexes — and will be for decades; choosing between 2060, 2065, and 2070 vintages is choosing a label, not a strategy.",
+      "If there's one thing to tell a brand-new investor holding this fund, it's about the denominator: in year one, your contribution rate matters hundreds of times more than your fund's expense ratio or allocation. VLXVX's job is to make the investment decision permanently solved so every ounce of attention goes to the savings rate. It does that job about as well as anything sold."
+    ],
+    "alternatives": [
+      "VTTSX",
+      "VFFVX",
+      "FDKLX"
+    ]
+  }
+]

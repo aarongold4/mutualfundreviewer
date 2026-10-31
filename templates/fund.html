@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <nav class="crumbs">
+    <a href="/">Home</a><span>&rsaquo;</span><a href="/funds/">Fund Reviews</a><span>&rsaquo;</span>{{ fund.ticker }}
+  </nav>
+</div>
+
+<div class="fund-head">
+  <div class="wrap">
+    <div class="ticker-big">{{ fund.ticker }}
+      {% if fund.type=='index' %}<span class="badge badge-index">Index Fund</span>
+      {% elif fund.type=='target-date' %}<span class="badge badge-td">Target-Date</span>
+      {% else %}<span class="badge badge-active">Actively Managed</span>{% endif %}
+    </div>
+    <h1>{{ fund.name }}</h1>
+    <div class="fund-meta">{{ fund.family }} &middot; {{ fund.category }}{% if fund.inception %} &middot; Inception {{ fund.inception }}{% endif %}</div>
+    <div class="statbar">
+      <div class="stat"><div class="k">Expense Ratio</div><div class="v">{{ er_pct }}</div></div>
+      <div class="stat"><div class="k">Cost per $10k/yr</div><div class="v">{{ cost_10k }}</div></div>
+      <div class="stat"><div class="k">Minimum</div><div class="v">{{ min_human }}</div></div>
+      <div class="stat"><div class="k">Type</div><div class="v" style="font-size:1.05rem">{{ type_human }}</div></div>
+    </div>
+    <p class="verified" style="margin-top:12px">Figures last verified {{ last_verified_human }}</p>
+  </div>
+</div>
+
+<div class="wrap narrow">
+  <section class="section-pad" style="padding-top:30px">
+    <p class="lead">{{ fund.strategy }}</p>
+
+    {% for para in fund.editorial %}<p>{{ para }}</p>{% endfor %}
+
+    <div class="callout note">
+      <span class="label">Best for</span>
+      <p>{{ fund.best_for }}.</p>
+    </div>
+
+    <h2>{{ fund.ticker }} alternatives &amp; comparable funds</h2>
+    <p>If you&rsquo;re weighing {{ fund.ticker }} against the field, these are the funds most investors line it up against &mdash; same job, different provider, slightly different terms.</p>
+    <div class="table-scroll">
+      <table class="cmp">
+        <thead><tr><th>Fund</th><th>Family</th><th class="num">Expense Ratio</th><th class="num">Minimum</th></tr></thead>
+        <tbody>
+          <tr style="background:var(--paper-2)">
+            <td><b>{{ fund.ticker }}</b> &mdash; {{ fund.name|truncate(34,true,'&hellip;') }}</td>
+            <td>{{ fund.family }}</td>
+            <td class="num {{ er_class }}">{{ er_pct }}</td>
+            <td class="num">{{ min_human }}</td>
+          </tr>
+          {% for alt in alternatives %}
+          <tr>
+            <td><a href="/funds/{{ alt.ticker|lower }}/"><b>{{ alt.ticker }}</b></a> &mdash; {{ alt.name|truncate(34,true,'&hellip;') }}</td>
+            <td>{{ alt.family }}</td>
+            <td class="num {{ alt.er_class }}">{{ alt.er_pct }}</td>
+            <td class="num">{{ alt.min_human }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% if related_compares %}
+    <h3>Head-to-head comparisons</h3>
+    <div class="chips">
+      {% for c in related_compares %}<a class="chip" href="/compare/{{ c.slug }}/"><span class="t">{{ c.a }}</span> vs <span class="t">{{ c.b }}</span></a>{% endfor %}
+    </div>
+    {% endif %}
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="faq">
+      {% for f in faqs %}
+      <details{% if loop.first %} open{% endif %}>
+        <summary>{{ f.q }}</summary>
+        <div class="ans"><p>{{ f.a }}</p></div>
+      </details>
+      {% endfor %}
+    </div>
+
+    <div class="author-box">
+      <div class="av">{{ author_initials }}</div>
+      <div class="who">
+        <b>{{ author.name }}</b> &middot; <span class="t">{{ author.title }}</span>
+        <p>{{ author.bio }}</p>
+      </div>
+    </div>
+
+    <hr class="rule">
+    <p class="tiny">Expense ratio and minimum for {{ fund.ticker }} drawn from {{ fund.family }} fund documentation; last verified {{ last_verified_human }}. Figures change &mdash; confirm against the official prospectus before investing. This review is editorial opinion, not investment advice.</p>
+  </section>
+</div>
+{% endblock %}

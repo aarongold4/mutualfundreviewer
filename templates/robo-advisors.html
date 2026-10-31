@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Robo-Advisors</nav></div>
+<div class="wrap narrow">
+<section class="section-pad" style="padding-bottom:14px">
+  <span class="label">Where robo fits vs. DIY</span>
+  <h1 style="margin-top:.2em">Robo-Advisors &amp; Brokers: The Honest Trade-Off</h1>
+  <p class="lead">A robo-advisor costs more than buying an index fund yourself. We&rsquo;ll say that first, plainly &mdash; and then explain why it can still be the right choice for some investors.</p>
+  <p>The math is simple. Holding <a href="/funds/vtsax/">VTSAX</a> or <a href="/funds/fzrox/">FZROX</a> yourself costs you near zero. A typical robo-advisor adds about 0.25% a year on top of the funds it buys. On a large balance over decades, that gap is real money &mdash; run it through the <a href="/expense-ratio-calculator/">calculator</a> and you&rsquo;ll see.</p>
+  <p>So why would anyone pay it? Because the most expensive mistake in investing isn&rsquo;t a slightly higher fee &mdash; it&rsquo;s panic-selling in a downturn, never rebalancing, or never starting at all. If automation is what keeps you invested and on course, 0.25% is a bargain for the behavior it buys. The honest framing: a robo-advisor is cheap insurance against yourself, and pure overhead if you didn&rsquo;t need the insurance. Only you know which describes you.</p>
+  <div class="callout"><span class="label">Affiliate disclosure</span><p>The platforms below include affiliate partners; if you open an account through our links we may earn a commission at no cost to you. It does not change our reviews or the order &mdash; the cheap-DIY caveat above applies to every one of them. <a href="/how-we-make-money/">Full disclosure here.</a></p></div>
+</section>
+
+{% for r in robos %}
+<section class="section-pad" style="padding-top:6px;padding-bottom:6px" id="{{ r.id }}">
+  <div class="robo-card">
+    <div class="top"><h3>{{ r.name }}</h3></div>
+    <div class="body">
+      <p class="kv"><b>Fee:</b> {{ r.fee }}</p>
+      <p class="kv"><b>Minimum:</b> {{ r.minimum }}</p>
+      <p class="kv"><b>Best for:</b> {{ r.best_for }}</p>
+      <p style="margin-top:.9em">{{ r.summary }}</p>
+      <div class="pros-cons">
+        <div class="pros"><h4 style="margin:0;font-family:'Public Sans',sans-serif;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em">What works</h4>
+          <ul>{% for p in r.pros %}<li>{{ p }}</li>{% endfor %}</ul></div>
+        <div class="cons"><h4 style="margin:0;font-family:'Public Sans',sans-serif;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em">The trade-offs</h4>
+          <ul>{% for c in r.cons %}<li>{{ c }}</li>{% endfor %}</ul></div>
+      </div>
+      <div class="callout note" style="margin:.6em 0 1.1em"><span class="label">Our take</span><p style="margin:0">{{ r.verdict }}</p></div>
+      <a class="btn btn-gold" href="{{ r.url }}" rel="sponsored nofollow" target="_blank">Visit {{ r.name }} &rarr;</a>
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="section-pad">
+  <h2>The DIY alternative, in one paragraph</h2>
+  <p>If you decide the automation isn&rsquo;t worth the fee, the do-it-yourself version is genuinely simple: open a free brokerage account, buy a single <a href="/target-date-funds/">target-date index fund</a> (or a <a href="/best-index-funds/">total-market fund plus a bond fund</a>), set up an automatic monthly contribution, and turn off the app. That&rsquo;s the entire robo-advisor service &mdash; diversification, rebalancing, discipline &mdash; minus the 0.25%, for anyone willing to do roughly an hour of setup and then nothing. Both paths are respectable. The unforgivable one is doing neither.</p>
+  <hr class="rule">
+  <p class="tiny">Fees and minimums for each platform are representative and last verified {{ last_verified_human }}; confirm current terms on each provider&rsquo;s site. Editorial reviews, not investment advice or endorsements. Links marked sponsored are affiliate links.</p>
+</section>
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Comparisons</nav></div>
+<div class="wrap narrow">
+<section class="section-pad">
+  <span class="label">Head-to-head</span>
+  <h1 style="margin-top:.2em">Fund Comparisons</h1>
+  <p class="lead">The classic match-ups, settled. Each comparison lays the two funds side by side &mdash; cost, strategy, minimum &mdash; and gives a plain bottom line.</p>
+  <div class="grid grid-2" style="margin-top:1.4em">
+    {% for c in compares %}
+    <a class="card" href="/compare/{{ c.slug }}/" style="color:inherit;padding:16px 18px">
+      <span class="label">{{ c.a }} vs {{ c.b }}</span>
+      <p style="margin:.4rem 0 0;font-size:.92rem">{{ c.teaser }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="callout note" style="margin-top:1.6em"><span class="label">Bigger picture</span><p>Comparisons help you pick within a category. To pick the category itself, see the <a href="/best-index-funds/">best index funds</a> rankings.</p></div>
+</section>
+</div>
+{% endblock %}

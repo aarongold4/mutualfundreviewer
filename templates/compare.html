@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span><a href="/compare/">Comparisons</a><span>&rsaquo;</span>{{ a.ticker }} vs {{ b.ticker }}</nav>
+</div>
+
+<div class="fund-head">
+  <div class="wrap">
+    <div class="ticker-big">Head&#8209;to&#8209;Head</div>
+    <h1>{{ a.ticker }} vs. {{ b.ticker }}: {{ a.name|truncate(28,true,'') }} or {{ b.name|truncate(28,true,'') }}?</h1>
+    <p class="verified" style="margin-top:12px">Figures last verified {{ last_verified_human }}</p>
+  </div>
+</div>
+
+<div class="wrap narrow">
+  <section class="section-pad" style="padding-top:30px">
+    <p class="lead">{{ cmp.intro }}</p>
+
+    <div class="table-scroll">
+      <table class="cmp">
+        <thead><tr><th></th><th>{{ a.ticker }}</th><th>{{ b.ticker }}</th></tr></thead>
+        <tbody>
+          <tr><td><b>Fund</b></td><td>{{ a.name }}</td><td>{{ b.name }}</td></tr>
+          <tr><td><b>Family</b></td><td>{{ a.family }}</td><td>{{ b.family }}</td></tr>
+          <tr><td><b>Category</b></td><td>{{ a.category }}</td><td>{{ b.category }}</td></tr>
+          <tr><td><b>Type</b></td><td>{{ a.type_human }}</td><td>{{ b.type_human }}</td></tr>
+          <tr><td><b>Expense ratio</b></td><td class="{{ a.er_class }}"><b>{{ a.er_pct }}</b></td><td class="{{ b.er_class }}"><b>{{ b.er_pct }}</b></td></tr>
+          <tr><td><b>Cost per $10k/yr</b></td><td>{{ a.cost_10k }}</td><td>{{ b.cost_10k }}</td></tr>
+          <tr><td><b>Minimum</b></td><td>{{ a.min_human }}</td><td>{{ b.min_human }}</td></tr>
+          <tr><td><b>Strategy</b></td><td>{{ a.strategy }}</td><td>{{ b.strategy }}</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <span class="label">The bottom line</span>
+      <p>{{ cmp.verdict }}</p>
+    </div>
+
+    <h2>About {{ a.ticker }}</h2>
+    <p>{{ a.editorial[0] }}</p>
+    <p><a href="/funds/{{ a.ticker|lower }}/">Read the full {{ a.ticker }} review &rarr;</a></p>
+
+    <h2>About {{ b.ticker }}</h2>
+    <p>{{ b.editorial[0] }}</p>
+    <p><a href="/funds/{{ b.ticker|lower }}/">Read the full {{ b.ticker }} review &rarr;</a></p>
+
+    <div class="callout note">
+      <span class="label">Where everything leads</span>
+      <p>Whichever you pick, the principle is the same one that runs through this whole site: minimize cost, hold for decades, ignore the noise. See how both stack up against the field in our <a href="/best-index-funds/">best index funds by category</a>, or run the numbers yourself with the <a href="/expense-ratio-calculator/">expense ratio calculator</a>.</p>
+    </div>
+
+    <hr class="rule">
+    <p class="tiny">Expense ratios and minimums drawn from fund provider documentation; last verified {{ last_verified_human }}. Editorial opinion, not investment advice. Confirm figures against the official prospectus before investing.</p>
+  </section>
+</div>
+{% endblock %}

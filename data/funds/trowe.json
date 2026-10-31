@@ -1,0 +1,191 @@
+[
+  {
+    "ticker": "PRWCX",
+    "name": "T. Rowe Price Capital Appreciation Fund",
+    "family": "T. Rowe Price",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Active balanced fund (~60% stocks, plus bonds, convertibles, and cash) run by David Giroux; closed to new investors outside certain channels.",
+    "expense_ratio": 0.71,
+    "minimum": 2500,
+    "inception": 1986,
+    "best_for": "The lucky investors who already have access — it's largely closed (note: the fund is closed to new investors; existing shareholders can still add)",
+    "editorial": [
+      "PRWCX is the active fund that index-fund writers bring up when they want to seem fair, because the record is absurd: under David Giroux it has beaten its category in essentially every rolling multi-year period for nearly two decades, with a flexible stocks-bonds-convertibles mandate executed with unusual discipline. If skill exists in mutual fund management, the strongest evidence files live here.",
+      "The catches are instructive. It's closed to new retail investors precisely because Giroux protects the strategy from asset bloat — the same bloat that broke Magellan — so most readers can't buy it anyway. The fee, 0.72%, is a high hurdle that the fund has so far cleared. And the whole thesis rests on one manager's continued tenure; the day Giroux retires, owners will face the exact succession gamble Contrafund holders face. Keep it if you have it. The inaccessibility is, perversely, part of why it works."
+    ],
+    "alternatives": [
+      "VWELX",
+      "FBALX",
+      "VBIAX"
+    ]
+  },
+  {
+    "ticker": "TRBCX",
+    "name": "T. Rowe Price Blue Chip Growth Fund",
+    "family": "T. Rowe Price",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Active large-growth fund concentrated in dominant franchise companies — historically heavy in mega-cap tech and consumer names.",
+    "expense_ratio": 0.7,
+    "minimum": 2500,
+    "inception": 1993,
+    "best_for": "Growth investors loyal to the T. Rowe research bench",
+    "editorial": [
+      "For most of the 2010s, TRBCX was the argument for active growth investing: a concentrated book of franchise compounders that lapped the index year after year. Then 2021–2022 happened — the fund fell dramatically harder than the Russell 1000 Growth and gave back years of accumulated edge in months. The full record now reads as a high-beta growth bet: glorious in expansions, punishing in growth bears.",
+      "That's not a scandal; it's the honest shape of concentrated growth investing, and T. Rowe's analyst bench remains genuinely strong. But an investor choosing between TRBCX at 0.70% and a Russell 1000 Growth index fund at 0.035% is paying twenty times the fee for the chance that concentration helps more than it hurts going forward. The last decade's evidence on that question cuts both ways, which — for a 20x price — is not a ringing endorsement."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "VIGAX",
+      "FBGRX",
+      "FCNTX"
+    ]
+  },
+  {
+    "ticker": "PRGFX",
+    "name": "T. Rowe Price Growth Stock Fund",
+    "family": "T. Rowe Price",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Active large-cap growth investing in companies with durable earnings growth; one of the oldest growth funds in America.",
+    "expense_ratio": 0.66,
+    "minimum": 2500,
+    "inception": 1950,
+    "best_for": "Mostly legacy holders; new growth money has cheaper options",
+    "editorial": [
+      "Founded in 1950 by Thomas Rowe Price himself — the man who more or less invented growth-stock investing as a discipline — PRGFX is a piece of living market history. Seventy-five years of compounding through every regime is no small thing, and the fund remains a competently run, diversified large-growth portfolio.",
+      "History, though, doesn't discount the fee. At 0.65% against index alternatives at a twentieth of that, PRGFX needs persistent stock-picking edge in the most efficient, most-analyzed corner of the global market, and its recent decade against the Russell 1000 Growth doesn't demonstrate one. Legacy holders with embedded gains have tax math on their side; new money has FSPGX and VIGAX. Mr. Price, who preached adapting to change, might well agree."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "VIGAX",
+      "TRBCX"
+    ]
+  },
+  {
+    "ticker": "PRFDX",
+    "name": "T. Rowe Price Equity Income Fund",
+    "family": "T. Rowe Price",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Active large-value investing in established dividend payers trading below intrinsic value.",
+    "expense_ratio": 0.69,
+    "minimum": 2500,
+    "inception": 1985,
+    "best_for": "Traditional dividend-value investors who want a human at the wheel",
+    "editorial": [
+      "PRFDX is classic Old Wall Street value: buy sturdy dividend-paying companies when they're out of favor, collect the income, wait for sentiment to revert. Brian Rogers ran it that way for three decades; his successors run it the same way. It does what it promises — a value-tilted, income-generating large-cap portfolio with below-market downside in most drawdowns.",
+      "The question is the same one every competent active fund faces: VVIAX delivers the large-value style for 0.05%, VHYAX delivers the dividend screen for 0.08%, and PRFDX charges 0.67% to deliver a human-curated blend of both. Over most trailing periods the index pair has been the better deal after fees. The fund isn't bad — it's priced for an edge the category rarely sustains."
+    ],
+    "alternatives": [
+      "VVIAX",
+      "VHYAX",
+      "DODGX"
+    ]
+  },
+  {
+    "ticker": "PRDGX",
+    "name": "T. Rowe Price Dividend Growth Fund",
+    "family": "T. Rowe Price",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Active investing in companies with the ability and commitment to grow dividends over time; quality-tilted large-cap portfolio.",
+    "expense_ratio": 0.64,
+    "minimum": 2500,
+    "inception": 1992,
+    "best_for": "Quality-and-dividends investors comparing against VDADX",
+    "editorial": [
+      "PRDGX hunts the same prey as Vanguard's dividend-appreciation index — companies that reliably raise payouts — but with analysts making the calls instead of a screening rule. The result is a quality-heavy portfolio that has historically cushioned bear markets well and kept pace respectably in bull markets, one of the steadier records in active large-cap land.",
+      "Steadiness, however, is exactly what the index version sells for 0.08%. The 0.56% fee gap means PRDGX's managers must out-pick a dividend-growth screen by more than half a percent annually, forever, just to tie. Some years they have; over long stretches the race is close enough that the cheaper fund wins by default. If you want this style with active cover, it's among the more defensible choices — but 'more defensible than most active funds' is a low bar this site keeps having to mention."
+    ],
+    "alternatives": [
+      "VDADX",
+      "VHYAX",
+      "JENSX"
+    ]
+  },
+  {
+    "ticker": "PRNHX",
+    "name": "T. Rowe Price New Horizons Fund",
+    "family": "T. Rowe Price",
+    "category": "Small Cap",
+    "type": "active",
+    "strategy": "Active small/mid-cap growth investing in emerging companies, including pre-IPO positions; closed to new investors.",
+    "expense_ratio": 0.8,
+    "minimum": 2500,
+    "inception": 1960,
+    "best_for": "Existing holders only — closed, and a study in small-cap capacity limits",
+    "editorial": [
+      "New Horizons is one of the legendary small-cap growth funds — six decades old, an early backer of countless companies before they were famous, and under Henry Ellenbogen's 2010s tenure, the rare fund whose pre-IPO sleeve added real, measurable value. It closed to new investors years ago, which is both a disappointment and the responsible move: small-cap alpha dies of asset bloat faster than any other kind.",
+      "For the readers who hold it: the post-Ellenbogen era has been rockier, with the 2022 growth unwind hitting hard, and the fund's size forces it ever further up the cap spectrum from its small-cap roots. For everyone else, the lesson generalizes nicely — when an active fund is good enough to be worth buying, it's usually closed, and when it's open to you, ask why. Index funds never face this paradox; VSGAX takes all comers at 0.07% precisely because it isn't trying to be clever."
+    ],
+    "alternatives": [
+      "VSGAX",
+      "VSMAX",
+      "FSSNX"
+    ]
+  },
+  {
+    "ticker": "PRHSX",
+    "name": "T. Rowe Price Health Sciences Fund",
+    "family": "T. Rowe Price",
+    "category": "Sector",
+    "type": "active",
+    "strategy": "Active healthcare sector investing across pharma, biotech, devices, and services.",
+    "expense_ratio": 0.83,
+    "minimum": 2500,
+    "inception": 1995,
+    "best_for": "Investors who insist on a healthcare bet and want specialist management",
+    "editorial": [
+      "If there's a sector where active management has a fighting case, healthcare is it: binary FDA outcomes, scientific complexity that genuinely rewards expertise, and T. Rowe's health team has a long record of navigating it better than the sector index more often than chance would suggest. PRHSX has been one of the better sector funds in existence over multi-decade windows.",
+      "The site-house-view caveat still applies twice over. First, sector funds are concentration by definition — your total-market fund already holds healthcare at ~13% weight, so this is a doubling-down, not a diversifier. Second, sector enthusiasm is procyclical: money floods into healthcare funds after great runs and leaves after droughts, and the gap between fund returns and investor returns in sector funds is among the widest measured. A small, permanent, never-traded slice is the only version of this fund that tends to work as well as its chart."
+    ],
+    "alternatives": [
+      "VTSAX",
+      "FXAIX"
+    ]
+  },
+  {
+    "ticker": "TRRDX",
+    "name": "T. Rowe Price Retirement 2040 Fund",
+    "family": "T. Rowe Price",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Actively managed target-date fund of T. Rowe funds, de-risking toward 2040 with a comparatively equity-heavy glide path.",
+    "expense_ratio": 0.59,
+    "minimum": 2500,
+    "inception": 2002,
+    "best_for": "401(k) participants whose plan offers this series — with a fee caveat",
+    "editorial": [
+      "T. Rowe's Retirement series is the strongest brand in *active* target-date funds, common in 401(k) menus, and it has two genuine distinctions: a more aggressive glide path that holds more stocks later than rivals (a defensible response to longevity risk), and underlying active funds from a deep research shop. Its long-term results against active TDF peers are very good.",
+      "Against the index target-date series, though, the fee gap is the whole story: roughly 0.59% versus 0.08–0.12% means this fund starts every year half a percent behind Vanguard, Schwab, and Fidelity Index equivalents, compounding over a forty-year accumulation into a five-figure difference on an ordinary balance. The aggressive glide path can be replicated for free by just picking a later-dated index fund. If TRRDX is your plan's only target-date option, it's far from a disaster — but if an index series sits next to it on the menu, the math has a clear favorite."
+    ],
+    "alternatives": [
+      "VFORX",
+      "FBIFX",
+      "SWYGX"
+    ]
+  },
+  {
+    "ticker": "TRRMX",
+    "name": "T. Rowe Price Retirement 2050 Fund",
+    "family": "T. Rowe Price",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "Actively managed target-date fund of T. Rowe funds, de-risking toward 2050; currently around 90% equities.",
+    "expense_ratio": 0.61,
+    "minimum": 2500,
+    "inception": 2006,
+    "best_for": "Younger savers defaulted into T. Rowe-administered 401(k) plans",
+    "editorial": [
+      "Millions of workers own TRRMX because their employer's plan is administered by T. Rowe Price and this is the default — which makes it worth saying plainly: as defaults go, this is a good one. Diversified, equity-rich for the horizon, professionally rebalanced, and run by a firm whose active funds are better than average. A young saver auto-enrolled here is being treated decently.",
+      "Decently, but not cheaply. The ~0.61% expense ratio is the toll for active underlying funds, and over 25 years it compounds into real money versus an 0.08% index series. The practical advice: contribute happily to TRRMX while it's your plan's best option, capture every employer match — and when you change jobs, roll the balance to an IRA where the index target-date series cost one-seventh as much. The glide path travels; the fee doesn't have to."
+    ],
+    "alternatives": [
+      "VFIFX",
+      "FIPFX",
+      "SWYMX"
+    ]
+  }
+]

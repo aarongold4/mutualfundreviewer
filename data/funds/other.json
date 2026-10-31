@@ -1,0 +1,383 @@
+[
+  {
+    "ticker": "DODGX",
+    "name": "Dodge & Cox Stock Fund",
+    "family": "Dodge & Cox",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Committee-managed deep-value investing in large US companies; holding periods measured in many years.",
+    "expense_ratio": 0.51,
+    "minimum": 2500,
+    "inception": 1965,
+    "best_for": "Patient value investors who want active management done the honorable way",
+    "editorial": [
+      "If you forced this site to recommend one active stock fund, Dodge & Cox Stock would make the shortlist every time. The firm is everything the industry usually isn't: privately owned, one office, no marketing budget, committee-managed so no star can leave, fees around 0.51% when value peers charge double, and turnover so low the portfolio reads like a will rather than a trading blotter.",
+      "The strategy is genuine deep value — buying durable companies during their worst headlines — which guarantees stretches of looking wrong: it lagged painfully through the late-2010s growth mania, then resurged when value returned. Across full cycles its record beats the large-value index after fees, though never by enough to make VVIAX at 0.05% a foolish default. DODGX is the defensible exception: if you pay for active management anywhere, this is the kind of shop to pay."
+    ],
+    "alternatives": [
+      "VVIAX",
+      "PRFDX",
+      "OAKMX",
+      "DODFX"
+    ]
+  },
+  {
+    "ticker": "DODIX",
+    "name": "Dodge & Cox Income Fund",
+    "family": "Dodge & Cox",
+    "category": "Bond",
+    "type": "active",
+    "strategy": "Active investment-grade bond investing with a corporate-credit tilt and patient security selection.",
+    "expense_ratio": 0.41,
+    "minimum": 2500,
+    "inception": 1989,
+    "best_for": "Investors wanting a credit-savvy active core bond fund at a fair fee",
+    "editorial": [
+      "Bond markets are where active management has its least-bad record — pricing inefficiencies are real, the Agg index weights toward whoever issues the most debt, and a careful credit shop can add measurable value. DODIX is the standing example: a corporate-tilted, patiently managed core bond fund that has outpaced the Aggregate over most long periods, net of its 0.41% fee.",
+      "The trade is slightly more credit risk than the government-heavy index, which shows up as deeper dips in credit panics and better yields the rest of the time. For a portfolio's bond sleeve, DODIX versus VBTLX is closer to a genuine toss-up than almost any active/passive matchup on this site — which, given how those usually go, is high praise for the active side."
+    ],
+    "alternatives": [
+      "VBTLX",
+      "FXNAX",
+      "PTTRX",
+      "MWTRX"
+    ]
+  },
+  {
+    "ticker": "DODFX",
+    "name": "Dodge & Cox International Stock Fund",
+    "family": "Dodge & Cox",
+    "category": "International",
+    "type": "active",
+    "strategy": "Committee-managed deep-value investing in non-US companies, developed and emerging.",
+    "expense_ratio": 0.62,
+    "minimum": 2500,
+    "inception": 2001,
+    "best_for": "Value investors who want their international sleeve actively contrarian",
+    "editorial": [
+      "DODFX applies the house religion abroad: buy strong foreign franchises during their crises — European banks after the euro panic, emerging-market names after currency routs — and hold for years. International markets being less picked-over than the S&P 500, the strategy has more room to work, and the full-cycle record against international value benchmarks is solid.",
+      "The volatility of looking wrong is even higher overseas, and the fund's single-year tracking difference versus a total-international index can be enormous in both directions. At 0.62% against VTIAX's 0.09%, it's priced like the conviction product it is: suitable as a deliberate value complement to an index core, unsuitable as a closet-index replacement, because it is gloriously nothing of the sort."
+    ],
+    "alternatives": [
+      "VTIAX",
+      "FTIHX",
+      "DODGX"
+    ]
+  },
+  {
+    "ticker": "PTTRX",
+    "name": "PIMCO Total Return Fund (Institutional)",
+    "family": "PIMCO",
+    "category": "Bond",
+    "type": "active",
+    "strategy": "Active core-plus bond management using PIMCO's macro views, derivatives, and global opportunity set.",
+    "expense_ratio": 0.53,
+    "minimum": 1000000,
+    "inception": 1987,
+    "best_for": "Institutional and 401(k) investors; retail share classes cost more",
+    "editorial": [
+      "PIMCO Total Return was once the largest mutual fund on the planet — the Bill Gross 'Bond King' era made it the default bond fund of American retirement plans — and his 2014 departure triggered the biggest asset exodus in fund history. The decade since is the underreported part: the successor team has run it competently, beating the Agg in more years than not, without the celebrity or the drama.",
+      "Structure matters here: the famous 0.51% institutional class requires institutional money (you'll meet it inside 401(k) plans); retail share classes cost meaningfully more and change the math. The core-plus toolkit adds return potential and complexity in equal measure. Against simply holding FXNAX at 0.025%, the case is the standard active-bond one: plausible, occasionally vindicated, never necessary."
+    ],
+    "alternatives": [
+      "VBTLX",
+      "FXNAX",
+      "DODIX",
+      "MWTRX"
+    ]
+  },
+  {
+    "ticker": "PIMIX",
+    "name": "PIMCO Income Fund (Institutional)",
+    "family": "PIMCO",
+    "category": "Bond",
+    "type": "active",
+    "strategy": "Multi-sector active bond investing optimized for high current income — mortgages, credit, global rates.",
+    "expense_ratio": 0.51,
+    "minimum": 1000000,
+    "inception": 2007,
+    "best_for": "Income investors who understand they're holding a credit fund, not a Treasury fund",
+    "editorial": [
+      "PIMCO Income under Dan Ivascyn became the post-Gross flagship for a reason: since 2007 it has generated standout income-oriented returns, largely through a savvy long-running position in non-agency mortgages bought cheap after the housing crash. Among multisector bond funds, it has been the category's reference point for over a decade.",
+      "Know what it is, though: a credit-risk fund in a bond fund's clothing. Its yield advantage over the Agg comes from owning things the Agg doesn't — and in true risk-off panics (March 2020 was the live demonstration) it falls with risk assets exactly when you want bonds standing still. As a yield-enhancing satellite next to a boring core like VBTLX, it earns its 0.51%. As your entire bond allocation, it quietly rewrites your portfolio's job description."
+    ],
+    "alternatives": [
+      "DODIX",
+      "PTTRX",
+      "VBTLX"
+    ]
+  },
+  {
+    "ticker": "MWTRX",
+    "name": "Metropolitan West Total Return Bond Fund (M)",
+    "family": "Metropolitan West",
+    "category": "Bond",
+    "type": "active",
+    "strategy": "Active core-plus bond management with a value-driven, mean-reversion approach to sectors and credit.",
+    "expense_ratio": 0.65,
+    "minimum": 5000,
+    "inception": 1997,
+    "best_for": "Investors comparing the big active core-bond shops",
+    "editorial": [
+      "MetWest Total Return earned its seat at the active-bond table the old-fashioned way: its team famously avoided the worst of the 2008 carnage, then bought the wreckage cheap, building one of the best risk-adjusted records of that era. The approach is patient and value-driven — add credit when spreads are wide, retreat to quality when they're thin.",
+      "The recent chapters are humbler: a long stretch positioned for rate normalization that arrived years late, performance hugging the index, and the departure of the founding generation of managers — the perennial succession question in another costume. At 0.67% for the M shares, the fund now has to re-earn a premium it once clearly deserved. The index alternative never has these chapters, which is most of its charm."
+    ],
+    "alternatives": [
+      "VBTLX",
+      "DODIX",
+      "PTTRX"
+    ]
+  },
+  {
+    "ticker": "OAKMX",
+    "name": "Oakmark Fund (Investor)",
+    "family": "Oakmark",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Concentrated value investing in companies trading well below the managers' estimate of intrinsic business value.",
+    "expense_ratio": 0.89,
+    "minimum": 0,
+    "inception": 1991,
+    "best_for": "Value purists who want concentration and can stomach the tracking error",
+    "editorial": [
+      "Oakmark under Bill Nygren has been a loud pulpit for old-school intrinsic-value investing: a concentrated book of businesses bought at deep discounts to private-market worth, including value-heretical positions like buying Alphabet when 'value' funds weren't supposed to own tech. The willingness to define value by business quality rather than statistical cheapness is the fund's signature.",
+      "Concentration cuts hot and cold: Oakmark's great years embarrass the index and its bad ones embarrass the shareholders, with multi-year droughts followed by vindication runs. At 0.89% it needs that vindication to repeat regularly. This is a fund you buy because you share its philosophy and will hold through the mockery phase — buying it for last year's numbers is precisely how its least-happy shareholders arrived."
+    ],
+    "alternatives": [
+      "DODGX",
+      "VVIAX",
+      "YACKX"
+    ]
+  },
+  {
+    "ticker": "PRBLX",
+    "name": "Parnassus Core Equity Fund (Investor)",
+    "family": "Parnassus",
+    "category": "S&P 500 / Large Blend",
+    "type": "active",
+    "strategy": "Quality-focused large-cap investing with ESG screens; concentrated portfolio of wide-moat businesses.",
+    "expense_ratio": 0.81,
+    "minimum": 2000,
+    "inception": 1992,
+    "best_for": "Investors who want ESG screening with a record predating the ESG marketing boom",
+    "editorial": [
+      "Parnassus Core Equity is the awkward data point in the 'ESG costs returns' debate: screening out fossil fuels and weapons since long before ESG was a Bloomberg vertical, it nonetheless beat the S&P 500 over most extended windows in its first quarter-century — mostly because the quality-and-moat discipline does the work and the ethical screens just describe the durable businesses they wanted anyway.",
+      "The recent era is tougher: the fund has grown large, the quality factor went from undiscovered to crowded, and an 0.81% fee is a serious hurdle against an S&P 500 fund at 0.02%. For values-motivated investors it remains one of the most credible options — a real strategy with screens, not screens posing as a strategy. For purely returns-motivated investors, the index remains the percentage play, as the fund's own honest shareholder letters more or less concede."
+    ],
+    "alternatives": [
+      "FXAIX",
+      "VFIAX",
+      "JENSX"
+    ]
+  },
+  {
+    "ticker": "FPACX",
+    "name": "FPA Crescent Fund",
+    "family": "FPA",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Go-anywhere value investing — stocks, bonds, cash, special situations — with capital preservation as the stated first goal.",
+    "expense_ratio": 1.05,
+    "minimum": 1500,
+    "inception": 1993,
+    "best_for": "Investors who want a manager empowered to hold cash and wait",
+    "editorial": [
+      "Crescent is the rare fund whose manager brags about what he didn't buy. Steve Romick's mandate is absolute-return value: own equities when they're cheap, credit when it's dislocated, and cash — sometimes lots of it — when nothing clears the bar. The result over three decades is equity-like returns with shallower drawdowns, the promise kept in 2008 better than almost any stock-heavy peer.",
+      "The costs are equally explicit: a 1.05% fee, long bull-market stretches of trailing fully invested benchmarks while cash drags, and a strategy that lives or dies on one team's judgment. Crescent is best understood not as a VBIAX alternative but as paying for an investing philosophy — patience as a position — that indexes structurally cannot hold. Whether that's worth 1% a year is a question about you, not just the fund."
+    ],
+    "alternatives": [
+      "VWELX",
+      "PRWCX",
+      "VBIAX"
+    ]
+  },
+  {
+    "ticker": "SGENX",
+    "name": "First Eagle Global Fund (Class A)",
+    "family": "First Eagle",
+    "category": "World Stock",
+    "type": "active",
+    "strategy": "Global value investing with a permanent gold allocation as crisis insurance; lineage traces to Jean-Marie Eveillard.",
+    "expense_ratio": 1.1,
+    "minimum": 2500,
+    "inception": 1979,
+    "best_for": "Wealth-preservation investors who want global value plus a gold hedge",
+    "editorial": [
+      "First Eagle Global descends from Jean-Marie Eveillard, the value investor who famously preferred losing clients to losing their money — he refused to buy the dot-com bubble, bled assets for three years, and was vindicated spectacularly. The fund still runs his recipe: global value equities, a permanent gold position as catastrophe insurance, and cash when prices demand it.",
+      "It remains one of the better wealth-preservation vehicles in fund form, with crisis drawdowns consistently shallower than world equity indexes. But the wrapper fights the strategy: 1.10% annually plus a potential 5% front load on A-shares is steep for prudence, and across long bull markets the conservative posture plus fee leave it far behind VTWAX at 0.10%. Investors who want the idea cheaply can approximate it with a world index fund, a bond fund, and a small gold position — total cost, a fifth of this."
+    ],
+    "alternatives": [
+      "VTWAX",
+      "CWGIX",
+      "FPACX"
+    ]
+  },
+  {
+    "ticker": "TWCUX",
+    "name": "American Century Ultra Fund (Investor)",
+    "family": "American Century",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Momentum-informed growth investing in companies with accelerating earnings — the house style since 1981.",
+    "expense_ratio": 0.87,
+    "minimum": 2500,
+    "inception": 1981,
+    "best_for": "Aggressive growth investors comfortable with momentum's whiplash",
+    "editorial": [
+      "Ultra is one of the oldest momentum-growth funds in America — American Century's founder Jim Stowers built the firm on 'earnings acceleration' before academics blessed momentum as a factor. The fund buys what's working and rides it, producing the return pattern the literature predicts: streaks of beating the market punctuated by sharp reversals when momentum crashes, as it periodically and violently does.",
+      "The modern problem is price: momentum is now a documented factor available in index and ETF form for a fraction of Ultra's 0.87%, and the fund's mega-cap-heavy portfolio overlaps heavily with any growth index. Its long-term record is respectable, its strategy honest, and its fee belongs to the decade when this approach was a secret. It no longer is."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "VIGAX",
+      "FBGRX"
+    ]
+  },
+  {
+    "ticker": "BPTRX",
+    "name": "Baron Partners Fund (Retail)",
+    "family": "Baron",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Highly concentrated growth investing with leverage; a single position has at times exceeded a third of assets.",
+    "expense_ratio": 1.91,
+    "minimum": 2000,
+    "inception": 1992,
+    "best_for": "Nobody seeking diversification — this is a leveraged conviction bet in a fund wrapper",
+    "editorial": [
+      "Baron Partners is in this database as an exhibit, not a recommendation. Ron Baron's conviction vehicle rode an enormous, early Tesla position to some of the best headline returns of any US fund over certain trailing periods — and became something no diversification framework recognizes as a mutual fund: at times more than a third of assets in one stock, amplified with leverage, charging about 1.9% all-in for the privilege (the ratio swings with the interest cost of its leverage).",
+      "The honest description is a leveraged single-stock bet with a supporting cast. When that stock soars, the fund tops every chart and money floods in; when it halves — which it has — the fund delivers drawdowns that would be a scandal in any product marketed as diversified. Investors who want this exposure can buy the stock directly and skip the fee. The chart-topping trailing returns will keep appearing in screeners for years; understanding why is the entire lesson."
+    ],
+    "alternatives": [
+      "VIGAX",
+      "FBGRX",
+      "TWCUX"
+    ]
+  },
+  {
+    "ticker": "MDLOX",
+    "name": "BlackRock Global Allocation Fund (Class A)",
+    "family": "BlackRock",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Go-anywhere global multi-asset investing — equities, bonds, cash, and currencies across all markets.",
+    "expense_ratio": 1.1,
+    "minimum": 1000,
+    "inception": 1989,
+    "best_for": "Investors drawn to a global tactical allocator — eyes open about the fee era it comes from",
+    "editorial": [
+      "Global Allocation was the advisor channel's 'one fund to own' of the 1990s and 2000s: a globe-spanning team shifting among stocks, bonds, and currencies, with a strong record under founding manager Dennis Stattman. The pitch — let professionals make the asset-allocation calls — built it into one of the largest multi-asset funds ever.",
+      "The pitch has aged worse than the fund. Post-Stattman performance has been ordinary, and the structural problem is the math: to beat a static, self-rebalancing 60/40 index blend costing 0.07% at a 1.10% fee (plus a possible 5.25% load), the team must win its macro calls persistently — the hardest game in investing. Two decades of evidence on tactical funds says the calls mostly cancel out and the fee remains. BlackRock's own iShares division, which sells the cheap building blocks, is the quiet counterargument from inside the building."
+    ],
+    "alternatives": [
+      "VBIAX",
+      "VTWAX",
+      "FPACX"
+    ]
+  },
+  {
+    "ticker": "HACAX",
+    "name": "Harbor Capital Appreciation Fund (Institutional)",
+    "family": "Harbor",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Subadvised by Jennison Associates: high-conviction investing in rapidly growing large companies.",
+    "expense_ratio": 0.67,
+    "minimum": 50000,
+    "inception": 1987,
+    "best_for": "Access to a respected institutional growth manager — mostly via retirement plans",
+    "editorial": [
+      "Harbor's model is renting institutional managers to the public: HACAX is run by Jennison Associates, a growth shop institutions pay handsomely, packaged at a 0.67% retail-reachable fee (the $50,000 institutional-class minimum mostly dissolves inside retirement plans). Jennison's style is unapologetic high-growth conviction — the portfolio reads like a bet on the fastest-compounding franchises on earth.",
+      "The return pattern is textbook aggressive growth: spectacular in risk-on years, brutal in unwinds like 2022, with a long-term record that has genuinely contended with the Russell 1000 Growth more than most. Whether contending justifies 0.67% versus an index at 0.035% is the arithmetic that haunts every fund in this category; what HACAX offers over rivals is mainly pedigree and process consistency. A serious active growth fund — which is different from necessary."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "TRBCX",
+      "FBGRX"
+    ]
+  },
+  {
+    "ticker": "FAIRX",
+    "name": "Fairholme Fund",
+    "family": "Fairholme",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Extreme-concentration deep value under Bruce Berkowitz; a handful of positions, famously dominated by one real estate holding.",
+    "expense_ratio": 1.0,
+    "minimum": 10000,
+    "inception": 1999,
+    "best_for": "A cautionary case study in star-manager risk — not a portfolio recommendation",
+    "editorial": [
+      "In 2010 Morningstar named Bruce Berkowitz its domestic fund manager of the decade; Fairholme held billions and the press called him the next Buffett. What followed is the sharpest star-manager arc in modern fund history: an enormous bet on financials paid off, then bets on Sears and St. Joe didn't, shareholders fled, and the fund shrank by more than 90% from its peak into what is effectively a concentrated holding company for a single real estate stock.",
+      "Today's FAIRX is barely a mutual fund in the diversified sense, and owning it means owning Berkowitz's Florida real estate thesis with a 1% wrapper fee. The reason it stays in this database is pedagogical: every era anoints a genius at the top of his streak, the money arrives after the streak, and the dispersion of what happens next is enormous. The index never has a decade-of-the-manager award and never has this story. That's the trade."
+    ],
+    "alternatives": [
+      "VVIAX",
+      "DODGX",
+      "OAKMX"
+    ]
+  },
+  {
+    "ticker": "SEQUX",
+    "name": "Sequoia Fund",
+    "family": "Sequoia",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Concentrated quality-growth investing; founded at Warren Buffett's recommendation when he closed his partnership in 1970.",
+    "expense_ratio": 1.0,
+    "minimum": 5000,
+    "inception": 1970,
+    "best_for": "Students of concentration's full ledger — the triumphs and the Valeant chapter",
+    "editorial": [
+      "Sequoia has the best founding story in the industry — Buffett personally steered his partnership clients here in 1970 — and for four decades the fund honored it, compounding through concentrated bets like its legendary Berkshire stake and closing to new investors to protect returns. Through 2015 its lifetime record stood among the finest ever assembled.",
+      "Then Valeant: a position allowed to swell past a quarter of assets, defended publicly as criticism mounted, ending in a collapse that erased years of gains and several reputations. The fund survived, restructured its team, and has performed respectably since — but the ledger now teaches both lessons at once. The same governance that permitted the Berkshire bet permitted the Valeant one. At 1.00%, new investors pay legacy pricing for a post-legacy fund. The story, at least, is free."
+    ],
+    "alternatives": [
+      "VIGAX",
+      "PRBLX",
+      "JENSX"
+    ]
+  },
+  {
+    "ticker": "JENSX",
+    "name": "Jensen Quality Growth Fund (Class J)",
+    "family": "Jensen",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Buys only companies with 10+ consecutive years of 15%+ return on equity, then holds a concentrated portfolio of them.",
+    "expense_ratio": 0.81,
+    "minimum": 2500,
+    "inception": 1992,
+    "best_for": "Quality-factor believers who want a rules-disciplined active manager",
+    "editorial": [
+      "Jensen runs one of the cleanest investment rules in the business: a company isn't eligible unless it has earned 15%+ return on equity every year for a decade straight, which mechanically filters the universe down to a few hundred durable compounders before a single judgment call. The resulting concentrated portfolio is a pure quality-factor bet, and it has delivered the quality pattern — steadier than the market, with shallower drawdowns — for decades.",
+      "The catch is the now-familiar one: quality is an identifiable, indexable factor, and an 0.81% fee against quality-tilted index alternatives (or a plain S&P 500 fund at 0.02%) is a real hurdle. Jensen's discipline is admirable and its downside protection genuine, but VDADX captures much of the same dividend-growth-quality flavor for a tenth the cost. A respectable fund for the factor; the index still wins most after-fee races."
+    ],
+    "alternatives": [
+      "VDADX",
+      "PRBLX",
+      "FXAIX"
+    ]
+  },
+  {
+    "ticker": "YACKX",
+    "name": "AMG Yacktman Fund (Service)",
+    "family": "AMG / Yacktman",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Patient value investing that will hold large cash stakes when prices are unattractive; quality-at-a-discount focus.",
+    "expense_ratio": 0.71,
+    "minimum": 100000,
+    "inception": 1992,
+    "best_for": "Defensive value investors who want a manager willing to sit in cash",
+    "editorial": [
+      "Yacktman built its reputation on defense: a willingness to hold enormous cash positions when the managers can't find quality at a discount, which produced legendary downside protection in 2000-2002 and 2008 and a long-term record that beat the market with notably less volatility. The philosophy is Buffett-adjacent — wonderful businesses, only at fair prices, and patience as a holding when neither is available.",
+      "Patience drags in raging bull markets, and the fund spent much of the 2010s trailing a fully invested index while sitting on cash that never got its bargain. At 0.71%, the bet is that its defense earns back the offense it gives up across full cycles — historically true, but requiring the kind of bear market that tests every investor's resolve to hold a fund that was 'too cautious' on the way up. As a deliberate defensive value sleeve, coherent; as a core holding, the index is the simpler peace."
+    ],
+    "alternatives": [
+      "DODGX",
+      "VVIAX",
+      "OAKMX"
+    ]
+  }
+]

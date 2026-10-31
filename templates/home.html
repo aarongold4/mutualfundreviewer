@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <h1>Fund reviews for people who&rsquo;d rather keep their money.</h1>
+    <p class="lede">Plain-English reviews of {{ fund_count }} index funds, mutual funds, and the platforms that sell them. No hype, no hot tips &mdash; just costs, what a fund holds, and who it actually fits.</p>
+    <div>
+      <a class="btn btn-gold" href="/best-index-funds/">See the best index funds &rarr;</a>
+      <a class="btn btn-ghost" href="/expense-ratio-calculator/" style="margin-left:.4rem">What are fees costing you?</a>
+    </div>
+    <div class="pills">
+      <span class="pill">{{ fund_count }} funds reviewed</span>
+      <span class="pill">Expense ratios &amp; minimums</span>
+      <span class="pill">Independent &amp; ad-light</span>
+      <span class="pill">Updated {{ last_verified_human }}</span>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="section-pad">
+    <p class="label">The one idea</p>
+    <h2 style="margin-top:.2em;max-width:18ch">Over a lifetime, costs are the variable you control. So we start there.</h2>
+    <p class="narrow">Nobody can reliably tell you which fund will win next year &mdash; including us, and including the manager charging 1% to try. But a fund&rsquo;s expense ratio is knowable today, it compounds against you every single year, and it is the single best predictor of long-run results that money can buy. Every review on this site leads with cost, explains what you&rsquo;re actually buying, and tells you who the fund fits. Then it gets out of your way.</p>
+  </section>
+
+  <section class="section-pad" style="padding-top:0">
+    <div class="grid grid-3">
+      <a class="card" href="/best-index-funds/" style="color:inherit">
+        <span class="label">Start here</span>
+        <h3>Best Index Funds by Category</h3>
+        <p>Our ranked picks for total market, S&amp;P 500, international, bonds, and target-date &mdash; sorted, as ever, by expense ratio.</p>
+      </a>
+      <a class="card" href="/expense-ratio-calculator/" style="color:inherit">
+        <span class="label">Interactive</span>
+        <h3>Expense Ratio Calculator</h3>
+        <p>See what the difference between a 0.04% fund and a 0.70% fund really costs over 30 years. The number tends to surprise people.</p>
+      </a>
+      <a class="card" href="/index-vs-active/" style="color:inherit">
+        <span class="label">The evidence</span>
+        <h3>Index vs. Active</h3>
+        <p>The decades of data on whether stock-pickers beat the market &mdash; presented fairly, including the cases where active wins.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="section-pad" style="padding-top:8px">
+    <div class="cat-head"><h2 style="margin:0">The funds everyone asks about</h2><a class="tiny" href="/funds/">All {{ fund_count }} reviews &rarr;</a></div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Fund</th><th>Category</th><th class="num">Expense Ratio</th><th class="num">Minimum</th></tr></thead>
+        <tbody>
+          {% for f in featured %}
+          <tr>
+            <td><a href="/funds/{{ f.ticker|lower }}/"><b>{{ f.ticker }}</b></a> &mdash; {{ f.name|truncate(30,true,'&hellip;') }}</td>
+            <td>{{ f.category }}</td>
+            <td class="num {{ f.er_class }}">{{ f.er_pct }}</td>
+            <td class="num">{{ f.min_human }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section-pad" style="padding-top:8px">
+    <div class="cat-head"><h2 style="margin:0">Classic match-ups</h2><a class="tiny" href="/compare/">All comparisons &rarr;</a></div>
+    <p class="narrow">The questions that send people to a search bar at 11pm. We answered the big ones.</p>
+    <div class="chips">
+      {% for c in featured_compares %}<a class="chip" href="/compare/{{ c.slug }}/"><span class="t">{{ c.a }}</span> vs <span class="t">{{ c.b }}</span></a>{% endfor %}
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="card" style="border-left:4px solid var(--brass)">
+      <span class="label">Where robo-advisors fit</span>
+      <h3 style="margin-top:.3em">Don&rsquo;t want to do it yourself? That&rsquo;s a real answer.</h3>
+      <p class="narrow" style="margin-bottom:1.1em">A robo-advisor charges more than buying an index fund yourself &mdash; but if the automation is what keeps you invested through a downturn, it can be the cheapest expensive thing you ever buy. We reviewed the major platforms with that honest trade-off front and center.</p>
+      <a class="btn" href="/robo-advisors/">Compare robo-advisors &rarr;</a>
+    </div>
+  </section>
+</div>
+{% endblock %}

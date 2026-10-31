@@ -1,0 +1,50 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write local config (secrets)
+        env:
+          CONFIG_LOCAL: ${{ secrets.CONFIG_LOCAL }}
+        run: |
+          if [ -n "$CONFIG_LOCAL" ]; then
+            printf '%s' "$CONFIG_LOCAL" > config.local.json
+            echo "Wrote config.local.json from CONFIG_LOCAL secret."
+          else
+            echo "No CONFIG_LOCAL secret set; building with config.json defaults (analytics omitted, affiliate links fall back to provider homepages)."
+          fi
+
+      - name: Build (build.py runs its own guard and exits non-zero on failure)
+        run: python build.py
+
+      - name: Publish dist/ to the deploy branch
+        run: |
+          cd dist
+          touch .nojekyll
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Build ${GITHUB_SHA}"
+          git branch -M deploy
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" deploy

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ meta_desc }}">
+<link rel="canonical" href="{{ domain }}{{ canonical }}">
+<meta name="robots" content="index,follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="{{ og_type|default('website') }}">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:title" content="{{ og_title|default(page_title) }}">
+<meta property="og:description" content="{{ meta_desc }}">
+<meta property="og:url" content="{{ domain }}{{ canonical }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ og_title|default(page_title) }}">
+<meta name="twitter:description" content="{{ meta_desc }}">
+
+<!-- Search Console / Bing verification -->
+{% if tokens.gsc %}<meta name="google-site-verification" content="{{ tokens.gsc }}">{% endif %}
+{% if tokens.bing %}<meta name="msvalidate.01" content="{{ tokens.bing }}">{% endif %}
+<meta property="og:image" content="{{ domain }}/static/img/og-default.png">
+<meta name="twitter:image" content="{{ domain }}/static/img/og-default.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,650&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css">
+
+{% if json_ld %}{% for s in json_ld %}
+<script type="application/ld+json">{{ s|tojson|safe }}</script>{% endfor %}{% endif %}
+{% block schema %}{% endblock %}
+
+{% if tokens.ga4 %}
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ tokens.ga4 }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ tokens.ga4 }}');
+</script>
+{% endif %}
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/"><span class="mark">&#9650;</span> Mutual Fund Reviewer</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        {% for item in nav %}<li><a href="{{ item.url }}">{{ item.label }}</a></li>{% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="aff-strip">
+  <div class="wrap">Some links on this site are affiliate links. We may earn a commission at no cost to you. It never affects our ratings &mdash; <a href="/how-we-make-money/">here&rsquo;s exactly how we make money</a>.</div>
+</div>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-cols">
+      <div>
+        <h4>Mutual Fund Reviewer</h4>
+        <p style="max-width:42ch;color:#9fb0c0;font-size:.85rem;line-height:1.55">{{ tagline }} Plain-English reviews of index funds, mutual funds, and the platforms that sell them &mdash; for long-term investors who&rsquo;d rather keep their money than feed it to fees.</p>
+        <p class="verified" style="color:#9fb0c0">Fund data last verified {{ last_verified_human }}</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>{% for item in nav %}<li><a href="{{ item.url }}">{{ item.label }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h4>The Fine Print</h4>
+        <ul>{% for item in footer_nav %}<li><a href="{{ item.url }}">{{ item.label }}</a></li>{% endfor %}</ul>
+      </div>
+    </div>
+    <div class="foot-disc">
+      <strong>Not investment advice.</strong> Mutual Fund Reviewer is an independent editorial publication. {{ author.name }} is a writer and editor, not a licensed financial advisor, broker, or tax professional, and nothing here is personalized investment, tax, or legal advice. All fund figures &mdash; expense ratios, minimums, strategies &mdash; are drawn from fund providers and carry a last-verified date; verify against the official prospectus before investing, as terms change. Investing involves risk, including possible loss of principal. Past performance does not predict future results.
+      <br><br>&copy; {{ year }} Mutual Fund Reviewer. All rights reserved.
+    </div>
+  </div>
+</footer>
+<script src="/static/js/main.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "_comment": "Non-secret build config. Real values go in config.local.json (gitignored), which build.py overlays on top of this. Empty analytics/contact values are omitted from output; empty affiliate URLs fall back to the provider's public homepage so CTAs never break pre-approval.",
+  "analytics": {
+    "ga4": "",
+    "gsc": "",
+    "bing": ""
+  },
+  "contact": {
+    "form_action": ""
+  },
+  "affiliate": {
+    "betterment": "",
+    "wealthfront": "",
+    "m1": "",
+    "ibkr": "",
+    "sofi": ""
+  },
+  "affiliate_fallback": {
+    "betterment": "https://www.betterment.com/",
+    "wealthfront": "https://www.wealthfront.com/",
+    "m1": "https://m1.com/",
+    "ibkr": "https://www.interactivebrokers.com/",
+    "sofi": "https://www.sofi.com/invest/"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "ticker": "AGTHX",
+    "name": "American Funds The Growth Fund of America (Class A)",
+    "family": "American Funds",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Multi-manager active growth investing; Capital Group's 'multiple portfolio counselor' system divides the fund among independent managers.",
+    "expense_ratio": 0.58,
+    "minimum": 250,
+    "inception": 1973,
+    "best_for": "Advisor-channel investors — and anyone deciding whether the load was worth it",
+    "editorial": [
+      "Growth Fund of America is among the largest actively managed funds ever built, and Capital Group's multi-manager system — slicing the portfolio among independent counselors — is a genuinely thoughtful piece of fund engineering that reduces key-person risk and smooths style bets. The 0.58% expense ratio is moderate for active management, and the very-long-term record is respectable.",
+      "The part that needs daylight: A-shares carry a sales load of up to 5.75% — a $5,750 haircut on a $100,000 investment before a dollar is at work — because American Funds distributes through commissioned advisors. Inside many 401(k) plans the load is waived (R-share classes), which changes the math entirely; check your share class letter before judging. Load-waived, it's a decent active growth fund. Load-paid, the index alternative isn't just cheaper — you start nearly 6% ahead on day one, a lead the manager has to claw back before adding any value at all."
+    ],
+    "alternatives": [
+      "VIGAX",
+      "FSPGX",
+      "FCNTX"
+    ]
+  },
+  {
+    "ticker": "AIVSX",
+    "name": "American Funds Investment Company of America (Class A)",
+    "family": "American Funds",
+    "category": "S&P 500 / Large Blend",
+    "type": "active",
+    "strategy": "Multi-manager active large-cap blend investing in established US companies; one of the oldest mutual funds in existence.",
+    "expense_ratio": 0.55,
+    "minimum": 250,
+    "inception": 1934,
+    "best_for": "Multi-generation American Funds households weighing tradition against fees",
+    "editorial": [
+      "Founded in 1934, ICA has paid dividends through the Depression, a world war, and every market panic since — there are families on their fourth generation of holding it, often through the same advisor's practice. As an institution, it's admirable. As a current investment decision, it's a large-cap blend fund charging 0.58% (plus a potential 5.75% front load) to compete with S&P 500 index funds charging 0.02–0.04% in the most efficient market segment on earth.",
+      "That competition has gone the way you'd expect over most modern periods: close some years, behind after fees in most, with the load — where paid — as a permanent handicap. The strongest honest case for staying is embedded capital gains in taxable accounts and a valued advisor relationship; both are real. The strongest case for new money is arithmetic, and arithmetic doesn't have a relationship manager."
+    ],
+    "alternatives": [
+      "VFIAX",
+      "FXAIX",
+      "AWSHX"
+    ]
+  },
+  {
+    "ticker": "AWSHX",
+    "name": "American Funds Washington Mutual Investors Fund (Class A)",
+    "family": "American Funds",
+    "category": "Large Value",
+    "type": "active",
+    "strategy": "Active large-value investing under unusually strict eligibility rules requiring dividend-paying, financially sound companies.",
+    "expense_ratio": 0.55,
+    "minimum": 250,
+    "inception": 1952,
+    "best_for": "Conservative dividend-value investors in the advisor channel",
+    "editorial": [
+      "Washington Mutual Investors has a charming origin: built in 1952 to satisfy the 'prudent man' standards governing trust accounts in Washington, D.C., it still runs under formal eligibility screens — dividends, balance-sheet strength — that legally force quality discipline. The result is one of the most consistent conservative-value portfolios in the industry, with shallower drawdowns than the market in most crises.",
+      "The fee analysis is unchanged from its siblings: 0.57% plus possible load versus VVIAX at 0.05% or VDADX at 0.08% doing the same quality-dividend job by rule rather than committee. Over most long windows the index pair has been the better after-fee deal. If your money is already here, load already paid, in a taxable account with decades of gains — staying is rational. The fund is honest; it's the distribution economics around it that deserve your skepticism."
+    ],
+    "alternatives": [
+      "VDADX",
+      "VVIAX",
+      "PRFDX"
+    ]
+  },
+  {
+    "ticker": "ANCFX",
+    "name": "American Funds Fundamental Investors (Class A)",
+    "family": "American Funds",
+    "category": "S&P 500 / Large Blend",
+    "type": "active",
+    "strategy": "Multi-manager blend of growth and value in large US companies, with flexibility for meaningful foreign holdings.",
+    "expense_ratio": 0.57,
+    "minimum": 250,
+    "inception": 1978,
+    "best_for": "Advisor-channel investors wanting a flexible core blend",
+    "editorial": [
+      "Fundamental Investors is Capital Group's go-anywhere-within-reason core fund: large-cap blend at heart, with managers free to lean growth or value and to hold a meaningful slice of non-US companies when valuations argue for it. That flexibility has produced a record modestly better than several of its in-house siblings against broad benchmarks.",
+      "Modestly better than siblings is still a fight with the index, and the standard American Funds toll booth — 0.60% annually, up to 5.75% at the door for A-shares bought outside retirement plans — frames every comparison. The flexible mandate also means the fund is harder to slot into a planned allocation: its foreign stake overlaps whatever international fund you hold. Competent fund, complicated fit, expensive channel: the trilogy of the advisor-sold industry in one ticker."
+    ],
+    "alternatives": [
+      "VTSAX",
+      "VFIAX",
+      "AIVSX"
+    ]
+  },
+  {
+    "ticker": "AEPGX",
+    "name": "American Funds EuroPacific Growth Fund (Class A)",
+    "family": "American Funds",
+    "category": "International",
+    "type": "active",
+    "strategy": "Multi-manager active growth investing across Europe, Asia, and emerging markets; one of the largest international funds in the world.",
+    "expense_ratio": 0.83,
+    "minimum": 250,
+    "inception": 1984,
+    "best_for": "401(k) participants whose only international option this is",
+    "editorial": [
+      "EuroPacific Growth is the international fund of the American 401(k) — for years the single largest active international fund anywhere, present in thousands of plan menus. The multi-manager system applies its usual virtues, and international markets are the one major arena where the 'less efficient, so active can win' argument retains some academic respectability.",
+      "Some respectability, mixed results: EuroPacific has traded leads with international indexes across cycles, and after the 0.83% fee, the long-run scoreboard against a simple total-international index is roughly a draw at best. A draw at 9x the price of FTIHX is a loss with good manners. In a 401(k) where this is the lone international door, walk through it without guilt — international exposure matters more than the vehicle. Given a menu with an international index fund, the cheaper door is the better one."
+    ],
+    "alternatives": [
+      "VTIAX",
+      "FTIHX",
+      "CWGIX"
+    ]
+  },
+  {
+    "ticker": "CWGIX",
+    "name": "American Funds Capital World Growth and Income Fund (Class A)",
+    "family": "American Funds",
+    "category": "World Stock",
+    "type": "active",
+    "strategy": "Active global investing — US and international combined — in dividend-paying growth companies.",
+    "expense_ratio": 0.73,
+    "minimum": 250,
+    "inception": 1993,
+    "best_for": "Advisor-channel investors wanting one global stock fund",
+    "editorial": [
+      "Capital World Growth and Income answers the same question as Vanguard's VTWAX — 'can I just own the world in one fund?' — with active managers picking dividend-paying global franchises instead of holding everything. The blend of growth and income mandates gives it a quality tilt, and Capital Group's global research footprint is authentically deep.",
+      "The price of the curation is 0.76% against VTWAX's 0.10%, a 66-basis-point annual headwind on a strategy whose benchmark is itself hard to beat because it owns every winner by construction. Across most extended periods, world indexes have outrun the great majority of global active funds after fees, this one included more often than not. The fund's most valuable feature may be behavioral — advisor-sold investors famously stay invested — but that's a service worth pricing consciously, not absorbing invisibly."
+    ],
+    "alternatives": [
+      "VTWAX",
+      "VTSAX",
+      "AEPGX"
+    ]
+  },
+  {
+    "ticker": "ABALX",
+    "name": "American Funds American Balanced Fund (Class A)",
+    "family": "American Funds",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Multi-manager 60/40-style balanced investing in blue-chip stocks and investment-grade bonds.",
+    "expense_ratio": 0.55,
+    "minimum": 250,
+    "inception": 1975,
+    "best_for": "The advisor channel's flagship balanced fund — solid, with the usual toll",
+    "editorial": [
+      "American Balanced is, by active balanced-fund standards, very good: a disciplined 60/40-ish frame, blue-chip equities, real bonds rather than reach-for-yield exotica, and a fifty-year record of doing roughly what owners expected in both directions. In the 2008 and 2022 stress tests it behaved like a balanced fund should — down, but explicably and recoverably.",
+      "The framing question for new money is identical to Wellington versus VBIAX, with worse pricing: ABALX charges 0.57% (and the A-share load applies outside retirement plans) against Vanguard Balanced Index at 0.07% for the same architectural job. The multi-manager system is a fine institution; the index doesn't need an institution. As a 401(k) default it's perfectly livable. As a deliberate purchase against the index alternative, it asks you to pay eight times more for a coin flip's edge."
+    ],
+    "alternatives": [
+      "VBIAX",
+      "VWELX",
+      "FBALX"
+    ]
+  },
+  {
+    "ticker": "AMECX",
+    "name": "American Funds The Income Fund of America (Class A)",
+    "family": "American Funds",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Active multi-asset income investing — dividend stocks, bonds, and convertibles — prioritizing current income with growth potential.",
+    "expense_ratio": 0.56,
+    "minimum": 250,
+    "inception": 1973,
+    "best_for": "Income-first retirees in the advisor channel",
+    "editorial": [
+      "Income Fund of America is built for one customer: the retiree who wants a check. The mandate hunts yield across dividend stocks, bonds, and convertibles, and for fifty years it has delivered a payout stream with enough equity participation to fight inflation — the classic advisor-channel retirement income engine, and a sensible design for its era.",
+      "Its modern competition isn't another active fund; it's Wellesley (VWINX at 0.23%), a simple VBIAX-plus-withdrawals plan, or a target-retirement income fund at 0.08% — all delivering comparable income-oriented allocations at a half to a seventh of the cost, without front loads. Yield-hunting mandates also carry a structural temptation toward lower-quality paper that index alternatives never feel. The fund has managed that temptation better than most; the investor deciding today still has to ask why the same job costs five times more in this wrapper."
+    ],
+    "alternatives": [
+      "VWINX",
+      "VTINX",
+      "ABALX"
+    ]
+  }
+]

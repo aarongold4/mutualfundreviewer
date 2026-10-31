@@ -1,0 +1,493 @@
+[
+  {
+    "ticker": "FXAIX",
+    "name": "Fidelity 500 Index Fund",
+    "family": "Fidelity",
+    "category": "S&P 500 / Large Blend",
+    "type": "index",
+    "strategy": "Tracks the S&P 500 index of the 500 largest US companies.",
+    "expense_ratio": 0.015,
+    "minimum": 0,
+    "inception": 1988,
+    "best_for": "The cheapest mainstream S&P 500 fund with no minimum",
+    "editorial": [
+      "FXAIX is what happens when index investing becomes a commodity and price wars do their work: the S&P 500, tracked with surgical precision, for 0.015% — a dollar fifty per year on a $10,000 balance — with no minimum investment. There is no catch in the fund itself. Fidelity loses money or close to it here and earns it back when you eventually use their other services.",
+      "Against VFIAX and SWPPX, the comparison is genuinely boring, and boring is the correct conclusion: three funds tracking the same 500 stocks with fee differences measured in fractions of a basis point and tracking error smaller than the fee gap. Hold whichever lives where your accounts live. The interesting comparison is against active large-cap funds charging 0.50–1.00%, most of which have spent decades failing to beat this thing.",
+      "One genuine consideration: as a mutual fund, FXAIX distributes capital gains occasionally, making an ETF like VOO or IVV slightly more tax-efficient in taxable accounts. Inside a 401(k) or IRA — where most FXAIX money lives — that difference evaporates entirely."
+    ],
+    "alternatives": [
+      "VFIAX",
+      "SWPPX",
+      "FNILX",
+      "FZROX"
+    ]
+  },
+  {
+    "ticker": "FSKAX",
+    "name": "Fidelity Total Market Index Fund",
+    "family": "Fidelity",
+    "category": "Total US Market",
+    "type": "index",
+    "strategy": "Tracks the Dow Jones US Total Stock Market Index — about 3,800 stocks across the full US market.",
+    "expense_ratio": 0.015,
+    "minimum": 0,
+    "inception": 1997,
+    "best_for": "Total US market exposure at Fidelity with full portability",
+    "editorial": [
+      "FSKAX is Fidelity's answer to VTSAX, and the answer undercuts the question: the entire US stock market at 0.015% instead of 0.04%, with no minimum instead of $3,000. The index differs by name — Dow Jones US Total Market versus CRSP — but the portfolios overlap so completely that performance differences are statistical noise.",
+      "The more interesting in-house choice is FSKAX versus FZROX, Fidelity's zero-fee total market fund. FZROX is free; FSKAX costs 1.5 basis points and, unlike FZROX, can be transferred to another brokerage in kind if you ever leave Fidelity. For taxable accounts, that portability is worth far more than the fee difference; for IRAs, where moving means selling anyway, FZROX's zero wins on pure math. Either way you're arguing over single dollars per year."
+    ],
+    "alternatives": [
+      "VTSAX",
+      "FZROX",
+      "SWTSX"
+    ]
+  },
+  {
+    "ticker": "FZROX",
+    "name": "Fidelity ZERO Total Market Index Fund",
+    "family": "Fidelity",
+    "category": "Total US Market",
+    "type": "index",
+    "strategy": "Tracks Fidelity's proprietary US Total Investable Market Index — about 2,700 stocks — at a 0.00% expense ratio.",
+    "expense_ratio": 0.0,
+    "minimum": 0,
+    "inception": 2018,
+    "best_for": "Total-market indexing at literally zero cost, for money staying at Fidelity",
+    "editorial": [
+      "The expense ratio is zero. Not low — zero. When Fidelity launched the ZERO funds in 2018 it was a marketing shot at Vanguard, and nearly eight years on, the funds have done what they promised: tracked the broad US market at no cost, with performance right on top of VTSAX and FSKAX. The free lunch, in this narrow case, is real.",
+      "How? Fidelity built its own index to avoid licensing fees, runs the fund as a loss-leader to win accounts, and earns revenue from securities lending and from everything else you eventually do at Fidelity. The proprietary index holds fewer small-caps than a true total-market fund, but the difference in behavior is negligible — total-market funds are 80% the same large caps regardless.",
+      "The one real string: ZERO funds exist only at Fidelity. Leave, and you must sell — a non-event in an IRA, a potential capital-gains bill in a taxable account. That's why the standard advice has hardened into a rule of thumb: FZROX in retirement accounts without hesitation; FSKAX or an ETF in taxable accounts for the exit option. Both answers are right."
+    ],
+    "alternatives": [
+      "VTSAX",
+      "FSKAX",
+      "SWTSX",
+      "FNILX"
+    ]
+  },
+  {
+    "ticker": "FZILX",
+    "name": "Fidelity ZERO International Index Fund",
+    "family": "Fidelity",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks Fidelity's proprietary Global ex US Index — large and mid-cap developed and emerging market stocks — at 0.00%.",
+    "expense_ratio": 0.0,
+    "minimum": 0,
+    "inception": 2018,
+    "best_for": "Free international exposure inside Fidelity retirement accounts",
+    "editorial": [
+      "FZILX does for international what FZROX does for the US: the world ex-US, free. Roughly 2,300 large and mid-cap stocks across developed and emerging markets, no expense ratio, no minimum. Paired with FZROX, it makes a genuinely zero-cost global equity portfolio — a sentence that would have read as science fiction in the 1990s, when international funds routinely charged 1.5% plus a sales load.",
+      "The trade-offs mirror its US sibling, plus one: beyond the Fidelity-only lock-in, FZILX skips international small caps, which a fuller fund like FTIHX or VTIAX includes. Small caps are a modest slice of international market value, so this is a refinement-level gap — but if you want the complete international market and the foreign tax credit flexibility of a portable fund, FTIHX at 0.06% is six basis points well spent."
+    ],
+    "alternatives": [
+      "FTIHX",
+      "VTIAX",
+      "FSPSX"
+    ]
+  },
+  {
+    "ticker": "FNILX",
+    "name": "Fidelity ZERO Large Cap Index Fund",
+    "family": "Fidelity",
+    "category": "S&P 500 / Large Blend",
+    "type": "index",
+    "strategy": "Tracks Fidelity's proprietary US Large Cap Index — about 500 of the largest US stocks — at 0.00%.",
+    "expense_ratio": 0.0,
+    "minimum": 0,
+    "inception": 2018,
+    "best_for": "S&P 500-style exposure with no fee, no index licensing, no minimum",
+    "editorial": [
+      "FNILX is the S&P 500 with the serial numbers filed off. By building its own large-cap index instead of licensing Standard & Poor's, Fidelity avoids paying S&P's fees and passes the savings to exactly zero expense ratio. The holdings overlap the real S&P 500 almost completely; returns have tracked within a few hundredths of a percent since launch.",
+      "Versus FXAIX, the in-house S&P 500 fund at 0.015%, the calculus is the standard ZERO-fund trade: FNILX is free but Fidelity-captive; FXAIX costs almost nothing and travels. There's also a subtle difference — FNILX isn't bound to S&P's committee decisions, so the occasional index quirk (a Tesla inclusion saga, say) plays out slightly differently. None of it will decide your retirement. Pick by account type and move on."
+    ],
+    "alternatives": [
+      "FXAIX",
+      "VFIAX",
+      "FZROX"
+    ]
+  },
+  {
+    "ticker": "FZIPX",
+    "name": "Fidelity ZERO Extended Market Index Fund",
+    "family": "Fidelity",
+    "category": "Mid Cap",
+    "type": "index",
+    "strategy": "Tracks Fidelity's proprietary US Extended Investable Market Index — mid and small caps outside the largest 500 — at 0.00%.",
+    "expense_ratio": 0.0,
+    "minimum": 0,
+    "inception": 2018,
+    "best_for": "Free completion of FNILX into total-market coverage",
+    "editorial": [
+      "The fourth and least famous ZERO fund, FZIPX holds the US market's mid and small caps — everything below the giant companies — for nothing. Its designed use is as the completion piece: pair roughly 85% FNILX with 15% FZIPX and you've rebuilt FZROX with adjustable weights, still at a 0.00% blended cost.",
+      "On its own it's a mid/small-cap tilt, comparable to FSMAX or VEXAX, and the same advice applies as to all ZERO funds: keep it in tax-advantaged accounts where Fidelity-exclusivity costs you nothing. The deeper point of the ZERO lineup is what it proved — that index fund pricing was always headed to zero, and the real costs to watch were behavioral all along."
+    ],
+    "alternatives": [
+      "FSMAX",
+      "VEXAX",
+      "FZROX"
+    ]
+  },
+  {
+    "ticker": "FTIHX",
+    "name": "Fidelity Total International Index Fund",
+    "family": "Fidelity",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks the MSCI ACWI ex USA Investable Market Index — about 5,000 developed and emerging market stocks including small caps.",
+    "expense_ratio": 0.06,
+    "minimum": 0,
+    "inception": 2016,
+    "best_for": "Complete international coverage at Fidelity, small caps included",
+    "editorial": [
+      "FTIHX is the full international meal: developed markets, emerging markets, and — unlike the free FZILX — international small caps, roughly 5,000 stocks in all, for 0.06% with no minimum. It's Fidelity's true equivalent of VTIAX, and it's actually cheaper than Vanguard's fund, a sentence that still feels strange to type.",
+      "Within Fidelity's lineup, choose by account: FZILX for IRAs if every basis point matters and you'll never leave; FTIHX everywhere else for completeness and portability. Either way, the larger decision is the allocation itself — Vanguard's research and global market weights argue for 30–40% of equities abroad, plenty of US-only investors hold zero, and FTIHX will faithfully index whatever fraction you settle on."
+    ],
+    "alternatives": [
+      "VTIAX",
+      "FZILX",
+      "SWISX"
+    ]
+  },
+  {
+    "ticker": "FSPSX",
+    "name": "Fidelity International Index Fund",
+    "family": "Fidelity",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks the MSCI EAFE Index — large and mid-cap stocks in developed markets (Europe, Australasia, Far East).",
+    "expense_ratio": 0.035,
+    "minimum": 0,
+    "inception": 1997,
+    "best_for": "Developed-markets-only exposure on the EAFE benchmark",
+    "editorial": [
+      "FSPSX tracks MSCI EAFE — the oldest, most-quoted international benchmark — which means developed markets only: no China, no India, no emerging markets, and no Canada either, a quirk of the index's 1969 design. Around 700 large and mid caps from Japan, the UK, and continental Europe at 0.035%.",
+      "It's the standard international option in a remarkable number of 401(k) plans, which is the main reason most people own it. As a deliberate choice, it suits investors who want developed-market stability and prefer to hold emerging markets separately or not at all. If you'd rather make one international decision instead of two, FTIHX covers everything in a single fund for a hair more in fees."
+    ],
+    "alternatives": [
+      "VTMGX",
+      "FTIHX",
+      "SWISX"
+    ]
+  },
+  {
+    "ticker": "FPADX",
+    "name": "Fidelity Emerging Markets Index Fund",
+    "family": "Fidelity",
+    "category": "Emerging Markets",
+    "type": "index",
+    "strategy": "Tracks the MSCI Emerging Markets Index — large and mid-cap stocks in China, India, Taiwan, Brazil, and other emerging economies.",
+    "expense_ratio": 0.075,
+    "minimum": 0,
+    "inception": 2011,
+    "best_for": "The cheapest dedicated emerging-markets index fund",
+    "editorial": [
+      "At 0.075% with no minimum, FPADX is about the cheapest ticket to emerging markets in the mutual fund format — half VEMAX's fee, and a tenth of what active EM funds typically charge for the privilege of underperforming this index. The portfolio is the MSCI EM standard: China, India, and Taiwan dominate, with the usual long tail of smaller markets.",
+      "Everything true of emerging markets generally applies with force here: spectacular decades alternate with lost ones, currency and political risk are features not bugs, and the asset class punishes anyone who buys after a hot run. If a broad international fund's built-in EM weight isn't enough for you, this is the right tool for a deliberate overweight — sized, ideally, at single-digit percentages of the portfolio."
+    ],
+    "alternatives": [
+      "VEMAX",
+      "FTIHX",
+      "VTIAX"
+    ]
+  },
+  {
+    "ticker": "FXNAX",
+    "name": "Fidelity US Bond Index Fund",
+    "family": "Fidelity",
+    "category": "Bond",
+    "type": "index",
+    "strategy": "Tracks the Bloomberg US Aggregate Bond Index — investment-grade US government, corporate, and securitized bonds.",
+    "expense_ratio": 0.025,
+    "minimum": 0,
+    "inception": 1990,
+    "best_for": "The bond slot of a Fidelity three-fund portfolio",
+    "editorial": [
+      "FXNAX is the Aggregate index — the same 'Agg' that VBTLX tracks — at 0.025% with no minimum, making it the cheapest of the big three total-bond funds. Thousands of investment-grade bonds, intermediate duration, the government-heavy mix that makes the Agg behave like ballast rather than a return engine.",
+      "There is no zero-fee bond fund in Fidelity's lineup, and 2.5 basis points is close enough. The real decisions sit above the fund level: how much in bonds at all (your age, nerves, and timeline), and where to hold them (tax-advantaged accounts, almost always, since bond interest is taxed as ordinary income). Once those are settled, FXNAX versus VBTLX versus SWAGX is a coin flip with three identical sides."
+    ],
+    "alternatives": [
+      "VBTLX",
+      "SWAGX",
+      "MWTRX"
+    ]
+  },
+  {
+    "ticker": "FSMAX",
+    "name": "Fidelity Extended Market Index Fund",
+    "family": "Fidelity",
+    "category": "Mid Cap",
+    "type": "index",
+    "strategy": "Tracks the Dow Jones US Completion Total Stock Market Index — every US stock outside the S&P 500.",
+    "expense_ratio": 0.035,
+    "minimum": 0,
+    "inception": 1997,
+    "best_for": "Adding mid/small-cap completion to an S&P 500-only plan",
+    "editorial": [
+      "FSMAX holds the roughly 3,300 US stocks the S&P 500 leaves out, which makes it the standard fix for the most common 401(k) limitation in America: a menu with an S&P 500 fund and nothing else covering smaller companies. About 85/15 S&P-500-fund to FSMAX reconstructs the total market; many payroll-deferral lifers have run exactly that recipe for decades.",
+      "As a standalone position it's an aggressive mid/small tilt with real volatility — completion indexes fall harder than the S&P in risk-off markets and snap back harder in recoveries. Used as the completion piece it was built to be, it's plumbing: unglamorous, cheap at 0.035%, and exactly the right size for its job."
+    ],
+    "alternatives": [
+      "VEXAX",
+      "FZIPX",
+      "FSMDX"
+    ]
+  },
+  {
+    "ticker": "FSSNX",
+    "name": "Fidelity Small Cap Index Fund",
+    "family": "Fidelity",
+    "category": "Small Cap",
+    "type": "index",
+    "strategy": "Tracks the Russell 2000 Index — 2,000 small US companies.",
+    "expense_ratio": 0.025,
+    "minimum": 0,
+    "inception": 2011,
+    "best_for": "Russell 2000 exposure at index-war pricing",
+    "editorial": [
+      "FSSNX tracks the Russell 2000, the small-cap benchmark every financial channel quotes, for 0.025% — a fee so low it's worth remembering that active small-cap managers justify 1%+ fees precisely by claiming this segment is inefficient. Some genuinely beat it; predicting which ones, in advance, net of fees, remains the unsolved problem.",
+      "A wrinkle worth knowing: the Russell 2000 reconstitutes mechanically each June, and its small caps run smaller and junkier than the CRSP small-cap index behind VSMAX. Historically that's made Russell-tracking funds slightly lower-returning than CRSP-tracking ones — an argument for VSMAX if you're choosing in a vacuum, and an argument for not caring much if FSSNX is what your plan offers. The tilt decision matters; the index brand is a footnote."
+    ],
+    "alternatives": [
+      "VSMAX",
+      "SWSSX",
+      "FSMDX"
+    ]
+  },
+  {
+    "ticker": "FSMDX",
+    "name": "Fidelity Mid Cap Index Fund",
+    "family": "Fidelity",
+    "category": "Mid Cap",
+    "type": "index",
+    "strategy": "Tracks the Russell Midcap Index — about 800 middle-sized US companies.",
+    "expense_ratio": 0.025,
+    "minimum": 0,
+    "inception": 2011,
+    "best_for": "A dedicated mid-cap sleeve at minimal cost",
+    "editorial": [
+      "Mid caps rarely get their own headlines, which may be why they've quietly compounded so well — companies past the failure-prone startup phase but with room to grow that mega caps mathematically lack. FSMDX indexes roughly 800 of them via the Russell Midcap for 0.025%, no minimum, no manager.",
+      "Like every style-box fund on this site, the first question is whether you need the slice at all: FZROX and FSKAX already hold these stocks at market weight. FSMDX is for builders — people slicing US equity into large/mid/small with deliberate weights — and for 401(k) menus where it's the only sensible mid-cap option among 1%-fee active funds. In both roles it's exactly fit for purpose."
+    ],
+    "alternatives": [
+      "VIMAX",
+      "FSMAX",
+      "FSSNX"
+    ]
+  },
+  {
+    "ticker": "FSPGX",
+    "name": "Fidelity Large Cap Growth Index Fund",
+    "family": "Fidelity",
+    "category": "Large Growth",
+    "type": "index",
+    "strategy": "Tracks the Russell 1000 Growth Index — large US companies with growth characteristics.",
+    "expense_ratio": 0.035,
+    "minimum": 0,
+    "inception": 2016,
+    "best_for": "Growth-style exposure without growth-manager fees",
+    "editorial": [
+      "FSPGX exists as a standing rebuke to Fidelity's own famous growth funds: it tracks the Russell 1000 Growth — the benchmark Contrafund and Blue Chip Growth are measured against — for 0.035%, versus the 0.4–0.5% those celebrated active funds charge. Over the last decade-plus, the dumb benchmark has been brutally hard for the stars to beat after fees.",
+      "What you own here is concentration, dressed as diversification: growth indexes are mechanically dominated by a handful of mega-cap tech names, so this fund's fate is tied to theirs. That's been a wonderful place to be tied recently and a catastrophic one in 2000–2002. If your total-market fund's 30%+ tech weight already feels like enough growth exposure — it probably is — this fund is an amplifier you don't need."
+    ],
+    "alternatives": [
+      "VIGAX",
+      "FBGRX",
+      "TRBCX"
+    ]
+  },
+  {
+    "ticker": "FCNTX",
+    "name": "Fidelity Contrafund",
+    "family": "Fidelity",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Active large-growth stock picking; Will Danoff has run the fund since 1990, favoring 'best of breed' companies with improving earnings.",
+    "expense_ratio": 0.74,
+    "minimum": 0,
+    "inception": 1967,
+    "best_for": "Believers in the rare manager with a genuine multi-decade record",
+    "editorial": [
+      "If active management has a strongest witness, it's Will Danoff: running Contrafund since 1990, compounding one of the largest funds on earth at a clip that beat the S&P 500 over his full tenure. That's not survivorship-bias trivia — it's one of the few multi-decade, single-manager records that survives scrutiny. The fee is adjusted with performance and lately sits around 0.74% — no longer the standout bargain for active management it was for years, and a real hurdle against an index fund at a fraction of the cost.",
+      "And yet the forward-looking case is harder than the backward-looking one. The fund's sheer size constrains it to mega caps, where its holdings increasingly resemble a growth index plus a fee; recent-decade results versus the Russell 1000 Growth have been mixed; and Danoff, who started in 1990, will not run it forever. Succession is the question every Contrafund owner is implicitly betting on.",
+      "A reasonable position: respect the record, hold it if you have it with low embedded cost basis, but recognize that FSPGX delivers the same neighborhood of exposure for a tenth of the fee with no key-person risk. New money has to believe something specific about the next manager to choose otherwise."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "VIGAX",
+      "FBGRX",
+      "TRBCX"
+    ]
+  },
+  {
+    "ticker": "FBGRX",
+    "name": "Fidelity Blue Chip Growth Fund",
+    "family": "Fidelity",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Active large-growth fund concentrated in established, well-known growth companies; willing to hold aggressive tech and consumer positions.",
+    "expense_ratio": 0.72,
+    "minimum": 0,
+    "inception": 1987,
+    "best_for": "Aggressive growth investors who accept feast-or-famine years",
+    "editorial": [
+      "Blue Chip Growth is Fidelity's higher-octane growth vehicle — more concentrated and more aggressive than Contrafund, with bigger swings on both sides. In monster growth years it has posted numbers that make index funds look sleepy; in growth bear markets like 2022 it has fallen dramatically harder than the S&P 500. The long-term record against the Russell 1000 Growth is genuinely competitive, which puts it in rare company.",
+      "The standard caveats apply with extra weight: a 0.72% fee compounds against you every year, hot-streak funds attract money at tops and lose it at bottoms (investor returns here lag fund returns by a wide margin), and the portfolio's mega-cap tech concentration means you're doubling a bet your index funds already make. As a contained, deliberate satellite position for someone who understands the volatility — defensible. As a core holding — that's what FSPGX is for, at a tenth the price."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "FCNTX",
+      "VIGAX",
+      "TRBCX"
+    ]
+  },
+  {
+    "ticker": "FMAGX",
+    "name": "Fidelity Magellan Fund",
+    "family": "Fidelity",
+    "category": "Large Growth",
+    "type": "active",
+    "strategy": "Active large-cap growth fund; the former Peter Lynch flagship, now team-managed with a growth-at-reasonable-price approach.",
+    "expense_ratio": 0.64,
+    "minimum": 0,
+    "inception": 1963,
+    "best_for": "Mostly historical interest — and a cautionary tale worth knowing",
+    "editorial": [
+      "Magellan is the most instructive fund in American history, just not the way Fidelity intended. Under Peter Lynch (1977–1990) it returned 29% annually and became the largest fund in the world; in the decades since, under a parade of successors, it has mostly trailed the S&P 500 while charging active fees. The lesson isn't that Lynch was fake — it's that buying a fund after its legend is established means buying the successor, not the legend.",
+      "Today's Magellan is a perfectly competent, unremarkable large-growth fund at 0.64% — which in a world of 0.035% growth indexes is a hard sentence to finish. Investors who hold it in old accounts with large embedded gains have a real tax reason to stay; new money choosing Magellan in 2026 is mostly buying the name on the door. Lynch's own books, ironically, would tell you to think harder than that."
+    ],
+    "alternatives": [
+      "FSPGX",
+      "FXAIX",
+      "FCNTX"
+    ]
+  },
+  {
+    "ticker": "FBALX",
+    "name": "Fidelity Balanced Fund",
+    "family": "Fidelity",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Actively managed ~60% stocks / 40% bonds, with the equity sleeve run growth-tilted by sector specialists.",
+    "expense_ratio": 0.44,
+    "minimum": 0,
+    "inception": 1986,
+    "best_for": "A one-fund 60/40 with a growth lean and a solid record",
+    "editorial": [
+      "FBALX is the 60/40 with Fidelity's personality: the stock side leans growthier and techier than balanced-fund tradition, which has powered it past most peers — and past Vanguard's stately Wellington — across the growth-led 2010s and 2020s. Credit where due: among active balanced funds, its long-term record is near the top of the class.",
+      "The two honest asterisks: the growth tilt giveth and taketh away (2022 was unkind), and 0.44% is roughly six times VBIAX's fee for the same basic job. The index-fund argument writes itself. The counterargument is that FBALX has, so far, out-earned its fee — the rarest claim in this industry — and a one-fund investor who'll actually hold it through a bad growth year could do far worse."
+    ],
+    "alternatives": [
+      "VBIAX",
+      "FPURX",
+      "VWELX",
+      "PRWCX"
+    ]
+  },
+  {
+    "ticker": "FPURX",
+    "name": "Fidelity Puritan Fund",
+    "family": "Fidelity",
+    "category": "Balanced / Allocation",
+    "type": "active",
+    "strategy": "Actively managed ~60% stocks / 40% bonds; Fidelity's oldest balanced fund, slightly more value-aware than FBALX.",
+    "expense_ratio": 0.47,
+    "minimum": 0,
+    "inception": 1947,
+    "best_for": "A steadier-handed Fidelity balanced fund with eight decades of history",
+    "editorial": [
+      "Puritan has been running the stocks-plus-bonds play since 1947 — through fourteen recessions, a dozen Fed regimes, and every market fad since nylon stockings. It's the marginally more conservative sibling to FBALX: similar 60/40 frame, a touch less growth-chasing in the equity sleeve, which typically means smaller swings in both directions.",
+      "The case for either Fidelity balanced fund over an index alternative rests entirely on management out-earning the ~0.40% fee gap, and Puritan's record makes that argument respectably if not overwhelmingly. The quieter point: funds like this exist mostly so an investor makes one decision instead of five. If that's the actual product — bundled discipline — judge it on whether you'd really rebalance a DIY 60/40 yourself in a crash. Many people honestly wouldn't."
+    ],
+    "alternatives": [
+      "FBALX",
+      "VBIAX",
+      "VWELX"
+    ]
+  },
+  {
+    "ticker": "FXIFX",
+    "name": "Fidelity Freedom Index 2030 Fund",
+    "family": "Fidelity",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2030; built from Fidelity's index funds across US, international, and bond markets.",
+    "expense_ratio": 0.12,
+    "minimum": 0,
+    "inception": 2009,
+    "best_for": "Near-retirees in Fidelity 401(k)s — if they pick the INDEX series",
+    "editorial": [
+      "The single most important word in this fund's name is 'Index.' Fidelity runs two parallel Freedom series: Freedom Index (this one — cheap, built from index funds, ~0.12%) and the original actively managed Freedom funds at several times the cost. They sit side by side in 401(k) menus with nearly identical names, and picking the wrong one quietly costs tens of thousands over a career. Check your plan lineup character by character.",
+      "The fund itself is a sound near-retirement vehicle: majority bonds and shortening equity exposure as 2030 approaches, automatic rebalancing, no decisions required. Against Vanguard's 2030 fund the differences are basis points and glide-path nuance — both are fine. Against its own active twin, the index version is simply better for almost everyone, which is presumably why the active one still gets shelf space."
+    ],
+    "alternatives": [
+      "VTHRX",
+      "FBIFX",
+      "SWYGX"
+    ]
+  },
+  {
+    "ticker": "FBIFX",
+    "name": "Fidelity Freedom Index 2040 Fund",
+    "family": "Fidelity",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2040; currently equity-heavy across US and international index funds.",
+    "expense_ratio": 0.12,
+    "minimum": 0,
+    "inception": 2009,
+    "best_for": "Mid-career savers wanting one all-index fund in a Fidelity account",
+    "editorial": [
+      "FBIFX is the all-index, one-decision retirement fund for a 2040 retirement: heavy global equity now, mechanical de-risking later, 0.12% all-in, zero minimum. It's the direct competitor to Vanguard's VFORX, and the differences — a few basis points, slightly different international weights and glide-path timing — are the kind of thing fund analysts debate and outcomes ignore.",
+      "What actually decides this choice is logistics: hold the series that lives where your money lives, because target-date funds work best as the entire account, contributions flowing in untouched for decades. The series' only real hazard is its active-fund doppelganger sharing the Freedom name at multiples of the fee; verify 'Index' appears on your statement and the rest takes care of itself."
+    ],
+    "alternatives": [
+      "VFORX",
+      "SWYGX",
+      "FXIFX"
+    ]
+  },
+  {
+    "ticker": "FIPFX",
+    "name": "Fidelity Freedom Index 2050 Fund",
+    "family": "Fidelity",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2050; currently ~90% global equities.",
+    "expense_ratio": 0.12,
+    "minimum": 0,
+    "inception": 2009,
+    "best_for": "Younger savers defaulting into a Fidelity 401(k), done well",
+    "editorial": [
+      "For a saver in their thirties, FIPFX is the whole portfolio in one line item: roughly 90% global stock index funds, a sliver of bonds, and a published schedule for getting more careful as 2050 approaches. The 0.12% fee buys construction, rebalancing, and — most valuably — the absence of decisions during market panics.",
+      "The comparison with Vanguard's VFIFX and Schwab's SWYMX is a three-way tie broken by where your paycheck already deposits. The comparison worth making instead: FIPFX versus the DIY itch. A 2050 fund plus 'a little extra' QQQ plus some single stocks is no longer a plan with a glide path; it's a growth tilt you didn't measure. Pick the fund or pick the hobby — mixing them quietly cancels the fund's whole design."
+    ],
+    "alternatives": [
+      "VFIFX",
+      "SWYMX",
+      "FDKLX"
+    ]
+  },
+  {
+    "ticker": "FDKLX",
+    "name": "Fidelity Freedom Index 2060 Fund",
+    "family": "Fidelity",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2060; currently ~90% global equities and will remain so for years.",
+    "expense_ratio": 0.12,
+    "minimum": 0,
+    "inception": 2014,
+    "best_for": "First-job savers who want zero-minimum, zero-maintenance investing",
+    "editorial": [
+      "A 22-year-old's ideal first fund needs three properties: no minimum, nearly all stocks, and nothing to fiddle with. FDKLX checks all three — $0 to start, ~90% global equity indexes, and a glide path that won't matter for two decades. With Fidelity's zero-minimum platform, a first-paycheck saver can start with $50 and a payroll deduction, which is the entire game at that age.",
+      "Between this and Vanguard's 2060 fund, the honest differentiator for a beginner is Fidelity's $0 minimum versus Vanguard's $1,000 — the allocation differences are trivia. One suggestion for new owners: read your fund's glide path once, now, so that when the first real crash arrives you already know the fund's plan is 'do nothing differently.' That single piece of foreknowledge is worth more than any fund selection."
+    ],
+    "alternatives": [
+      "VTTSX",
+      "SWYNX",
+      "FIPFX"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span><a href="/guides/">Guides</a><span>&rsaquo;</span>{{ guide.crumb }}</nav>
+</div>
+<div class="wrap narrow">
+  <section class="section-pad">
+    <span class="label">Guide</span>
+    <h1 style="margin-top:.2em">{{ guide.h1 }}</h1>
+    <p class="verified">Last updated {{ guide.updated_human }}</p>
+    {% if guide.lede %}<p class="lead">{{ guide.lede }}</p>{% endif %}
+
+    {{ body|safe }}
+
+    <div class="author-box">
+      <div class="av">{{ author_initials }}</div>
+      <div class="who">
+        <b>{{ author.name }}</b> &middot; <span class="t">{{ author.title }}</span>
+        <p>{{ author.bio }}</p>
+      </div>
+    </div>
+    <hr class="rule">
+    <p class="tiny">This guide is general education and editorial opinion, not personalized investment advice. Fund figures are drawn from provider documentation and last verified {{ last_verified_human }}; confirm against the official prospectus before investing.</p>
+  </section>
+</div>
+{% endblock %}

@@ -1,0 +1,408 @@
+[
+  {
+    "id": "2026-10-31-1",
+    "date": "2026-10-31",
+    "title": "What Is a Good Expense Ratio? The One Number That Decides Your Returns",
+    "slug": "what-is-a-good-expense-ratio",
+    "search_phrase": "what is a good expense ratio",
+    "why_now": "Fund fees just hit fresh record lows in the latest ICI and Morningstar fee studies, so the 'what counts as cheap' benchmark has shifted and most published answers are stale. This is the single highest-intent cost query in the niche and the site has a calculator but no explainer feeding it.",
+    "angle": "Cost-first. Give a plain-English rule of thumb (anything over ~0.20% for a broad index fund deserves scrutiny; over 1% for any fund is a hard pass), show the compounding drag in real dollars, then push readers to run their own numbers and pick a cheaper fund.",
+    "facts": [
+      {
+        "fact": "In 2025 the asset-weighted average expense ratio was 0.40% for actively managed equity mutual funds versus 0.14% for index equity ETFs, with index bond ETFs at just 0.09%.",
+        "source": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"
+      },
+      {
+        "fact": "Equity mutual fund expense ratios have fallen 62% since 1996, and bond mutual fund expense ratios 57%, as investors moved to lower-cost options.",
+        "source": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"
+      },
+      {
+        "fact": "On $100,000 held for 20 years, a fund earning 7% at a 0.40% expense ratio ends about $40,000 ahead of one earning 8% at a 2% ratio, showing fees can swamp a full point of gross return.",
+        "source": "https://www.fool.com/investing/how-to-invest/mutual-funds/expense-ratio"
+      },
+      {
+        "fact": "A widely cited rule of thumb is to move on from any mutual fund charging above 1%, since high-priced active funds rarely beat the major indexes.",
+        "source": "https://www.fool.com/investing/how-to-invest/mutual-funds/expense-ratio"
+      }
+    ],
+    "links": [
+      "/expense-ratio-calculator/",
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/funds/fxaix/",
+      "/index-vs-active/"
+    ],
+    "priority": "high",
+    "status": "drafted",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-2",
+    "title": "The Three-Fund Portfolio: The Whole Market for Three Tickers",
+    "date": "2026-10-31",
+    "slug": "three-fund-portfolio",
+    "search_phrase": "three fund portfolio",
+    "why_now": "The three-fund portfolio is the evergreen cornerstone of Bogleheads investing and one of the highest-volume 'how do I actually build this' queries. The site reviews all three component funds individually but has no page tying them into the portfolio readers are searching for.",
+    "angle": "Cost-first and anti-complexity. Show that three cheap total-market index funds (US stock, international stock, US bond) beat almost any expensive multi-fund or active setup, then route readers straight to the specific fund reviews for each slot.",
+    "facts": [
+      {
+        "fact": "The three-fund portfolio holds a US total stock market fund, an international total stock fund, and a US total bond fund; the canonical Vanguard tickers are VTSAX, VTIAX, and VBTLX.",
+        "source": "https://www.money.com/jack-bogle-three-fund-portfolio/"
+      },
+      {
+        "fact": "Over the 15 years ending December 2025, 89.93% of actively managed US large-cap funds trailed the S&P 500, and 92.89% trailed over 20 years, supporting the case for a simple indexed core.",
+        "source": "https://walnutinvest.com/stats/active-fund-underperformance-spiva"
+      },
+      {
+        "fact": "In 2025 index equity ETFs averaged 0.14% in fees versus 0.40% for active equity mutual funds, so a three-fund index core costs a fraction of a typical active lineup.",
+        "source": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/funds/vtiax/",
+      "/funds/vbtlx/",
+      "/index-vs-active/"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-3",
+    "title": "VTSAX vs VTI: Same Index, Two Wrappers, One Decimal of Difference",
+    "date": "2026-10-31",
+    "slug": "vtsax-vs-vti",
+    "search_phrase": "VTSAX vs VTI",
+    "why_now": "This is one of the most-searched comparisons in the entire niche and the exact point of confusion for 401(k)/IRA investors deciding between a Vanguard mutual fund and its ETF twin. The site has a VTSAX review and a comparisons hub but no page answering the mutual-fund-vs-ETF-share-class question.",
+    "angle": "Cost-first and de-hyped. Both track the entire US stock market; the 0.01% fee gap and the $3,000 minimum are the only real differences for a long-term holder. Tell readers it mostly does not matter and point them to whichever wrapper their account supports.",
+    "facts": [
+      {
+        "fact": "VTSAX and VTI track the same index (the entire US stock market); VTSAX charges 0.04% and VTI charges 0.03%, a difference the comparison calls negligible.",
+        "source": "https://www.biglawinvestor.com/vtsax-vs-vti/"
+      },
+      {
+        "fact": "VTSAX requires a $3,000 minimum investment and prices once at the end of the trading day, while VTI has no minimum beyond one share's price and trades in real time.",
+        "source": "https://www.biglawinvestor.com/vtsax-vs-vti/"
+      },
+      {
+        "fact": "ETFs are generally more tax-efficient than mutual funds because the in-kind creation-and-redemption mechanism lets them shed low-basis shares without triggering capital gains distributions.",
+        "source": "https://www.morningstar.com/personal-finance/etfs-have-tax-advantage-over-mutual-funds"
+      }
+    ],
+    "links": [
+      "/funds/vtsax/",
+      "/funds/vti/",
+      "/best-index-funds/",
+      "/compare/",
+      "/expense-ratio-calculator/"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-4",
+    "title": "Mutual Fund vs ETF: Which Wrapper Belongs in Your 401(k) and IRA",
+    "date": "2026-10-31",
+    "slug": "mutual-fund-vs-etf",
+    "search_phrase": "mutual fund vs ETF",
+    "why_now": "High-volume evergreen decision query that sits one level above every VTSAX-vs-VTI style comparison. Readers who settle the wrapper question here naturally click through to specific fund reviews and the best-index-funds page.",
+    "angle": "Cost-first and account-aware. The wrapper matters far less than the expense ratio and what your plan offers. Explain the real differences (trading, minimums, tax efficiency in taxable accounts) without hype, and note that in a 401(k) it is often moot because you only get mutual funds.",
+    "facts": [
+      {
+        "fact": "ETFs' tax edge comes mainly from the in-kind creation-and-redemption mechanism, which lets them purge low-cost-basis securities without realizing gains; over the 10 years through 2020 ETFs distributed capital gains far less frequently than mutual funds.",
+        "source": "https://www.morningstar.com/personal-finance/etfs-have-tax-advantage-over-mutual-funds"
+      },
+      {
+        "fact": "In 2025, index equity ETFs averaged 0.14% in fees while active equity mutual funds averaged 0.40%, so the fund's strategy and cost matter more than the wrapper.",
+        "source": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"
+      },
+      {
+        "fact": "A Vanguard mutual fund and its ETF twin can track the identical index at nearly identical cost (VTSAX 0.04% vs VTI 0.03%), differing mainly in minimums and intraday trading.",
+        "source": "https://www.biglawinvestor.com/vtsax-vs-vti/"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/funds/fxaix/",
+      "/expense-ratio-calculator/",
+      "/compare/"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-5",
+    "title": "What Is an Index Fund? A Plain-English Guide for Retirement Savers",
+    "date": "2026-10-31",
+    "slug": "what-is-an-index-fund",
+    "search_phrase": "what is an index fund",
+    "why_now": "Top-of-funnel definitional query with enormous evergreen volume. The site has deep fund-level content but no beginner on-ramp to capture first-time 401(k)/IRA searchers and route them to the money page.",
+    "angle": "Cost-first from the first sentence. Define index funds as baskets that track a market at rock-bottom cost, contrast with active funds that mostly lose, and hand beginners a shortlist via best-index-funds.",
+    "facts": [
+      {
+        "fact": "An index fund holds the securities in a market index to track its return rather than trying to beat it, which keeps costs and turnover low.",
+        "source": "https://investor.vanguard.com/investor-resources-education/understanding-investment-types/what-is-an-index-fund"
+      },
+      {
+        "fact": "Over the 15 years ending December 2025, 89.93% of active US large-cap funds underperformed the S&P 500, illustrating why tracking the market usually beats trying to outguess it.",
+        "source": "https://walnutinvest.com/stats/active-fund-underperformance-spiva"
+      },
+      {
+        "fact": "Index equity ETFs averaged just 0.14% in annual fees in 2025 versus 0.40% for active equity mutual funds.",
+        "source": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/index-vs-active/",
+      "/funds/vtsax/",
+      "/funds/fxaix/",
+      "/expense-ratio-calculator/"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-6",
+    "title": "S&P 500 vs Total Stock Market: Does the Extra 3,000 Stocks Matter?",
+    "date": "2026-10-31",
+    "slug": "sp500-vs-total-stock-market",
+    "search_phrase": "S&P 500 vs total stock market index fund",
+    "why_now": "A perennial head-to-head for anyone choosing their core US equity holding (FXAIX/VFIAX vs VTSAX/FZROX). High volume, directly tied to funds the site already reviews, with no current page bridging the two.",
+    "angle": "Cost-first and low-drama. Both are cheap, broadly diversified, and highly correlated; the choice barely moves long-run returns, so pick whichever your plan offers at the lowest expense ratio. Route to the specific fund reviews.",
+    "facts": [
+      {
+        "fact": "A total US stock market fund holds the S&P 500 plus thousands of mid- and small-cap stocks, but because it is cap-weighted the large caps dominate both, keeping returns closely correlated.",
+        "source": "https://smartasset.com/investing/sp-500-vs-total-stock-market"
+      },
+      {
+        "fact": "Flagship versions of both are nearly free: Fidelity's FXAIX (S&P 500) and total-market peers like VTSAX carry expense ratios around 0.015%-0.04%.",
+        "source": "https://www.biglawinvestor.com/vtsax-vs-vti/"
+      },
+      {
+        "fact": "Over the 15 years ending December 2025, roughly 90% of active large-cap funds failed to beat the S&P 500, so either low-cost index is a strong default.",
+        "source": "https://walnutinvest.com/stats/active-fund-underperformance-spiva"
+      }
+    ],
+    "links": [
+      "/funds/fxaix/",
+      "/funds/vtsax/",
+      "/funds/vfiax/",
+      "/funds/fzrox/",
+      "/best-index-funds/"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-7",
+    "title": "Roth vs Traditional: Which Account Should Hold Your Index Funds?",
+    "date": "2026-10-31",
+    "slug": "roth-vs-traditional",
+    "search_phrase": "Roth vs traditional 401k IRA",
+    "why_now": "One of the most-searched retirement decisions, refreshed by the IRS's 2026 contribution-limit increases. The site covers what to buy but not which account to buy it in, a natural companion to its fund content.",
+    "angle": "Plain-English and framework-driven. The answer hinges on current vs future tax rates, not hype. Emphasize that in either account the winning move is the same: cheap index funds. Tie to the 2026 limits so the page stays current.",
+    "facts": [
+      {
+        "fact": "For 2026 the IRA contribution limit rises to $7,500 ($1,100 catch-up at 50+) and the 401(k) employee limit rises to $24,500 ($8,000 catch-up at 50+).",
+        "source": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+      },
+      {
+        "fact": "Roth IRA eligibility phases out in 2026 between $153,000-$168,000 for single filers and $242,000-$252,000 for married filing jointly.",
+        "source": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+      },
+      {
+        "fact": "A new higher catch-up of $11,250 applies for savers ages 60-63 in 2026, replacing the standard $8,000 401(k) catch-up for that age band.",
+        "source": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/target-date-funds/",
+      "/funds/"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-8",
+    "title": "Asset Location: Where to Hold Bonds vs Stocks to Cut Your Tax Bill",
+    "date": "2026-10-31",
+    "slug": "asset-location-where-to-hold-bonds",
+    "search_phrase": "where to hold bonds asset location",
+    "why_now": "Investors who have mastered fund selection graduate to asset location, a high-value but underexplained topic. It pairs perfectly with the site's bond-fund reviews (VBTLX) and three-fund content.",
+    "angle": "Plain-English with an honest nuance. Give the classic rule (bonds in tax-advantaged, stocks in taxable) and then flag the real debate: at today's yields, growth assets may do more good in a Roth. Keep it practical and low-jargon.",
+    "facts": [
+      {
+        "fact": "The traditional asset-location rule puts tax-inefficient bonds in tax-protected accounts (401(k), Roth IRA) and tax-efficient stock index funds in taxable accounts, because bond interest is taxed as ordinary income.",
+        "source": "https://www.whitecoatinvestor.com/asset-location-bonds-go-in-taxable/"
+      },
+      {
+        "fact": "The rule is an oversimplification: because tax-protected space compounds, placing high-growth stocks in a Roth can leave an investor with more after-tax money, sometimes about 13% more in worked examples.",
+        "source": "https://www.whitecoatinvestor.com/asset-location-bonds-go-in-taxable/"
+      },
+      {
+        "fact": "Stocks held in taxable accounts benefit from qualified-dividend and long-term capital-gains rates plus a step-up in basis at death, which is why they are considered tax-efficient to hold there.",
+        "source": "https://www.whitecoatinvestor.com/asset-location-bonds-go-in-taxable/"
+      }
+    ],
+    "links": [
+      "/funds/vbtlx/",
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/funds/"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-9",
+    "title": "How Much Do You Need to Retire? The 4% Rule, Explained Simply",
+    "date": "2026-10-31",
+    "slug": "how-much-do-i-need-to-retire",
+    "search_phrase": "how much do I need to retire 4 percent rule",
+    "why_now": "Massive evergreen query that frames why low-cost investing matters: every basis point saved on fees compounds into the retirement number. A strong funnel entry that justifies the site's whole cost-first thesis.",
+    "angle": "Plain-English and math-light. Explain the 4% rule and the 25x shortcut, then connect it to costs: lowering your expense ratio is the most reliable way to hit the number faster. Route to best-index-funds and the calculator.",
+    "facts": [
+      {
+        "fact": "The 4% rule, developed by adviser Bill Bengen, says you can withdraw 4% of your portfolio in year one and adjust that dollar amount for inflation annually, with a 50/50 stock/bond mix lasting at least 30 years in every historical period tested.",
+        "source": "https://www.morningstar.com.au/insights/retirement/246616/the-4-rule-explained"
+      },
+      {
+        "fact": "Sizing a nest egg is the inverse: dividing desired annual income by 4% (e.g., $100,000 / 0.04 = $2.5 million) is the same as multiplying annual spending by 25.",
+        "source": "https://www.morningstar.com.au/insights/retirement/246616/the-4-rule-explained"
+      },
+      {
+        "fact": "The rule assumes a 30-year retirement and static inflation-adjusted spending, and does not account for taxes, so it is a planning starting point rather than a guarantee.",
+        "source": "https://www.morningstar.com.au/insights/retirement/246616/the-4-rule-explained"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/expense-ratio-calculator/",
+      "/target-date-funds/",
+      "/funds/vtsax/"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-10",
+    "title": "How to Rebalance Your Portfolio Without Overthinking It",
+    "date": "2026-10-31",
+    "slug": "how-to-rebalance-your-portfolio",
+    "search_phrase": "how to rebalance portfolio",
+    "why_now": "A recurring maintenance question for buy-and-hold index investors that few cost-first sites answer cleanly. Pairs with the three-fund and target-date content and reinforces the low-effort, low-cost ethos.",
+    "angle": "Plain-English and low-effort. Rebalancing once a year or on a set tolerance band is plenty; use new contributions first to avoid taxable sales. Note that target-date funds rebalance automatically, linking that page.",
+    "facts": [
+      {
+        "fact": "The two mainstream rebalancing approaches are calendar-based (e.g., annually) and threshold-based (rebalance when an allocation drifts past a set band such as 5 percentage points).",
+        "source": "https://www.stratifi.com/glossary/rebalancing"
+      },
+      {
+        "fact": "Vanguard research finds there is no single optimal rebalancing frequency; the goal is controlling risk relative to the target allocation, not maximizing return.",
+        "source": "https://corporate.vanguard.com/content/dam/corp/research/pdf/rational_rebalancing_analytical_approach_to_multiasset_portfolio_rebalancing.pdf"
+      },
+      {
+        "fact": "Target-date funds rebalance and shift their stock/bond glide path automatically, removing the task entirely for hands-off investors.",
+        "source": "https://investor.vanguard.com/investor-resources-education/understanding-investment-types/what-is-an-index-fund"
+      }
+    ],
+    "links": [
+      "/target-date-funds/",
+      "/best-index-funds/",
+      "/funds/vbtlx/",
+      "/funds/"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-11",
+    "title": "The Backdoor Roth IRA: A Step-by-Step Guide for High Earners",
+    "date": "2026-10-31",
+    "slug": "backdoor-roth-ira",
+    "search_phrase": "backdoor Roth IRA",
+    "why_now": "High-income 401(k)/IRA savers who are phased out of direct Roth contributions search this heavily, and the 2026 phase-out thresholds just changed. It attracts an affluent, affiliate-valuable reader and funnels into fund selection.",
+    "angle": "Plain-English and procedural, not salesy. Explain who needs it (earners above the Roth phase-out), the two steps (nondeductible traditional contribution, then convert), and the pro-rata pitfall, then point readers to which low-cost funds to hold inside the Roth.",
+    "facts": [
+      {
+        "fact": "For 2026, direct Roth IRA contributions phase out between $153,000-$168,000 (single) and $242,000-$252,000 (married filing jointly); above these, the backdoor route is the workaround.",
+        "source": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+      },
+      {
+        "fact": "The 2026 IRA contribution limit is $7,500 ($1,100 catch-up at 50+), the amount that can move through the backdoor each year.",
+        "source": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+      },
+      {
+        "fact": "A backdoor Roth is a two-step maneuver: make a nondeductible contribution to a traditional IRA, then convert it to a Roth, with the pro-rata rule complicating matters if you hold other pre-tax IRA balances.",
+        "source": "https://thecollegeinvestor.com/38006/how-to-do-a-backdoor-roth-ira/"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/funds/fzrox/",
+      "/funds/"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-10-31-12",
+    "title": "Dividend Funds vs Growth: Why Total Return Is What Actually Matters",
+    "date": "2026-10-31",
+    "slug": "dividend-vs-growth-total-return",
+    "search_phrase": "dividend vs growth investing",
+    "why_now": "Dividend investing is heavily marketed and heavily searched, and it is exactly the kind of hype the site exists to push back on. A chance to defend the broad-index, total-return approach against dividend-chasing.",
+    "angle": "Cost-first and myth-busting. A total-market index fund already captures dividends; chasing dividend funds often means higher fees, worse diversification, and tax drag in taxable accounts. Steer readers back to cheap broad index funds.",
+    "facts": [
+      {
+        "fact": "Selling a few shares of a broad index fund produces 'homemade dividends' economically equivalent to a dividend payout, so there is no inherent advantage to a dividend-focused fund for total return.",
+        "source": "https://www.michaeljamesonmoney.com/2012/10/defending-homemade-dividends.html"
+      },
+      {
+        "fact": "A total US stock market index fund already holds dividend-paying companies as part of a cap-weighted basket, delivering their dividends without a specialized, often pricier, dividend fund.",
+        "source": "https://smartasset.com/investing/sp-500-vs-total-stock-market"
+      },
+      {
+        "fact": "Index equity ETFs averaged 0.14% in fees in 2025; many dividend and 'smart beta' strategies charge multiples of that, a drag that compounds against total return.",
+        "source": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"
+      }
+    ],
+    "links": [
+      "/best-index-funds/",
+      "/funds/vtsax/",
+      "/index-vs-active/",
+      "/expense-ratio-calculator/"
+    ],
+    "priority": "low",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "domain": "https://mutualfundreviewer.com",
+  "site_name": "Mutual Fund Reviewer",
+  "tagline": "Plain-English fund reviews. Low costs win.",
+  "last_verified": "2026-10-31",
+  "_tokens_note": "Analytics, verification, contact-form and affiliate values are no longer stored here — they live in config.json / config.local.json and are injected by build.py.",
+  "author": {
+    "name": "Nathan Blake",
+    "title": "Editor, Mutual Fund Reviewer",
+    "bio": "Nathan Blake has spent fifteen years writing about index investing, retirement accounts, and the quiet math of expense ratios. He is not a licensed financial advisor, and nothing on this site is personalized investment advice — he is an editor who reads prospectuses so you don't have to. His own portfolio is three index funds and a rebalancing calendar reminder.",
+    "url": "/about/"
+  },
+  "nav": [
+    {
+      "label": "Best Index Funds",
+      "url": "/best-index-funds/"
+    },
+    {
+      "label": "Fund Reviews",
+      "url": "/funds/"
+    },
+    {
+      "label": "Comparisons",
+      "url": "/compare/"
+    },
+    {
+      "label": "Guides",
+      "url": "/guides/"
+    },
+    {
+      "label": "Fee Calculator",
+      "url": "/expense-ratio-calculator/"
+    },
+    {
+      "label": "Index vs. Active",
+      "url": "/index-vs-active/"
+    },
+    {
+      "label": "Target-Date Funds",
+      "url": "/target-date-funds/"
+    },
+    {
+      "label": "Robo-Advisors",
+      "url": "/robo-advisors/"
+    }
+  ],
+  "footer_nav": [
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Methodology",
+      "url": "/methodology/"
+    },
+    {
+      "label": "How We Make Money",
+      "url": "/how-we-make-money/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "/privacy/"
+    },
+    {
+      "label": "Terms of Use",
+      "url": "/terms/"
+    },
+    {
+      "label": "Disclaimer",
+      "url": "/disclaimer/"
+    }
+  ],
+  "robos": [
+    {
+      "id": "betterment",
+      "name": "Betterment",
+      "token": "{{AFF_BETTERMENT}}",
+      "fee": "0.25% annual advisory fee (digital plan)",
+      "minimum": "$0 to open, $10 to start investing",
+      "best_for": "Hands-off investors who want automatic rebalancing and tax-loss harvesting without thinking about it",
+      "summary": "Betterment is the largest independent robo-advisor and the most polished version of the hands-off pitch: deposit money, answer a few questions, and it builds a diversified ETF portfolio it rebalances automatically. The 0.25% fee is roughly six times what you'd pay holding a total-market index fund yourself — that's the honest trade. What you get for it is behavioral guardrails, automated tax-loss harvesting in taxable accounts, and goal-based buckets that make it harder to tinker.",
+      "verdict": "Worth it if automation keeps you invested. Not worth it if you're already comfortable buying VTSAX or FZROX on a schedule.",
+      "pros": [
+        "Automatic rebalancing and dividend reinvestment",
+        "Tax-loss harvesting on taxable accounts at no extra cost",
+        "Clean goal-based interface that discourages tinkering"
+      ],
+      "cons": [
+        "0.25% fee is ~6x a DIY three-fund portfolio",
+        "You don't pick the underlying funds",
+        "Premium tier (human advice) requires a large balance"
+      ]
+    },
+    {
+      "id": "wealthfront",
+      "name": "Wealthfront",
+      "token": "{{AFF_WEALTHFRONT}}",
+      "fee": "0.25% annual advisory fee",
+      "minimum": "$500",
+      "best_for": "Investors who want robo automation plus a high-yield cash account in one place",
+      "summary": "Wealthfront runs the same basic playbook as Betterment — diversified ETF portfolios, automatic rebalancing, tax-loss harvesting — with a stronger software bent. Its direct indexing (buying individual S&P 500 stocks to harvest more losses) kicks in at higher balances and is a real, if modest, tax edge. The cash account consistently pays competitive yields, which makes it a reasonable single home for emergency fund plus long-term money.",
+      "verdict": "The strongest pure-software robo. Same caveat as all of them: the 0.25% only earns its keep if the automation changes your behavior.",
+      "pros": [
+        "Direct indexing at higher balances improves tax-loss harvesting",
+        "Competitive high-yield cash account",
+        "Good automated financial planning tools"
+      ],
+      "cons": [
+        "$500 minimum",
+        "No human advisors at any tier",
+        "0.25% fee on money you could index yourself for ~0.04%"
+      ]
+    },
+    {
+      "id": "m1",
+      "name": "M1 Finance",
+      "token": "{{AFF_M1}}",
+      "fee": "$3/month platform fee (waived above $10,000)",
+      "minimum": "$100 ($500 for retirement accounts)",
+      "best_for": "DIY investors who want automation around their own fund picks rather than someone else's portfolio",
+      "summary": "M1 sits between a brokerage and a robo. You build a 'pie' of funds or stocks — say 60% VTI, 30% VXUS, 10% BND — and M1 automates the rest: every deposit buys whatever slice is underweight. It's the closest thing to a self-directed robo, and for index investors who already know what they want to hold, it removes the last excuse for not rebalancing.",
+      "verdict": "The best fit for readers of this site: you keep control of the funds, M1 handles the discipline.",
+      "pros": [
+        "You choose the exact ETFs; M1 automates contributions and rebalancing",
+        "Fee is flat and waived above $10,000",
+        "Fractional shares make small contributions efficient"
+      ],
+      "cons": [
+        "No mutual funds — ETFs and stocks only",
+        "Limited trading windows (one or two per day)",
+        "No tax-loss harvesting"
+      ]
+    },
+    {
+      "id": "ibkr",
+      "name": "Interactive Brokers",
+      "token": "{{AFF_IBKR}}",
+      "fee": "$0 commissions on US stocks/ETFs (IBKR Lite); mutual fund fees vary",
+      "minimum": "$0",
+      "best_for": "Cost-obsessed investors and anyone who wants access to nearly every fund and market on earth",
+      "summary": "Interactive Brokers is a full brokerage, not a robo, and it earns its place here for one reason: it is relentlessly cheap. IBKR Lite offers commission-free US stock and ETF trades, the margin rates are the lowest in the industry by a wide margin, and the mutual fund marketplace includes thousands of no-transaction-fee funds. The interface assumes you know what you're doing.",
+      "verdict": "The power-user choice. If 'minimize every basis point' is your religion, this is your church — just expect a learning curve.",
+      "pros": [
+        "Lowest all-in costs of any major broker",
+        "Enormous fund and ETF selection, including international markets",
+        "Industry-best margin rates if you ever need them"
+      ],
+      "cons": [
+        "Interface is built for professionals and feels like it",
+        "No automated portfolio management on the basic platform",
+        "Customer support is functional, not hand-holding"
+      ]
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi Invest",
+      "token": "{{AFF_SOFI_INVEST}}",
+      "fee": "0.25% for automated investing; $0 commissions for self-directed",
+      "minimum": "$1",
+      "best_for": "Beginners starting with small amounts who want investing, banking, and loans under one roof",
+      "summary": "SoFi Invest is the friendliest on-ramp on this list. The $1 minimum and fractional shares mean a college student can start a real portfolio with lunch money, and the automated option builds a sensible ETF mix. The catch is depth: the fund lineup is thinner than the big brokerages, and SoFi's own ETFs anchor the automated portfolios.",
+      "verdict": "A fine place to start; many investors eventually outgrow it. Starting matters more than optimizing, so that's not a knock.",
+      "pros": [
+        "$1 minimum and fractional shares",
+        "Access to human financial planners at no extra cost",
+        "Tight integration with SoFi banking products"
+      ],
+      "cons": [
+        "Automated portfolios lean on SoFi's own ETFs",
+        "No tax-loss harvesting",
+        "Fund research tools are thin compared to Fidelity or Schwab"
+      ]
+    }
+  ]
+}

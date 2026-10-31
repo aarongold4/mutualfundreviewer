@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Expense Ratio Calculator</nav></div>
+
+<div class="wrap">
+  <section class="section-pad" style="padding-bottom:18px">
+    <span class="label">Interactive tool</span>
+    <h1 style="margin-top:.2em">Expense Ratio Calculator: What Fees Really Cost</h1>
+    <p class="lead narrow">Two funds. Same return. Different fee. Drag the sliders and watch the gap open up over the decades &mdash; this is the most expensive small number in personal finance.</p>
+  </section>
+
+  <section class="calc-grid">
+    <div class="card">
+      <div class="field">
+        <label for="initial">Starting balance</label>
+        <div class="range-row"><input type="range" id="initial" min="0" max="100000" step="1000" value="10000"><span class="rngval" id="initialV"></span></div>
+      </div>
+      <div class="field">
+        <label for="monthly">Monthly contribution</label>
+        <div class="range-row"><input type="range" id="monthly" min="0" max="3000" step="50" value="500"><span class="rngval" id="monthlyV"></span></div>
+      </div>
+      <div class="field">
+        <label for="years">Years invested</label>
+        <div class="range-row"><input type="range" id="years" min="5" max="40" step="1" value="30"><span class="rngval" id="yearsV"></span></div>
+      </div>
+      <div class="field">
+        <label for="ret">Assumed annual return (before fees)</label>
+        <div class="range-row"><input type="range" id="ret" min="2" max="10" step="0.5" value="7"><span class="rngval" id="retV"></span></div>
+      </div>
+      <hr class="rule" style="margin:1.1em 0">
+      <div class="field">
+        <label for="erA">Fund A expense ratio (the cheap one)</label>
+        <div class="range-row"><input type="range" id="erA" min="0" max="2" step="0.01" value="0.04"><span class="rngval" id="erAV"></span></div>
+      </div>
+      <div class="field">
+        <label for="erB">Fund B expense ratio (the pricey one)</label>
+        <div class="range-row"><input type="range" id="erB" min="0" max="2" step="0.01" value="0.70"><span class="rngval" id="erBV"></span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="grid grid-2" style="margin-bottom:18px">
+        <div class="card"><span class="label">Fund A ends with <span id="erAlabel"></span> fee</span><div class="result-stat" id="endA"></div></div>
+        <div class="card"><span class="label">Fund B ends with <span id="erBlabel"></span> fee</span><div class="result-stat" id="endB"></div></div>
+      </div>
+      <div class="card" style="border-left:4px solid var(--bad);margin-bottom:18px">
+        <span class="label">What the higher fee costs you</span>
+        <div class="result-stat cost" id="feeCost"></div>
+        <p class="tiny" style="margin:.4rem 0 0">That&rsquo;s <b id="feePct"></b> of your ending balance, handed over in fees &mdash; on total contributions of <b id="contributed"></b>.</p>
+      </div>
+      <canvas id="feeChart" height="320" aria-label="Growth comparison chart"></canvas>
+      <p class="tiny" style="margin-top:.6rem">Navy line = lower-fee fund. Red line = higher-fee fund. The space between them is money that left your pocket.</p>
+    </div>
+  </section>
+
+  <div class="wrap narrow" style="padding:0">
+    <section class="section-pad">
+      <div class="callout note">
+        <span class="label">About this math</span>
+        <p>This is neutral compound-interest arithmetic, not a forecast. It assumes both funds earn the same gross return and differ only by their expense ratio, deducted monthly &mdash; which isolates the one variable you actually control. Real funds differ in return too, and nobody can predict that part, which is exactly why we focus on the part that&rsquo;s knowable. The default 7% is illustrative, not a promise; markets do not deliver smooth returns.</p>
+      </div>
+      <h2>Why one number matters this much</h2>
+      <p>The fee is small and certain; the harm is large and delayed, which is precisely why it&rsquo;s underrated. A 0.70% fund doesn&rsquo;t feel 17 times more expensive than a 0.04% fund &mdash; both look like rounding errors on a statement. But fees compound on the same schedule your money does, quietly skimming a slice of every year&rsquo;s growth, including the growth the fee already prevented in prior years. Run the sliders to a realistic career-length horizon and the gap routinely reaches into the six figures.</p>
+      <p>This is also the rare investing variable with no trade-off. A cheaper index fund isn&rsquo;t riskier or worse-diversified than its expensive twin &mdash; it&rsquo;s the same market exposure for less. See the lowest-cost options in each category on our <a href="/best-index-funds/">best index funds</a> page.</p>
+    </section>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}<script src="/static/js/calculator.js"></script>{% endblock %}

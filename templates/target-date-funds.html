@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Target-Date Funds</nav></div>
+<div class="wrap narrow">
+<section class="section-pad">
+  <span class="label">How to pick one</span>
+  <h1 style="margin-top:.2em">Target-Date Funds: The One-Decision Portfolio</h1>
+  <p class="lead">A target-date fund is a complete, self-managing portfolio in a single ticker. For most retirement savers, it&rsquo;s not a compromise &mdash; it&rsquo;s close to the ideal.</p>
+
+  <h2>What they are</h2>
+  <p>You pick the fund with the year closest to your expected retirement &mdash; 2050, say &mdash; and the fund does everything else: it holds a diversified mix of US stocks, international stocks, and bonds, rebalances itself automatically, and gradually shifts from aggressive to conservative as the target year approaches. That gradual shift is called the <em>glide path</em>. Decades from retirement, you&rsquo;re ~90% stocks; at and beyond retirement, the fund has eased you into a bond-heavy mix designed to survive withdrawals.</p>
+
+  <div class="callout"><span class="label">The underrated superpower</span><p>The best thing about a target-date fund isn&rsquo;t the asset allocation &mdash; it&rsquo;s that there&rsquo;s nothing to tinker with during a crash. Studies of investor behavior consistently find target-date owners earn returns much closer to their funds&rsquo; actual returns, because the structure quietly prevents the buy-high-sell-low mistakes that cost self-directed investors 1&ndash;2% a year.</p></div>
+
+  <h2>How to choose: a short checklist</h2>
+  <p><b>1. Insist on the index version.</b> This is the single most important and most-missed step. Fidelity, for example, runs <em>two</em> nearly identically named series &mdash; <a href="/funds/fbifx/">Freedom Index</a> (cheap, ~0.12%) and the original active Freedom funds (several times pricier). The same glide path at a third of the cost is free money; check that the word &ldquo;Index&rdquo; appears in the fund name, character by character.</p>
+  <p><b>2. Match the date to your real timeline, not your risk mood.</b> The date is a proxy for how many years of growth you have left. Want more risk? Pick a later-dated fund deliberately. Want less? Pick an earlier one. Just don&rsquo;t change it because last year&rsquo;s returns were good or bad &mdash; that&rsquo;s the exact behavior the fund exists to prevent.</p>
+  <p><b>3. Hold it as the whole account.</b> A target-date fund is engineered to be your entire portfolio. Bolting on &ldquo;a little extra&rdquo; tech fund or individual stocks quietly cranks up your risk and defeats the glide path. If you want to do that, you don&rsquo;t want a target-date fund &mdash; you want a hobby, which is fine, but be honest about which one you&rsquo;re choosing.</p>
+  <p><b>4. Mind the account type.</b> Target-date funds are ideal in 401(k)s and IRAs. In a <em>taxable</em> account, the all-in-one structure forfeits foreign tax credits and the ability to place assets tax-efficiently, and the automatic rebalancing can trigger taxable events &mdash; so DIY index funds often fit taxable money better.</p>
+
+  <h2>The major index target-date series</h2>
+  <p>All three big providers now offer all-index target-date funds at 0.08&ndash;0.12%. They differ only in minor glide-path and international-weight choices; the deciding factor is where your account lives.</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Provider</th><th>Series</th><th class="num">Expense Ratio</th><th class="num">Minimum</th></tr></thead>
+      <tbody>
+        <tr><td>Vanguard</td><td><a href="/funds/vfifx/">Target Retirement</a></td><td class="num er-good">~0.08%</td><td class="num">$1,000</td></tr>
+        <tr><td>Fidelity</td><td><a href="/funds/fipfx/">Freedom Index</a></td><td class="num er-good">~0.12%</td><td class="num">$0</td></tr>
+        <tr><td>Schwab</td><td><a href="/funds/swymx/">Target Index</a></td><td class="num er-good">~0.08%</td><td class="num">$1</td></tr>
+        <tr><td>T. Rowe Price</td><td><a href="/funds/trrmx/">Retirement (active)</a></td><td class="num er-high">~0.60%</td><td class="num">$2,500</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Note the outlier: T. Rowe&rsquo;s active series has a more aggressive glide path and a strong reputation, but its fee is roughly seven times the index versions &mdash; a gap that compounds into real money over a career. If it&rsquo;s your 401(k)&rsquo;s only option, use it and capture the match; when you change jobs, the balance can roll to an IRA holding a cheaper index series.</p>
+
+  <div class="callout note"><span class="label">Browse the funds</span><p>See every target-date fund we&rsquo;ve reviewed, by date, in the <a href="/funds/">full fund list</a> &mdash; or jump to the <a href="/best-index-funds/">best index funds</a> if you&rsquo;d rather build a portfolio by hand.</p></div>
+  <hr class="rule">
+  <p class="tiny">Expense ratios are representative of each series and last verified {{ last_verified_human }}; specific funds vary by vintage. Educational content, not investment advice.</p>
+</section>
+</div>
+{% endblock %}

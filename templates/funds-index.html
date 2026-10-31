@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Fund Reviews</nav></div>
+<div class="wrap">
+<section class="section-pad" style="padding-bottom:14px">
+  <span class="label">The full directory</span>
+  <h1 style="margin-top:.2em">All {{ fund_count }} Fund Reviews</h1>
+  <p class="lead narrow">Every fund we&rsquo;ve reviewed, grouped by family. Each review covers what the fund holds, what it costs, who it fits, and the alternatives worth weighing.</p>
+</section>
+{% for fam in families %}
+<section class="section-pad" style="padding-top:4px;padding-bottom:4px">
+  <div class="cat-head"><h2 style="margin:0">{{ fam.name }}</h2><span class="tiny">{{ fam.funds|length }} funds</span></div>
+  <div class="fundlist">
+    {% for f in fam.funds %}<a href="/funds/{{ f.ticker|lower }}/"><span class="t">{{ f.ticker }}</span>{{ f.name|truncate(40,true,'&hellip;') }} <span class="tiny">&middot; {{ f.er_pct }}</span></a>{% endfor %}
+  </div>
+</section>
+{% endfor %}
+<section class="section-pad">
+  <div class="callout note"><span class="label">Not sure where to start?</span><p>The <a href="/best-index-funds/">best index funds by category</a> page is the fast track, or browse the <a href="/compare/">head-to-head comparisons</a> for the classic match-ups.</p></div>
+</section>
+</div>
+{% endblock %}

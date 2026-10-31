@@ -1,0 +1,172 @@
+[
+  {
+    "ticker": "SWTSX",
+    "name": "Schwab Total Stock Market Index Fund",
+    "family": "Schwab",
+    "category": "Total US Market",
+    "type": "index",
+    "strategy": "Tracks the Dow Jones US Total Stock Market Index — about 3,400 stocks covering the full US market.",
+    "expense_ratio": 0.03,
+    "minimum": 0,
+    "inception": 1999,
+    "best_for": "Total-market indexing for investors whose home base is Schwab",
+    "editorial": [
+      "SWTSX completes the holy trinity of total-market funds — VTSAX, FZROX, SWTSX — and like its siblings it makes the case that this product category is finished evolving: the whole US market, 0.03%, no minimum, tracking error you'd need a magnifying glass to find. Schwab was a discount pioneer before index funds were cool, and this fund is that heritage distilled.",
+      "Choosing among the big three total-market funds is purely a question of where you bank: the funds are interchangeable, transaction fees apply if you buy one family's mutual funds at another's brokerage, and no rational person should pay a transaction fee to get 0.03% instead of 0.04%. One Schwab-specific note: it pays distributions annually rather than quarterly, a minor cash-drag quirk that matters less than almost anything else about your plan."
+    ],
+    "alternatives": ["VTSAX", "FZROX", "FSKAX"]
+  },
+  {
+    "ticker": "SWPPX",
+    "name": "Schwab S&P 500 Index Fund",
+    "family": "Schwab",
+    "category": "S&P 500 / Large Blend",
+    "type": "index",
+    "strategy": "Tracks the S&P 500 index of 500 large US companies.",
+    "expense_ratio": 0.02,
+    "minimum": 0,
+    "inception": 1997,
+    "best_for": "S&P 500 exposure at Schwab with a $0 minimum",
+    "editorial": [
+      "Two basis points, no minimum, the S&P 500. SWPPX has quietly been one of the cheapest S&P 500 funds in existence for years, and it's a fine illustration of how completely the index price war has been won on behalf of ordinary savers: a fee this size on $100,000 is twenty dollars a year, less than the gas to drive to a financial advisor's office.",
+      "The fund-picking decision here is solved; the remaining decisions are human. An S&P 500 fund is 500 large companies, not the whole market and not a diversified portfolio by itself — pair it with international and bonds, or just confirm you're comfortable with a US-mega-cap-only equity base. Plenty of fortunes have been built on exactly that base; just choose it on purpose."
+    ],
+    "alternatives": ["FXAIX", "VFIAX", "SWTSX", "FNILX"]
+  },
+  {
+    "ticker": "SWISX",
+    "name": "Schwab International Index Fund",
+    "family": "Schwab",
+    "category": "International",
+    "type": "index",
+    "strategy": "Tracks the MSCI EAFE Index — large and mid-cap developed-market stocks outside North America.",
+    "expense_ratio": 0.06,
+    "minimum": 0,
+    "inception": 1997,
+    "best_for": "Developed-international exposure in a Schwab three-fund portfolio",
+    "editorial": [
+      "SWISX is Schwab's house international fund, and the key thing to know is what it leaves out: tracking MSCI EAFE means developed markets only — no emerging markets, and (EAFE quirk) no Canada. Around 700 stocks from Japan, Europe, and Australia at 0.06%. For Schwab loyalists building a three-fund portfolio, it's the standard international piece.",
+      "If you want emerging markets included, Schwab doesn't offer a total-international index mutual fund the way Vanguard (VTIAX) and Fidelity (FTIHX) do — the usual Schwab solutions are adding the ETF SCHE for emerging markets or simply using a competitor's total-international fund in an IRA elsewhere. None of this is disqualifying; it's just a lineup gap worth knowing before assuming SWISX equals 'everything outside the US.'"
+    ],
+    "alternatives": ["FSPSX", "VTMGX", "VTIAX"]
+  },
+  {
+    "ticker": "SWAGX",
+    "name": "Schwab US Aggregate Bond Index Fund",
+    "family": "Schwab",
+    "category": "Bond",
+    "type": "index",
+    "strategy": "Tracks the Bloomberg US Aggregate Bond Index — broad investment-grade US bonds.",
+    "expense_ratio": 0.04,
+    "minimum": 0,
+    "inception": 2017,
+    "best_for": "The bond leg of a Schwab-based portfolio",
+    "editorial": [
+      "Same Agg, different sticker: SWAGX tracks the identical Bloomberg US Aggregate index as VBTLX and FXNAX, at 0.04% with no minimum. Thousands of Treasuries, agency mortgage bonds, and investment-grade corporates with intermediate duration — the textbook ballast allocation, indexed without commentary.",
+      "Bond index funds are even more commoditized than stock index funds, because bonds themselves are math: yield, duration, credit quality. There is no secret sauce to differentiate one Agg tracker from another beyond a basis point of fee and a rounding error of tracking. Hold the one your brokerage sells without a transaction fee, put it in a tax-advantaged account, and spend your remaining attention on the stock/bond split — the only bond decision that moves the needle."
+    ],
+    "alternatives": ["VBTLX", "FXNAX", "PTTRX"]
+  },
+  {
+    "ticker": "SWSSX",
+    "name": "Schwab Small-Cap Index Fund",
+    "family": "Schwab",
+    "category": "Small Cap",
+    "type": "index",
+    "strategy": "Tracks the Russell 2000 Index — 2,000 small US companies.",
+    "expense_ratio": 0.04,
+    "minimum": 0,
+    "inception": 1997,
+    "best_for": "A cheap Russell 2000 sleeve at Schwab",
+    "editorial": [
+      "SWSSX gives Schwab investors the Russell 2000 for 0.04% — small companies, big volatility, and the perennial academic promise of a size premium that shows up on its own erratic schedule. It's functionally interchangeable with Fidelity's FSSNX; both track the same index for almost the same nothing.",
+      "Small-cap funds reward a specific temperament: the willingness to watch your tilt lag the S&P 500 for five straight years without abandoning it, because the segment's outperformance historically arrives in violent, unannounced bursts. If you have that temperament, a few percent here is a reasonable lean. If you'll check the comparison chart quarterly and wince, SWTSX already owns these companies at market weight and will spare you the suspense."
+    ],
+    "alternatives": ["FSSNX", "VSMAX", "SWTSX"]
+  },
+  {
+    "ticker": "SNXFX",
+    "name": "Schwab 1000 Index Fund",
+    "family": "Schwab",
+    "category": "S&P 500 / Large Blend",
+    "type": "index",
+    "strategy": "Tracks the Schwab 1000 Index — the 1,000 largest US companies, roughly the S&P 500 plus mid caps.",
+    "expense_ratio": 0.05,
+    "minimum": 0,
+    "inception": 1991,
+    "best_for": "Large-plus-mid-cap coverage in one proprietary index",
+    "editorial": [
+      "The Schwab 1000 is Chuck Schwab's 1991 answer to index licensing fees — decades before Fidelity's ZERO funds made the same move famous. One thousand largest US companies, which lands the portfolio between an S&P 500 fund and a total-market fund: all the giants plus the mid caps, missing only the small-cap tail.",
+      "It's a perfectly good core fund with a 30-year record of doing exactly what it says, though in 2026 it occupies an awkward middle seat: SWPPX is cheaper for large-cap purists and SWTSX is more complete for two extra basis points. Long-time holders in taxable accounts have no reason to move; new money usually picks one of its more famous neighbors."
+    ],
+    "alternatives": ["SWPPX", "SWTSX", "FXAIX"]
+  },
+  {
+    "ticker": "SWLGX",
+    "name": "Schwab US Large-Cap Growth Index Fund",
+    "family": "Schwab",
+    "category": "Large Growth",
+    "type": "index",
+    "strategy": "Tracks the Russell 1000 Growth Index — large US growth companies.",
+    "expense_ratio": 0.035,
+    "minimum": 0,
+    "inception": 2017,
+    "best_for": "Indexed growth-style exposure on the Schwab platform",
+    "editorial": [
+      "SWLGX is Schwab's entry in the cheap-growth-index category, tracking the same Russell 1000 Growth as Fidelity's FSPGX at the same 0.035%. The portfolio is what growth indexes always are now: a mega-cap tech core with everything else as garnish, concentrated enough that the top ten names drive most of the outcome.",
+      "The use case and the warning are identical to its Fidelity twin. Use case: getting growth-style exposure for thirty-five basis points less than the average active growth manager charges to underperform it. Warning: your total-market fund is already one-third these exact stocks, so a growth fund is a concentration dial, not a diversifier — turn it knowingly or not at all."
+    ],
+    "alternatives": ["FSPGX", "VIGAX", "SWPPX"]
+  },
+  {
+    "ticker": "SWYGX",
+    "name": "Schwab Target 2040 Index Fund",
+    "family": "Schwab",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2040, built from Schwab index funds and ETFs.",
+    "expense_ratio": 0.08,
+    "minimum": 1,
+    "inception": 2016,
+    "best_for": "One-fund retirement investing at Schwab with a $1 minimum",
+    "editorial": [
+      "Schwab's Target Index series is the least famous of the big three all-index target-date lineups and arguably the friendliest: 0.08% — matching Vanguard, undercutting Fidelity's Freedom Index — with a $1 minimum that makes the 'I don't have enough to start' excuse extinct. The 2040 fund currently runs equity-heavy and walks down the standard glide path.",
+      "As with all of these series, the construction differences (Schwab uses some of its own ETFs inside, glide paths differ by a few percentage points at various ages) are real but minor, and the deciding factor is where your accounts live. The headline is that a saver at any of the three big retail brokerages can now own a complete, self-managing, all-index retirement portfolio for eight to twelve basis points. That sentence took fifty years of fee wars to become true."
+    ],
+    "alternatives": ["VFORX", "FBIFX", "SWYMX"]
+  },
+  {
+    "ticker": "SWYMX",
+    "name": "Schwab Target 2050 Index Fund",
+    "family": "Schwab",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2050; currently ~90% global equities.",
+    "expense_ratio": 0.08,
+    "minimum": 1,
+    "inception": 2016,
+    "best_for": "Schwab savers a quarter-century from retirement",
+    "editorial": [
+      "Ninety percent global stocks, ten percent bonds, rebalance forever, fade to conservative in the 2040s: SWYMX runs the standard 2050 playbook at Vanguard pricing with a one-dollar minimum. For a Schwab 401(k) or IRA, it's the complete answer in one ticker.",
+      "The under-discussed virtue of target-date funds shows up in the research on investor behavior: target-date owners' actual realized returns track their funds' returns far more closely than self-directed investors', whose buying-high-selling-low gap costs them 1–2% annually. The glide path gets the marketing attention, but the handcuffs are the product. SWYMX's are as comfortable and cheap as any."
+    ],
+    "alternatives": ["VFIFX", "FIPFX", "SWYGX"]
+  },
+  {
+    "ticker": "SWYNX",
+    "name": "Schwab Target 2060 Index Fund",
+    "family": "Schwab",
+    "category": "Target-Date",
+    "type": "target-date",
+    "strategy": "All-index target-date fund de-risking toward 2060; currently ~90% global equities for the long haul.",
+    "expense_ratio": 0.08,
+    "minimum": 1,
+    "inception": 2016,
+    "best_for": "Young Schwab investors who want to start with literally one dollar",
+    "editorial": [
+      "A complete global portfolio, professionally maintained for forty years, for eight basis points and a one-dollar opening bid — SWYNX is a strong nominee for the lowest-barrier serious investment in America. The far-dated allocation is the usual ~90% world equity, and like all far-dated funds it won't meaningfully change for a decade-plus.",
+      "For a new investor choosing among the 2060 funds, here's the entire decision tree: Where are your accounts? Use that family's index target-date series. Is the word 'Index' in the fund name (Fidelity's trap)? Good. Now automate a contribution and close the tab. Everything else — Schwab vs. Vanguard glide-path nuance, eight versus twelve basis points — is hobbyist material, and this fund's owners have wisely chosen not to have this hobby."
+    ],
+    "alternatives": ["VTTSX", "FDKLX", "SWYMX"]
+  }
+]

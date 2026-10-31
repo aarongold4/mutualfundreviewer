@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap"><nav class="crumbs"><a href="/">Home</a><span>&rsaquo;</span>Guides</nav></div>
+<div class="wrap narrow">
+<section class="section-pad">
+  <span class="label">Learn</span>
+  <h1 style="margin-top:.2em">Guides</h1>
+  <p class="lead">Plain-English answers to the questions long-term investors actually ask &mdash; each one leading back to the same idea: keep your costs low and your plan boring.</p>
+  {% if guides %}
+  <div class="grid grid-2" style="margin-top:1.4em">
+    {% for g in guides %}
+    <a class="card" href="{{ g.path }}" style="color:inherit;padding:18px 20px">
+      <span class="label">Guide</span>
+      <h3 style="margin:.3rem 0 .4rem;font-size:1.15rem">{{ g.h1 }}</h3>
+      <p style="margin:0;font-size:.92rem;color:var(--ink-soft)">{{ g.summary }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>New guides are on the way.</p>
+  {% endif %}
+  <div class="callout note" style="margin-top:1.6em"><span class="label">Ready to pick funds?</span><p>Skip to the <a href="/best-index-funds/">best index funds by category</a> or run the <a href="/expense-ratio-calculator/">fee calculator</a>.</p></div>
+</section>
+</div>
+{% endblock %}
