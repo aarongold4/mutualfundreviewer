@@ -7,6 +7,8 @@ config.local.json
 # Working scratch from audits/research
 _verify/
 _research/
+# NOTE: _drafts/ is intentionally TRACKED (not ignored) — it holds guides awaiting
+# your Publish/Discard. build.py never builds it, so drafts there are not live.
 
 # Python
 __pycache__/
