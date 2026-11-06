@@ -13,35 +13,43 @@
   "nav": [
     {
       "label": "Best Index Funds",
-      "url": "/best-index-funds/"
+      "url": "/best-index-funds/",
+      "short": "Best Funds"
     },
     {
       "label": "Fund Reviews",
-      "url": "/funds/"
+      "url": "/funds/",
+      "short": "Reviews"
     },
     {
       "label": "Comparisons",
-      "url": "/compare/"
+      "url": "/compare/",
+      "short": "Compare"
     },
     {
       "label": "Guides",
-      "url": "/guides/"
+      "url": "/guides/",
+      "short": "Guides"
     },
     {
       "label": "Fee Calculator",
-      "url": "/expense-ratio-calculator/"
+      "url": "/expense-ratio-calculator/",
+      "short": "Calculator"
     },
     {
       "label": "Index vs. Active",
-      "url": "/index-vs-active/"
+      "url": "/index-vs-active/",
+      "short": "Index vs. Active"
     },
     {
       "label": "Target-Date Funds",
-      "url": "/target-date-funds/"
+      "url": "/target-date-funds/",
+      "short": "Target-Date"
     },
     {
       "label": "Robo-Advisors",
-      "url": "/robo-advisors/"
+      "url": "/robo-advisors/",
+      "short": "Robo-Advisors"
     }
   ],
   "footer_nav": [

@@ -47,11 +47,11 @@
 <body>
 <header class="site-head">
   <div class="wrap head-row">
-    <a class="brand" href="/"><span class="mark">&#9650;</span> Mutual Fund Reviewer</a>
+    <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect x="7" y="8" width="26" height="24" rx="3.5" fill="none" stroke="#dfe7ef" stroke-width="2"/><line x1="12" y1="15" x2="28" y2="15" stroke="#b8862f" stroke-width="2.2" stroke-linecap="round"/><line x1="12" y1="20" x2="28" y2="20" stroke="#dfe7ef" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="25" x2="22" y2="25" stroke="#dfe7ef" stroke-width="2" stroke-linecap="round"/></svg> Mutual Fund Reviewer</a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
     <nav class="main-nav" id="mainNav">
       <ul>
-        {% for item in nav %}<li><a href="{{ item.url }}">{{ item.label }}</a></li>{% endfor %}
+        {% for item in nav %}<li><a href="{{ item.url }}">{{ item.short or item.label }}</a></li>{% endfor %}
       </ul>
     </nav>
   </div>
