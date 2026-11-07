@@ -169,7 +169,21 @@ env = Environment(
     autoescape=select_autoescape(["html", "xml"]),
 )
 
+def _asset_ver():
+    # Short content hash of the CSS/JS so the ?v= query changes only when an
+    # asset changes — forces browsers to re-fetch after a deploy (no stale CSS).
+    import hashlib
+    h = hashlib.md5()
+    for rel in ("css/style.css", "js/main.js", "js/calculator.js"):
+        p = os.path.join(STATIC, rel)
+        if os.path.exists(p):
+            h.update(open(p, "rb").read())
+    return h.hexdigest()[:8]
+
+ASSET_VER = _asset_ver()
+
 BASE_CTX = {
+    "asset_ver": ASSET_VER,
     "domain": SITE["domain"],
     "site_name": SITE["site_name"],
     "tagline": SITE["tagline"],
