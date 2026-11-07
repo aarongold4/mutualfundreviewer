@@ -106,7 +106,10 @@ p{margin:0 0 1.05em}
 .hero .wrap{position:relative}
 .hero h1{color:#fff;font-size:2.3rem;max-width:14ch}
 .hero p.lede{font-size:1.18rem;color:#cdd9e6;max-width:54ch;margin-bottom:1.5rem}
-.hero .pills{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.5rem}
+.hero .pills{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.5rem}
+.hero .btn{margin-bottom:.45rem}
+.hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.45);background:transparent}
+.hero .btn-ghost:hover{background:rgba(255,255,255,.1);color:#fff}
 .pill{font-family:"Public Sans",sans-serif;font-size:.8rem;font-weight:600;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#dde7f1;padding:.35rem .7rem;border-radius:40px}
 @media(min-width:760px){.hero h1{font-size:3.1rem}}
 
