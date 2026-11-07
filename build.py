@@ -384,7 +384,9 @@ def legal_pages():
 <h2>How we rank "best" funds</h2>
 <p>Within a category, we rank primarily by expense ratio, with minimums and structural tie-breakers (portability, index quality, distribution quirks) noted. We do <em>not</em> rank by past returns, because past returns have almost no power to predict future returns, and ranking by them would simply chase last year's luck.</p>
 <h2>Where our data comes from</h2>
-<p>Expense ratios, minimums, and strategies come from fund providers' own documentation and prospectuses. Every figure carries a last-verified date. Funds change their terms; we re-verify periodically, but you should always confirm against the official prospectus before investing.</p>
+<p>Expense ratios, minimums, and strategies come from fund providers' own documentation and prospectuses. We treat the fund's own filing &mdash; its prospectus, summary prospectus, or annual report &mdash; as the source of record, and use third-party aggregators only to cross-check.</p>
+<h2>How current our figures are</h2>
+<p>Every figure on this site carries a <strong>last-verified date</strong>, shown in the footer and on each fund's page. We re-check the funds against their issuers' filings on a regular, automated schedule and update a figure when a filing confirms it has changed &mdash; so a quiet stretch with no change simply means nothing in the filings moved. Fund terms still change, and our data can briefly lag a provider's update, so always confirm against the official prospectus before investing. We publish a correction only when an issuer filing supports it; we never change a number on the strength of a third-party aggregator alone.</p>
 <h2>What we don't do</h2>
 <p>We don't forecast returns, we don't publish price targets, and we don't tell you what to buy — we are a publication, not your advisor. The only forward-looking number anywhere on this site is in the <a href="/expense-ratio-calculator/">fee calculator</a>, and that is neutral compound-interest math you control entirely.</p>
 """)
