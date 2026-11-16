@@ -591,6 +591,13 @@ def main():
     os.makedirs(DIST)
     # static
     shutil.copytree(STATIC, os.path.join(DIST, "static"))
+    # copy any root-level public files (search-console verification, ads.txt, etc.) to dist root
+    _pub = os.path.join(ROOT, "public")
+    if os.path.isdir(_pub):
+        for _name in os.listdir(_pub):
+            _src = os.path.join(_pub, _name)
+            if os.path.isfile(_src):
+                shutil.copy(_src, os.path.join(DIST, _name))
 
     # featured funds for home (well-known tickers)
     featured_tickers = ["VTSAX", "FXAIX", "FZROX", "VTIAX", "VBTLX", "VFIFX",

@@ -2,7 +2,7 @@
   "_comment": "Non-secret build config. Real values go in config.local.json (gitignored), which build.py overlays on top of this. Empty analytics/contact values are omitted from output; empty affiliate URLs fall back to the provider's public homepage so CTAs never break pre-approval.",
   "analytics": {
     "ga4": "",
-    "gsc": "",
+    "gsc": "jEmjS_T30bFYooVlXt4iZd1VJkj5_7gStn4B_gRztEE",
     "bing": ""
   },
   "contact": {
