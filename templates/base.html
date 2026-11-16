@@ -24,6 +24,9 @@
 <meta property="og:image" content="{{ domain }}/static/img/og-default.png">
 <meta name="twitter:image" content="{{ domain }}/static/img/og-default.png">
 
+{% if tokens.adsense %}<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ tokens.adsense }}" crossorigin="anonymous"></script>{% endif %}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,650&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@600;700;800&display=swap" rel="stylesheet">

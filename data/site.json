@@ -80,6 +80,10 @@
     {
       "label": "Disclaimer",
       "url": "/disclaimer/"
+    },
+    {
+      "label": "Disclosure",
+      "url": "/disclosure/"
     }
   ],
   "robos": [

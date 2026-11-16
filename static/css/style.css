@@ -252,3 +252,19 @@ hr.rule{border:0;border-top:1px solid var(--line);margin:2em 0}
 @media(min-width:920px){.fundlist{columns:3}}
 .fundlist a{display:block;padding:.4rem 0;break-inside:avoid;font-size:.95rem}
 .fundlist a .t{font-family:"Public Sans",sans-serif;font-weight:800;color:var(--brass);font-size:.82rem;margin-right:.4rem}
+
+/* advertiser disclosure line (top of reviews & comparisons) */
+.adv-disclosure{font-family:"Public Sans",sans-serif;font-size:.78rem;line-height:1.5;color:var(--ink-soft);background:var(--warn-bg);border:1px solid var(--line);border-radius:var(--radius);padding:.6rem .8rem;margin:16px 0 0}
+.adv-disclosure strong{color:var(--ink)}
+.adv-disclosure a{color:var(--brass);font-weight:600}
+
+/* where-to-buy box on fund reviews */
+.buybox{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brass);border-radius:var(--radius);padding:18px 20px;margin:1.6em 0}
+.buybox .label{display:block;margin-bottom:.5rem}
+.buybox .buybox-direct{margin:.2rem 0 .7rem;font-size:1rem}
+.buybox .buybox-direct a,.buybox .buybox-note a{color:var(--brass);font-weight:600}
+.buybox .buybox-lbl{font-family:"Public Sans",sans-serif;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-soft);margin:.2rem 0 .5rem}
+.buybox-brokers{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.4rem}
+.broker-link{font-family:"Public Sans",sans-serif;font-size:.86rem;font-weight:700;background:var(--paper-2);border:1px solid var(--line-strong);border-radius:5px;padding:.5rem .8rem;color:var(--navy)}
+.broker-link:hover{background:#fff;border-color:var(--brass);text-decoration:none}
+.buybox .buybox-note{font-size:.76rem;color:var(--ink-soft);margin:.6rem 0 0;line-height:1.5}

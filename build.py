@@ -47,14 +47,53 @@ TOKENS = {
     "ga4": CONFIG.get("analytics", {}).get("ga4", ""),
     "gsc": CONFIG.get("analytics", {}).get("gsc", ""),
     "bing": CONFIG.get("analytics", {}).get("bing", ""),
+    "adsense": CONFIG.get("analytics", {}).get("adsense", ""),
 }
 FORM_ACTION = CONFIG.get("contact", {}).get("form_action", "") or "#"
 
+# ---- outbound partner links (single config: data/links.json) ----
+# Every outbound "open account / visit site / buy" URL resolves through here so
+# tracking/affiliate links can be swapped in one place without touching templates.
+# Values are the current OFFICIAL URLs until approved affiliate links replace them.
+_links_path = os.path.join(DATA, "links.json")
+LINKS = load_json(_links_path) if os.path.exists(_links_path) else {}
+
 def aff_url(robo_id):
+    # Prefer links.json robos, then legacy config affiliate/affiliate_fallback.
+    r = LINKS.get("robos", {}).get(robo_id)
+    if isinstance(r, dict) and r.get("url"):
+        return r["url"]
+    if isinstance(r, str) and r:
+        return r
     a = CONFIG.get("affiliate", {}).get(robo_id, "")
     if a:
         return a
     return CONFIG.get("affiliate_fallback", {}).get(robo_id, "#")
+
+def where_to_buy(f):
+    """Resolve the 'Where to buy' box for a fund from links.json: the official
+    fund page plus the brokers that offer it. All values swap in one file."""
+    t = f["ticker"]
+    fam = f.get("family", "")
+    over = LINKS.get("funds", {}).get(t, {}) or {}
+    brokers_cfg = LINKS.get("brokers", {})
+    # official fund page: per-ticker override, else family pattern + ticker, else family site
+    official = over.get("official")
+    if not official:
+        pat = LINKS.get("family_profile_pattern", {}).get(fam)
+        if pat:
+            official = pat.replace("{ticker}", t).replace("{ticker_lower}", t.lower())
+        else:
+            official = LINKS.get("family_official", {}).get(fam, "")
+    # brokers: per-ticker override, else family default, else global default
+    keys = over.get("brokers") or LINKS.get("family_default_brokers", {}).get(fam) \
+        or LINKS.get("default_brokers", [])
+    brokers = []
+    for k in keys:
+        b = brokers_cfg.get(k)
+        if b and b.get("url"):
+            brokers.append({"name": b.get("name", k), "url": b["url"]})
+    return {"official": official or "", "brokers": brokers[:3]}
 
 FUNDS = []
 FAMILY_ORDER = ["Vanguard", "Fidelity", "Schwab", "T. Rowe Price", "American Funds"]
@@ -321,6 +360,7 @@ def render_fund(f):
         "fund": d,
         "alternatives": alts,
         "related_compares": related,
+        "buy": where_to_buy(f),
         "faqs": faqs,
         "er_pct": d["er_pct"], "er_class": d["er_class"], "cost_10k": d["cost_10k"],
         "min_human": d["min_human"], "type_human": d["type_human"],
@@ -435,7 +475,10 @@ def legal_pages():
 <p><b>Contact form.</b> If you message us, we collect the name, email, and message you provide, solely to respond.</p>
 <p><b>Cookies.</b> We and our analytics and advertising partners use cookies. You can disable cookies in your browser; some features may not work as well.</p>
 <h2>Advertising &amp; affiliates</h2>
-<p>We display ads and use affiliate links. Advertising partners may use cookies to serve relevant ads. Affiliate partners may set a cookie to attribute a referral; see <a href="/how-we-make-money/">How We Make Money</a>.</p>
+<p>We display third-party ads, including through Google AdSense, and we use affiliate links.</p>
+<p><b>Google and third-party vendors.</b> Third-party vendors, including Google, use cookies to serve ads based on a user&rsquo;s prior visits to this website and to other websites on the internet. Google&rsquo;s use of advertising cookies enables it and its partners to serve ads to you based on your visit to this site and/or other sites on the internet.</p>
+<p><b>Opting out.</b> You may opt out of personalized advertising by visiting <a href="https://adssettings.google.com" rel="noopener" target="_blank">Google Ads Settings</a> (https://adssettings.google.com). You can also opt out of a third party&rsquo;s use of cookies for personalized advertising at <a href="https://www.aboutads.info" rel="noopener" target="_blank">www.aboutads.info</a>.</p>
+<p><b>Affiliates.</b> Some outbound links to brokerages and robo-advisors are affiliate links, and a partner may set a cookie to attribute a referral. It costs you nothing extra; see <a href="/how-we-make-money/">How We Make Money</a> and our <a href="/disclosure/">advertising disclosure</a>.</p>
 <h2>Third parties</h2>
 <p>We don't sell your personal information. Third-party services we use (analytics, ad networks, affiliate networks) have their own privacy policies governing the data they collect.</p>
 <h2>Your choices</h2>
@@ -471,6 +514,18 @@ def legal_pages():
 <h2>Consult a professional</h2>
 <p>For advice tailored to your circumstances, consult a qualified fee-only fiduciary financial advisor and a tax professional.</p>
 """)
+
+    pages["disclosure"] = ("Advertising Disclosure", "Advertising & Affiliate Disclosure", f"""
+<p class="lead">How Mutual Fund Reviewer may earn money, in plain terms &mdash; because you deserve to know what&rsquo;s behind what you read here.</p>
+<h2>Affiliate links</h2>
+<p>Some outbound links on this site &mdash; for example, the &ldquo;where to buy&rdquo; broker links on fund reviews and the links on our <a href="/robo-advisors/">robo-advisors</a> page &mdash; are affiliate links. If you open an account or take a qualifying action through one, the company may pay us a commission. <b>It costs you nothing extra</b>, and the price you pay is never higher for having used our link. Affiliate links are marked for search engines with <code>rel="sponsored nofollow"</code>.</p>
+<h2>Display advertising</h2>
+<p>We display third-party ads, including through Google AdSense. Ad placements are automated and labeled as advertising; we don&rsquo;t choose which specific advertiser appears, and advertisers have no access to or influence over our editorial content. See our <a href="/privacy/">Privacy Policy</a> for how advertising cookies work and how to opt out of personalized ads.</p>
+<h2>What money does not buy</h2>
+<p>It does not buy a rating, a ranking position, or a kinder review. Our rankings are driven by expense ratios and suitability, full stop &mdash; and we routinely point readers toward near-zero-cost index funds we earn nothing from, and tell you plainly that the cheapest robo-advisor is doing it yourself. Editorial comes first; if a recommendation ever reads like it&rsquo;s working against your interest, that&rsquo;s a bug &mdash; <a href="/contact/">tell us</a>.</p>
+<h2>Not investment advice</h2>
+<p>Everything here is general education and editorial opinion, not personalized investment, tax, or legal advice, and not a recommendation to buy or sell any security. See our full <a href="/disclaimer/">disclaimer</a> and <a href="/how-we-make-money/">How We Make Money</a>.</p>
+""")
     return pages
 
 def render_legal():
@@ -478,7 +533,7 @@ def render_legal():
     slug_map = {
         "methodology": "/methodology/", "how-we-make-money": "/how-we-make-money/",
         "about": "/about/", "contact": "/contact/", "privacy": "/privacy/",
-        "terms": "/terms/", "disclaimer": "/disclaimer/",
+        "terms": "/terms/", "disclaimer": "/disclaimer/", "disclosure": "/disclosure/",
     }
     for slug, (crumb, h1, body) in pages.items():
         url = slug_map[slug]

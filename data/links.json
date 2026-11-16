@@ -1,0 +1,56 @@
+{
+  "_comment": "Single source of every outbound 'buy / open account / visit site' URL. Swap in approved affiliate/tracking links here ONLY — never in templates. Values below are the current OFFICIAL URLs (no affiliate yet). build.py reads this via aff_url() and where_to_buy().",
+
+  "family_profile_pattern": {
+    "Vanguard": "https://investor.vanguard.com/investment-products/mutual-funds/profile/{ticker}",
+    "Fidelity": "https://fundresearch.fidelity.com/mutual-funds/summary/{ticker}",
+    "Schwab": "https://www.schwab.com/research/mutual-funds/quotes/summary/{ticker}"
+  },
+
+  "family_official": {
+    "Vanguard": "https://investor.vanguard.com/",
+    "Fidelity": "https://www.fidelity.com/",
+    "Schwab": "https://www.schwab.com/",
+    "T. Rowe Price": "https://www.troweprice.com/",
+    "American Funds": "https://www.capitalgroup.com/individual/",
+    "Dodge & Cox": "https://www.dodgeandcox.com/",
+    "PIMCO": "https://www.pimco.com/en-us/",
+    "Metropolitan West": "https://www.mwamllc.com/",
+    "Oakmark": "https://www.oakmark.com/",
+    "Parnassus": "https://www.parnassus.com/",
+    "FPA": "https://fpa.com/",
+    "First Eagle": "https://www.firsteagle.com/",
+    "American Century": "https://www.americancentury.com/",
+    "Baron": "https://www.baronfunds.com/",
+    "BlackRock": "https://www.blackrock.com/us/individual",
+    "Harbor": "https://www.harborcapital.com/",
+    "Fairholme": "https://www.fairholmefunds.com/",
+    "Sequoia": "https://www.sequoiafund.com/",
+    "Jensen": "https://www.jenseninvestment.com/",
+    "AMG / Yacktman": "https://www.amgfunds.com/"
+  },
+
+  "brokers": {
+    "fidelity": { "name": "Fidelity", "url": "https://www.fidelity.com/" },
+    "schwab": { "name": "Charles Schwab", "url": "https://www.schwab.com/" },
+    "vanguard": { "name": "Vanguard", "url": "https://investor.vanguard.com/" },
+    "ibkr": { "name": "Interactive Brokers", "url": "https://www.interactivebrokers.com/" }
+  },
+
+  "default_brokers": ["fidelity", "schwab", "ibkr"],
+  "family_default_brokers": {
+    "Vanguard": ["fidelity", "schwab", "ibkr"],
+    "Fidelity": ["schwab", "vanguard", "ibkr"],
+    "Schwab": ["fidelity", "vanguard", "ibkr"]
+  },
+
+  "robos": {
+    "betterment": { "name": "Betterment", "url": "https://www.betterment.com/" },
+    "wealthfront": { "name": "Wealthfront", "url": "https://www.wealthfront.com/" },
+    "m1": { "name": "M1 Finance", "url": "https://m1.com/" },
+    "ibkr": { "name": "Interactive Brokers", "url": "https://www.interactivebrokers.com/" },
+    "sofi": { "name": "SoFi Invest", "url": "https://www.sofi.com/invest/" }
+  },
+
+  "funds": {}
+}

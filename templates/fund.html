@@ -26,6 +26,10 @@
 </div>
 
 <div class="wrap narrow">
+  <p class="adv-disclosure"><strong>Not investment advice.</strong> This review is editorial information, not a recommendation to buy or sell any security. Some links on this page are affiliate links &mdash; we may earn a commission at no extra cost to you, and it never affects our ratings or rankings. <a href="/disclosure/">Full disclosure</a>.</p>
+</div>
+
+<div class="wrap narrow">
   <section class="section-pad" style="padding-top:30px">
     <p class="lead">{{ fund.strategy }}</p>
 
@@ -35,6 +39,22 @@
       <span class="label">Best for</span>
       <p>{{ fund.best_for }}.</p>
     </div>
+
+    {% if buy.official or buy.brokers %}
+    <div class="buybox">
+      <span class="label">Where to buy {{ fund.ticker }}</span>
+      {% if buy.official %}
+      <p class="buybox-direct">Buy it directly from <a href="{{ buy.official }}" rel="nofollow noopener" target="_blank">{{ fund.family }}</a>.</p>
+      {% endif %}
+      {% if buy.brokers %}
+      <p class="buybox-lbl">Or through a broker that offers it:</p>
+      <div class="buybox-brokers">
+        {% for b in buy.brokers %}<a class="broker-link" href="{{ b.url }}" rel="sponsored nofollow noopener" target="_blank">{{ b.name }} &rarr;</a>{% endfor %}
+      </div>
+      {% endif %}
+      <p class="buybox-note">Availability and transaction fees vary by broker &mdash; confirm on the broker&rsquo;s own site before investing. Broker links may be affiliate links; see our <a href="/disclosure/">disclosure</a>.</p>
+    </div>
+    {% endif %}
 
     <h2>{{ fund.ticker }} alternatives &amp; comparable funds</h2>
     <p>If you&rsquo;re weighing {{ fund.ticker }} against the field, these are the funds most investors line it up against &mdash; same job, different provider, slightly different terms.</p>
