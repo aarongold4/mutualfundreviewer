@@ -119,12 +119,12 @@
     "category": "International",
     "type": "index",
     "strategy": "Tracks the FTSE Developed All Cap ex US Index — Europe, Japan, and other developed markets, excluding emerging markets.",
-    "expense_ratio": 0.08,
+    "expense_ratio": 0.05,
     "minimum": 3000,
     "inception": 1999,
     "best_for": "International exposure without an emerging-markets sleeve",
     "editorial": [
-      "VTMGX is total-international minus the emerging markets: Japan, the UK, Europe, Canada, Australia, and the rest of the developed world, about 4,000 stocks at 0.08%. Investors choose it over VTIAX either because they're skeptical of emerging markets' governance and volatility, or because they want to size the EM allocation separately with a dedicated fund.",
+      "VTMGX is total-international minus the emerging markets: Japan, the UK, Europe, Canada, Australia, and the rest of the developed world, about 4,000 stocks at 0.05%. Investors choose it over VTIAX either because they're skeptical of emerging markets' governance and volatility, or because they want to size the EM allocation separately with a dedicated fund.",
       "Fidelity's FSPSX is the closest rival at a slightly lower fee, though it holds only large and mid caps where VTMGX includes small caps. In practice the difference is rounding error; what matters more is simply having developed-international exposure at all when a decade of US outperformance has convinced everyone it's unnecessary. That conviction is usually loudest right before it's wrong."
     ],
     "alternatives": [
@@ -161,12 +161,12 @@
     "category": "Emerging Markets",
     "type": "index",
     "strategy": "Tracks the FTSE Emerging Markets All Cap China A Inclusion Index — China, India, Taiwan, Brazil, and other emerging economies.",
-    "expense_ratio": 0.14,
+    "expense_ratio": 0.13,
     "minimum": 3000,
     "inception": 2000,
     "best_for": "A dedicated, controllable emerging-markets allocation",
     "editorial": [
-      "Emerging markets are the asset class that looks best in a textbook and feels worst in a brokerage account: higher theoretical growth, brutal drawdowns, decade-long stretches of going nowhere, and political risk that can rewrite the rules overnight. VEMAX indexes the whole category — over 5,000 stocks, heavily weighted to China, India, and Taiwan — for 0.14%, which is dirt cheap for an asset class where active managers love to charge 1%+.",
+      "Emerging markets are the asset class that looks best in a textbook and feels worst in a brokerage account: higher theoretical growth, brutal drawdowns, decade-long stretches of going nowhere, and political risk that can rewrite the rules overnight. VEMAX indexes the whole category — over 5,000 stocks, heavily weighted to China, India, and Taiwan — for 0.13%, which is dirt cheap for an asset class where active managers love to charge 1%+.",
       "Most investors don't need this fund, because VTIAX and VTWAX already include emerging markets at market weight. VEMAX is for the investor who wants to deliberately overweight or underweight EM rather than accept the default. If that's you, keep the position small enough that a 40% drawdown — which this asset class delivers roughly once a decade — doesn't shake you out of it."
     ],
     "alternatives": [
@@ -353,13 +353,13 @@
     "category": "Large Value",
     "type": "index",
     "strategy": "Tracks the S&P US Dividend Growers Index — companies with 10+ consecutive years of dividend increases.",
-    "expense_ratio": 0.08,
+    "expense_ratio": 0.07,
     "minimum": 3000,
     "inception": 2013,
     "best_for": "Quality-tilted equity exposure via dividend growers",
     "editorial": [
       "Where VHYAX chases yield, VDADX chases the habit of raising dividends — a decade-plus of consecutive increases, which quietly screens for durable cash flows and disciplined management. The yield is unremarkable; the portfolio quality is the point. Think of it less as an income fund and more as a quality factor fund wearing a dividend costume.",
-      "Its personality shows in bad markets, where dividend growers have historically fallen less than the broad market, at the price of trailing in speculative rallies. For a conservative equity investor who wants stocks but flinches at full-market volatility, that trade can be worth eight basis points. For everyone else, it's a respectable tilt, not a necessity — VTSAX already owns every company in here."
+      "Its personality shows in bad markets, where dividend growers have historically fallen less than the broad market, at the price of trailing in speculative rallies. For a conservative equity investor who wants stocks but flinches at full-market volatility, that trade can be worth seven basis points. For everyone else, it's a respectable tilt, not a necessity — VTSAX already owns every company in here."
     ],
     "alternatives": [
       "VHYAX",

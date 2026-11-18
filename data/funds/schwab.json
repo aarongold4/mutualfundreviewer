@@ -126,11 +126,11 @@
     "type": "target-date",
     "strategy": "All-index target-date fund de-risking toward 2040, built from Schwab index funds and ETFs.",
     "expense_ratio": 0.08,
-    "minimum": 1,
+    "minimum": 0,
     "inception": 2016,
-    "best_for": "One-fund retirement investing at Schwab with a $1 minimum",
+    "best_for": "One-fund retirement investing at Schwab with no minimum",
     "editorial": [
-      "Schwab's Target Index series is the least famous of the big three all-index target-date lineups and arguably the friendliest: 0.08% — matching Vanguard, undercutting Fidelity's Freedom Index — with a $1 minimum that makes the 'I don't have enough to start' excuse extinct. The 2040 fund currently runs equity-heavy and walks down the standard glide path.",
+      "Schwab's Target Index series is the least famous of the big three all-index target-date lineups and arguably the friendliest: 0.08% — matching Vanguard, undercutting Fidelity's Freedom Index — with no minimum at all, which makes the 'I don't have enough to start' excuse extinct. The 2040 fund currently runs equity-heavy and walks down the standard glide path.",
       "As with all of these series, the construction differences (Schwab uses some of its own ETFs inside, glide paths differ by a few percentage points at various ages) are real but minor, and the deciding factor is where your accounts live. The headline is that a saver at any of the three big retail brokerages can now own a complete, self-managing, all-index retirement portfolio for eight to twelve basis points. That sentence took fifty years of fee wars to become true."
     ],
     "alternatives": ["VFORX", "FBIFX", "SWYMX"]
@@ -143,11 +143,11 @@
     "type": "target-date",
     "strategy": "All-index target-date fund de-risking toward 2050; currently ~90% global equities.",
     "expense_ratio": 0.08,
-    "minimum": 1,
+    "minimum": 0,
     "inception": 2016,
     "best_for": "Schwab savers a quarter-century from retirement",
     "editorial": [
-      "Ninety percent global stocks, ten percent bonds, rebalance forever, fade to conservative in the 2040s: SWYMX runs the standard 2050 playbook at Vanguard pricing with a one-dollar minimum. For a Schwab 401(k) or IRA, it's the complete answer in one ticker.",
+      "Ninety percent global stocks, ten percent bonds, rebalance forever, fade to conservative in the 2040s: SWYMX runs the standard 2050 playbook at Vanguard pricing with no minimum to open. For a Schwab 401(k) or IRA, it's the complete answer in one ticker.",
       "The under-discussed virtue of target-date funds shows up in the research on investor behavior: target-date owners' actual realized returns track their funds' returns far more closely than self-directed investors', whose buying-high-selling-low gap costs them 1–2% annually. The glide path gets the marketing attention, but the handcuffs are the product. SWYMX's are as comfortable and cheap as any."
     ],
     "alternatives": ["VFIFX", "FIPFX", "SWYGX"]
@@ -160,11 +160,11 @@
     "type": "target-date",
     "strategy": "All-index target-date fund de-risking toward 2060; currently ~90% global equities for the long haul.",
     "expense_ratio": 0.08,
-    "minimum": 1,
+    "minimum": 0,
     "inception": 2016,
-    "best_for": "Young Schwab investors who want to start with literally one dollar",
+    "best_for": "Young Schwab investors who want to start with whatever they have — there's no minimum",
     "editorial": [
-      "A complete global portfolio, professionally maintained for forty years, for eight basis points and a one-dollar opening bid — SWYNX is a strong nominee for the lowest-barrier serious investment in America. The far-dated allocation is the usual ~90% world equity, and like all far-dated funds it won't meaningfully change for a decade-plus.",
+      "A complete global portfolio, professionally maintained for forty years, for eight basis points and no minimum to open — SWYNX is a strong nominee for the lowest-barrier serious investment in America. The far-dated allocation is the usual ~90% world equity, and like all far-dated funds it won't meaningfully change for a decade-plus.",
       "For a new investor choosing among the 2060 funds, here's the entire decision tree: Where are your accounts? Use that family's index target-date series. Is the word 'Index' in the fund name (Fidelity's trap)? Good. Now automate a contribution and close the tab. Everything else — Schwab vs. Vanguard glide-path nuance, eight versus twelve basis points — is hobbyist material, and this fund's owners have wisely chosen not to have this hobby."
     ],
     "alternatives": ["VTTSX", "FDKLX", "SWYMX"]
