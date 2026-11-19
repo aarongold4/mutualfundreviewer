@@ -71,13 +71,13 @@
     "category": "Bond",
     "type": "active",
     "strategy": "Active core-plus bond management using PIMCO's macro views, derivatives, and global opportunity set.",
-    "expense_ratio": 0.53,
+    "expense_ratio": 0.52,
     "minimum": 1000000,
     "inception": 1987,
     "best_for": "Institutional and 401(k) investors; retail share classes cost more",
     "editorial": [
       "PIMCO Total Return was once the largest mutual fund on the planet — the Bill Gross 'Bond King' era made it the default bond fund of American retirement plans — and his 2014 departure triggered the biggest asset exodus in fund history. The decade since is the underreported part: the successor team has run it competently, beating the Agg in more years than not, without the celebrity or the drama.",
-      "Structure matters here: the famous 0.51% institutional class requires institutional money (you'll meet it inside 401(k) plans); retail share classes cost meaningfully more and change the math. The core-plus toolkit adds return potential and complexity in equal measure. Against simply holding FXNAX at 0.025%, the case is the standard active-bond one: plausible, occasionally vindicated, never necessary."
+      "Structure matters here: the famous 0.52% institutional class requires institutional money (you'll meet it inside 401(k) plans); retail share classes cost meaningfully more and change the math. The core-plus toolkit adds return potential and complexity in equal measure. Against simply holding FXNAX at 0.025%, the case is the standard active-bond one: plausible, occasionally vindicated, never necessary."
     ],
     "alternatives": [
       "VBTLX",
@@ -366,13 +366,13 @@
     "category": "Large Value",
     "type": "active",
     "strategy": "Patient value investing that will hold large cash stakes when prices are unattractive; quality-at-a-discount focus.",
-    "expense_ratio": 0.71,
+    "expense_ratio": 0.70,
     "minimum": 100000,
     "inception": 1992,
     "best_for": "Defensive value investors who want a manager willing to sit in cash",
     "editorial": [
       "Yacktman built its reputation on defense: a willingness to hold enormous cash positions when the managers can't find quality at a discount, which produced legendary downside protection in 2000-2002 and 2008 and a long-term record that beat the market with notably less volatility. The philosophy is Buffett-adjacent — wonderful businesses, only at fair prices, and patience as a holding when neither is available.",
-      "Patience drags in raging bull markets, and the fund spent much of the 2010s trailing a fully invested index while sitting on cash that never got its bargain. At 0.71%, the bet is that its defense earns back the offense it gives up across full cycles — historically true, but requiring the kind of bear market that tests every investor's resolve to hold a fund that was 'too cautious' on the way up. As a deliberate defensive value sleeve, coherent; as a core holding, the index is the simpler peace."
+      "Patience drags in raging bull markets, and the fund spent much of the 2010s trailing a fully invested index while sitting on cash that never got its bargain. At 0.70%, the bet is that its defense earns back the offense it gives up across full cycles — historically true, but requiring the kind of bear market that tests every investor's resolve to hold a fund that was 'too cautious' on the way up. As a deliberate defensive value sleeve, coherent; as a core holding, the index is the simpler peace."
     ],
     "alternatives": [
       "DODGX",

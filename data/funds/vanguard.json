@@ -267,13 +267,13 @@
     "category": "Mid Cap",
     "type": "index",
     "strategy": "Tracks the S&P Completion Index — the entire US market except the S&P 500.",
-    "expense_ratio": 0.06,
+    "expense_ratio": 0.05,
     "minimum": 3000,
     "inception": 2000,
     "best_for": "Completing an S&P 500 fund into total-market coverage",
     "editorial": [
       "VEXAX is a tool, not a thesis. It holds everything in the US market that isn't in the S&P 500 — thousands of mid and small caps — specifically so investors whose 401(k) only offers an S&P 500 fund can rebuild total-market exposure. The standard recipe is roughly 85% S&P 500 fund, 15% extended market, rebalanced occasionally; the result tracks VTSAX almost perfectly.",
-      "As a standalone holding it's a bet against mega caps, which is a legitimate view but a spicier one than most owners realize. Used as designed — the completion piece of a two-fund total market — it's one of the most quietly useful funds Vanguard runs, and at 0.06% the price of completeness is negligible."
+      "As a standalone holding it's a bet against mega caps, which is a legitimate view but a spicier one than most owners realize. Used as designed — the completion piece of a two-fund total market — it's one of the most quietly useful funds Vanguard runs, and at 0.05% the price of completeness is negligible."
     ],
     "alternatives": [
       "FSMAX",
