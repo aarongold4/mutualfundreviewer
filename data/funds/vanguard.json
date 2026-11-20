@@ -394,7 +394,7 @@
     "category": "Bond",
     "type": "index",
     "strategy": "Tracks the Bloomberg Global Aggregate ex-USD Float Adjusted RIC Capped Index, hedged to US dollars.",
-    "expense_ratio": 0.11,
+    "expense_ratio": 0.1,
     "minimum": 3000,
     "inception": 2013,
     "best_for": "Completing the four-fund portfolio with hedged international bonds",

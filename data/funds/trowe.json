@@ -174,13 +174,13 @@
     "category": "Target-Date",
     "type": "target-date",
     "strategy": "Actively managed target-date fund of T. Rowe funds, de-risking toward 2050; currently around 90% equities.",
-    "expense_ratio": 0.61,
+    "expense_ratio": 0.62,
     "minimum": 2500,
     "inception": 2006,
     "best_for": "Younger savers defaulted into T. Rowe-administered 401(k) plans",
     "editorial": [
       "Millions of workers own TRRMX because their employer's plan is administered by T. Rowe Price and this is the default — which makes it worth saying plainly: as defaults go, this is a good one. Diversified, equity-rich for the horizon, professionally rebalanced, and run by a firm whose active funds are better than average. A young saver auto-enrolled here is being treated decently.",
-      "Decently, but not cheaply. The ~0.61% expense ratio is the toll for active underlying funds, and over 25 years it compounds into real money versus an 0.08% index series. The practical advice: contribute happily to TRRMX while it's your plan's best option, capture every employer match — and when you change jobs, roll the balance to an IRA where the index target-date series cost one-seventh as much. The glide path travels; the fee doesn't have to."
+      "Decently, but not cheaply. The ~0.62% expense ratio is the toll for active underlying funds, and over 25 years it compounds into real money versus an 0.08% index series. The practical advice: contribute happily to TRRMX while it's your plan's best option, capture every employer match — and when you change jobs, roll the balance to an IRA where the index target-date series cost one-seventh as much. The glide path travels; the fee doesn't have to."
     ],
     "alternatives": [
       "VFIFX",
