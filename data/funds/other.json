@@ -345,13 +345,13 @@
     "category": "Large Growth",
     "type": "active",
     "strategy": "Buys only companies with 10+ consecutive years of 15%+ return on equity, then holds a concentrated portfolio of them.",
-    "expense_ratio": 0.81,
+    "expense_ratio": 0.89,
     "minimum": 2500,
     "inception": 1992,
     "best_for": "Quality-factor believers who want a rules-disciplined active manager",
     "editorial": [
       "Jensen runs one of the cleanest investment rules in the business: a company isn't eligible unless it has earned 15%+ return on equity every year for a decade straight, which mechanically filters the universe down to a few hundred durable compounders before a single judgment call. The resulting concentrated portfolio is a pure quality-factor bet, and it has delivered the quality pattern — steadier than the market, with shallower drawdowns — for decades.",
-      "The catch is the now-familiar one: quality is an identifiable, indexable factor, and an 0.81% fee against quality-tilted index alternatives (or a plain S&P 500 fund at 0.02%) is a real hurdle. Jensen's discipline is admirable and its downside protection genuine, but VDADX captures much of the same dividend-growth-quality flavor for a tenth the cost. A respectable fund for the factor; the index still wins most after-fee races."
+      "The catch is the now-familiar one: quality is an identifiable, indexable factor, and an 0.89% fee against quality-tilted index alternatives (or a plain S&P 500 fund at 0.02%) is a real hurdle. Jensen's discipline is admirable and its downside protection genuine, but VDADX captures much of the same dividend-growth-quality flavor for a tenth the cost. A respectable fund for the factor; the index still wins most after-fee races."
     ],
     "alternatives": [
       "VDADX",
