@@ -98,7 +98,7 @@
     "category": "World Stock",
     "type": "index",
     "strategy": "Tracks the FTSE Global All Cap Index — the entire global stock market, US and international, in market weights.",
-    "expense_ratio": 0.1,
+    "expense_ratio": 0.09,
     "minimum": 3000,
     "inception": 2019,
     "best_for": "Maximum simplicity: the whole world's stock market in one fund",
