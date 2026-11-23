@@ -75,7 +75,7 @@
     "category": "Bond",
     "type": "index",
     "strategy": "Tracks the Bloomberg US Aggregate Float Adjusted Index — investment-grade US government, corporate, and mortgage-backed bonds.",
-    "expense_ratio": 0.05,
+    "expense_ratio": 0.04,
     "minimum": 3000,
     "inception": 2001,
     "best_for": "The default bond allocation in a three-fund portfolio",
