@@ -2,7 +2,7 @@
   "domain": "https://mutualfundreviewer.com",
   "site_name": "Mutual Fund Reviewer",
   "tagline": "Plain-English fund reviews. Low costs win.",
-  "last_verified": "2026-11-25",
+  "last_verified": "2026-11-26",
   "_tokens_note": "Analytics, verification, contact-form and affiliate values are no longer stored here — they live in config.json / config.local.json and are injected by build.py.",
   "author": {
     "name": "Nathan Blake",
