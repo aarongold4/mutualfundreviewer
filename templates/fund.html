@@ -24,6 +24,11 @@
     <p class="verified" style="margin-top:12px">Figures last verified {{ last_verified_human }}</p>
   </div>
 </div>
+{% if fund.status == 'merged' %}
+<div class="wrap narrow">
+  <div class="callout"><span class="label">This fund no longer exists</span><p>{{ fund.status_note }}{% if fund.status_source %} <a href="{{ fund.status_source }}" rel="nofollow noopener" target="_blank">Source: issuer filing</a>.{% endif %}</p></div>
+</div>
+{% endif %}
 
 <div class="wrap narrow">
   <p class="adv-disclosure"><strong>Not investment advice.</strong> This review is editorial information, not a recommendation to buy or sell any security. Some links on this page are affiliate links &mdash; we may earn a commission at no extra cost to you, and it never affects our ratings or rankings. <a href="/disclosure/">Full disclosure</a>.</p>
@@ -40,7 +45,7 @@
       <p>{{ fund.best_for }}.</p>
     </div>
 
-    {% if buy.official or buy.brokers %}
+    {% if (buy.official or buy.brokers) and fund.status != 'merged' %}
     <div class="buybox">
       <span class="label">Where to buy {{ fund.ticker }}</span>
       {% if buy.official %}

@@ -330,13 +330,16 @@
     "best_for": "Students of concentration's full ledger — the triumphs and the Valeant chapter",
     "editorial": [
       "Sequoia has the best founding story in the industry — Buffett personally steered his partnership clients here in 1970 — and for four decades the fund honored it, compounding through concentrated bets like its legendary Berkshire stake and closing to new investors to protect returns. Through 2015 its lifetime record stood among the finest ever assembled.",
-      "Then Valeant: a position allowed to swell past a quarter of assets, defended publicly as criticism mounted, ending in a collapse that erased years of gains and several reputations. The fund survived, restructured its team, and has performed respectably since — but the ledger now teaches both lessons at once. The same governance that permitted the Berkshire bet permitted the Valeant one. At 1.00%, new investors pay legacy pricing for a post-legacy fund. The story, at least, is free."
+      "Then Valeant: a position allowed to swell past a quarter of assets, defended publicly as criticism mounted, ending in a collapse that erased years of gains and several reputations. The fund survived, restructured its team, and has performed respectably since — but the ledger now teaches both lessons at once. The same governance that permitted the Berkshire bet permitted the Valeant one. Its last mutual-fund prospectus charged 1.00%, legacy pricing for a post-legacy fund; in October 2026 the fund moved into an ETF wrapper (Sequoia ETF, SEQ) with a 0.99% fee. The story, at least, is free."
     ],
     "alternatives": [
       "VIGAX",
       "PRBLX",
       "JENSX"
-    ]
+    ],
+    "status": "merged",
+    "status_note": "On October 16, 2026, Sequoia Fund was reorganized into the Sequoia ETF (ticker SEQ, NYSE Arca), approved by stockholders on July 27, 2026. SEQUX mutual fund shares no longer exist; the expense ratio and minimum shown are from the fund's last prospectus (May 1, 2026). The ETF's prospectus lists a 0.99% unitary fee.",
+    "status_source": "https://www.sec.gov/Archives/edgar/data/1518042/000158064226006930/sequoia497k.htm"
   },
   {
     "ticker": "JENSX",
